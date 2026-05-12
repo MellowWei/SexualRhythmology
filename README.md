@@ -1,6 +1,9 @@
-# 身体·爱情·权力的振动结构
+# 性节律学 · Sexual Rhythmology
 
-### *The Vibrational Structure of Body, Love, and Power*
+> 身体·爱情·性·权力的振动结构 · *Core Subject Matter*
+
+
+### *The Vibrational Structure of Body, Love, Sex, and Power*
 
 ```
 ╔══════════════════════════════════════════════════════════════╗
@@ -12,7 +15,7 @@
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
-> **二十二命题本体论次系统。**
+> **二十五命题本体论次系统。**
 > **关系本体论 · 性的存在论 · 暗面的伦理刃。**
 > **接入振动本体论 / 五层振动光谱 / 振动即存在。**
 
@@ -20,7 +23,7 @@
 
 ## 这是什么 · What This Is
 
-一套关于 **性 · 爱 · 权力** 的本体论次系统，由二十二条命题构成。
+一套关于 **性 · 爱 · 权力** 的本体论次系统，由二十五条命题构成。
 
 不是性学。不是性心理学。不是性社会学。
 是 **关系本体论**——把性从生物功能、欲望管理、权力机制里拿回来，放回它本应在的位置：**存在论事件**。
@@ -60,7 +63,7 @@
 
 ---
 
-## 二十二命题 · The Twenty-Two Propositions
+## 二十五命题 · The Twenty-Two Propositions
 
 ### 第一部分 · 静态本体（命题一至十七）
 
@@ -105,9 +108,9 @@
 
 - XVIII. 全名指认（寄生于命题十四）
 
-### 第三部分 · 动力学层
+### 第三部分 · 节律学层
 
-- XIX. 性动力学第一律 · 错位生成张力
+- XIX. 性节律学第一律 · 错位生成张力
 
 ### 第四部分 · 单/双场对偶
 
@@ -181,7 +184,7 @@ D&G          →  看到"欲望机器"         |  消灭主体，没归来位
 ```
 .
 ├── index.html                              # 网站主文件 / 可直接部署
-├── 身体-爱情-权力的振动结构_v1.md            # 完整理论文本 / 整理稿
+├── 身体-爱情-性-权力的振动结构_v1.md            # 完整理论文本 / 整理稿
 ├── README.md                               # 本文件
 └── (.nojekyll)                             # 绕过 Jekyll，纯静态
 ```
@@ -244,7 +247,7 @@ HRP / 427Hz / QDR →  身体-振动干预的支
 
 ```
 魏珏然 (xingyeLing7Ai). (2026).
-《身体·爱情·权力的振动结构》v1 · 首次整理稿.
+《身体·爱情·性·权力的振动结构》v1 · 首次整理稿.
 源场系统 · 性-爱-权力支.
 mellowwei.github.io
 ```
@@ -252,7 +255,7 @@ mellowwei.github.io
 ```bibtex
 @misc{wei2026vibrationalstructure,
   author = {Wei, Jueran (xingyeLing7Ai)},
-  title  = {The Vibrational Structure of Body, Love, and Power},
+  title  = {The Vibrational Structure of Body, Love, Sex, and Power},
   year   = {2026},
   note   = {v1 · Source Field System · Sex-Love-Power Branch},
   url    = {https://mellowwei.github.io}
@@ -265,11 +268,11 @@ mellowwei.github.io
 
 主结构已稳定。下一步可能的方向：
 
-1. **沉淀** — 让二十二条命题在振动场里稳定一段时间，再决定是否动笔写正文
+1. **沉淀** — 让二十五条命题在振动场里稳定一段时间，再决定是否动笔写正文
 2. **写正文** — 把二十二条展开成完整专著正文（"振动即存在"规格）
 3. **接入七爱频谱** — 让两套语言系统对接
 4. **建独立 NODE** — 加入 mellowwei.github.io 主聚合器
-5. **动力学扩展** — 命题十九打开了"性动力学"章节的入口
+5. **动力学扩展** — 命题十九打开了"性节律学"章节的入口
 6. **寄生层有机生长** — 命题十八、二十示范了寄生命题的位置
 
 ---
