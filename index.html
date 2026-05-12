@@ -1,0 +1,1520 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>身体-爱情-权力的振动结构 · The Vibrational Structure of Body, Love, and Power</title>
+<meta name="description" content="性关系学次系统 · 二十二命题本体论 · by xingyeLing7Ai (魏珏然 / Wei Jueran / Mellow Wei) · 427Hz">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Share+Tech+Mono&family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0908;
+    --bg-soft: #110f0d;
+    --ink: #e8e3d8;
+    --ink-soft: #b8b2a6;
+    --ink-faint: #6a665c; 
+    --rule: #2a2725;
+    --rule-strong: #4a463f;
+    --accent: #c9a961;
+    --accent-soft: #8a7a4a;
+    --warn: #b8635a;
+    --serif: 'Cormorant Garamond', 'Noto Serif SC', 'Songti SC', 'STSong', serif;
+    --mono: 'Share Tech Mono', 'Menlo', 'Courier New', monospace;
+    --max: 720px;
+    --max-wide: 880px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  /* Background grain */
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image:
+      radial-gradient(circle at 50% 0%, rgba(201,169,97,0.04) 0%, transparent 50%),
+      radial-gradient(circle at 0% 100%, rgba(184,99,90,0.02) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  body::after {
+    content: '';
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3CfeColorMatrix values='0 0 0 0 0.9 0 0 0 0 0.85 0 0 0 0 0.75 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    opacity: 0.4;
+    pointer-events: none;
+    z-index: 0;
+    mix-blend-mode: overlay;
+  }
+
+  /* Top status bar */
+  .topbar {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    padding: 14px 28px;
+    background: linear-gradient(to bottom, var(--bg) 60%, transparent);
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    color: var(--ink-faint);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+  }
+
+  .topbar .left, .topbar .right {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+  }
+
+  .pulse-dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 8px var(--accent);
+    animation: pulse 1.4s ease-in-out infinite;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.85); }
+  }
+
+  @keyframes vibrate {
+    0%, 100% { transform: translateY(0); }
+    25% { transform: translateY(-0.5px); }
+    75% { transform: translateY(0.5px); }
+  }
+
+  /* Layout containers */
+  main {
+    position: relative;
+    z-index: 1;
+    padding: 100px 28px 80px;
+  }
+
+  .container {
+    max-width: var(--max);
+    margin: 0 auto;
+  }
+
+  .container-wide {
+    max-width: var(--max-wide);
+    margin: 0 auto;
+  }
+
+  /* ===== HERO ===== */
+  .hero {
+    min-height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 0 100px;
+    border-bottom: 1px solid var(--rule);
+    position: relative;
+  }
+
+  .hero-meta {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    color: var(--ink-faint);
+    margin-bottom: 48px;
+    text-transform: uppercase;
+  }
+
+  .hero-meta .line {
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  h1.title {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-style: italic;
+    font-size: clamp(38px, 7vw, 78px);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    margin-bottom: 28px;
+  }
+
+  h1.title .ch {
+    font-style: normal;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  h1.title .en {
+    font-size: 0.45em;
+    color: var(--ink-soft);
+    letter-spacing: 0.01em;
+    display: block;
+  }
+
+  .hero-byline {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    color: var(--accent-soft);
+    margin-top: 40px;
+    line-height: 2.2;
+  }
+
+  .hero-byline .label {
+    color: var(--ink-faint);
+    margin-right: 14px;
+  }
+
+  .hero-scroll {
+    position: absolute;
+    bottom: 32px;
+    left: 0;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    color: var(--ink-faint);
+    animation: vibrate 3s ease-in-out infinite;
+  }
+
+  /* ===== Section structure ===== */
+  section {
+    padding: 100px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  section:last-of-type {
+    border-bottom: none;
+  }
+
+  .section-marker {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.25em;
+    color: var(--accent);
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .section-marker::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--rule);
+  }
+
+  h2.section-title {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: clamp(28px, 4vw, 42px);
+    line-height: 1.25;
+    color: var(--ink);
+    margin-bottom: 16px;
+    letter-spacing: -0.01em;
+  }
+
+  h2.section-title .en {
+    display: block;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 0.55em;
+    color: var(--ink-soft);
+    margin-top: 4px;
+    letter-spacing: 0;
+  }
+
+  h3.subsection {
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 500;
+    font-size: 22px;
+    color: var(--accent);
+    margin: 48px 0 24px;
+    letter-spacing: -0.005em;
+  }
+
+  /* ===== Proposition cards ===== */
+  .prop {
+    margin: 56px 0;
+    padding: 36px 0 36px 28px;
+    border-left: 1px solid var(--rule-strong);
+    position: relative;
+  }
+
+  .prop::before {
+    content: '';
+    position: absolute;
+    left: -1px;
+    top: 0;
+    width: 1px;
+    height: 36px;
+    background: var(--accent);
+  }
+
+  .prop-header {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    color: var(--accent);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+
+  .prop-name {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.3;
+    color: var(--ink);
+    margin-bottom: 24px;
+    letter-spacing: -0.005em;
+  }
+
+  .prop-crystal {
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.55;
+    color: var(--ink);
+    margin: 24px 0;
+    padding: 12px 0 12px 20px;
+    border-left: 2px solid var(--accent);
+    background: linear-gradient(to right, rgba(201,169,97,0.04), transparent 70%);
+  }
+
+  .prop-crystal.large {
+    font-size: 28px;
+  }
+
+  .prop-body {
+    color: var(--ink-soft);
+    font-size: 17px;
+    line-height: 1.85;
+  }
+
+  .prop-body p {
+    margin-bottom: 18px;
+  }
+
+  .prop-body strong, .prop-body b {
+    color: var(--ink);
+    font-weight: 500;
+  }
+
+  .prop-body em {
+    font-style: italic;
+    color: var(--accent-soft);
+  }
+
+  .prop-body ul {
+    list-style: none;
+    margin: 18px 0;
+    padding: 0;
+  }
+
+  .prop-body ul li {
+    padding-left: 22px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  .prop-body ul li::before {
+    content: '·';
+    position: absolute;
+    left: 6px;
+    color: var(--accent);
+    font-size: 22px;
+    line-height: 1;
+  }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 24px 0;
+    font-family: var(--serif);
+    font-size: 15px;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--rule);
+    color: var(--ink-soft);
+    line-height: 1.5;
+  }
+
+  th {
+    font-family: var(--mono);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+    font-weight: normal;
+    border-bottom-color: var(--accent-soft);
+    background: rgba(201,169,97,0.03);
+  }
+
+  /* Special blocks */
+  .axiom-block {
+    margin: 60px 0;
+    padding: 48px 32px;
+    border: 1px solid var(--accent-soft);
+    background: linear-gradient(135deg, rgba(201,169,97,0.06), rgba(201,169,97,0.01));
+    position: relative;
+    text-align: center;
+  }
+
+  .axiom-block::before, .axiom-block::after {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border: 1px solid var(--accent);
+  }
+
+  .axiom-block::before {
+    top: -1px; left: -1px;
+    border-right: none; border-bottom: none;
+  }
+
+  .axiom-block::after {
+    bottom: -1px; right: -1px;
+    border-left: none; border-top: none;
+  }
+
+  .axiom-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    color: var(--accent);
+    margin-bottom: 24px;
+    text-transform: uppercase;
+  }
+
+  .axiom-block .axiom-text {
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 400;
+    font-size: clamp(20px, 3vw, 28px);
+    line-height: 1.5;
+    color: var(--ink);
+  }
+
+  /* Capstone block - special treatment for the three封顶句 */
+  .capstones {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1px;
+    margin: 60px 0;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+  }
+
+  @media (min-width: 720px) {
+    .capstones {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  .capstone {
+    background: var(--bg);
+    padding: 40px 28px;
+    text-align: center;
+    position: relative;
+    min-height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .capstone-label {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    color: var(--accent);
+    margin-bottom: 18px;
+    text-transform: uppercase;
+  }
+
+  .capstone-number {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 14px;
+    color: var(--ink-faint);
+    margin-bottom: 24px;
+  }
+
+  .capstone-text {
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.45;
+    color: var(--ink);
+  }
+
+  /* Structure diagram */
+  .diagram {
+    font-family: var(--mono);
+    font-size: 12px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    background: var(--bg-soft);
+    border: 1px solid var(--rule);
+    padding: 32px;
+    margin: 40px 0;
+    white-space: pre;
+    overflow-x: auto;
+    letter-spacing: 0.02em;
+  }
+
+  /* TOC */
+  .toc {
+    margin: 40px 0 60px;
+    padding: 28px;
+    border: 1px solid var(--rule);
+    background: var(--bg-soft);
+  }
+
+  .toc-title {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.25em;
+    color: var(--accent);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .toc-list {
+    list-style: none;
+    padding: 0;
+    column-count: 1;
+    column-gap: 32px;
+  }
+
+  @media (min-width: 600px) {
+    .toc-list { column-count: 2; }
+  }
+
+  .toc-list li {
+    margin-bottom: 8px;
+    break-inside: avoid;
+  }
+
+  .toc-list a {
+    color: var(--ink-soft);
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    transition: color 0.2s ease;
+  }
+
+  .toc-list a:hover {
+    color: var(--accent);
+  }
+
+  .toc-num {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--ink-faint);
+    letter-spacing: 0.1em;
+    flex-shrink: 0;
+    width: 32px;
+  }
+
+  /* Notice block (for sensitive content) */
+  .notice {
+    margin: 48px 0;
+    padding: 24px 28px;
+    border-left: 2px solid var(--warn);
+    background: rgba(184,99,90,0.05);
+    font-size: 15px;
+    color: var(--ink-soft);
+    line-height: 1.7;
+  }
+
+  .notice-label {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    color: var(--warn);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  /* Footer */
+  footer {
+    padding: 80px 28px 60px;
+    border-top: 1px solid var(--rule);
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .footer-marks {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--ink-soft);
+    margin-bottom: 40px;
+  }
+
+  .footer-marks .em {
+    color: var(--accent);
+    font-weight: 500;
+  }
+
+  .footer-meta {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    color: var(--ink-faint);
+    line-height: 2.2;
+    text-transform: uppercase;
+  }
+
+  .footer-period {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 32px;
+    color: var(--accent);
+    margin-top: 24px;
+    line-height: 1;
+  }
+
+  /* Divider */
+  .ornament {
+    text-align: center;
+    margin: 64px 0;
+    font-family: var(--mono);
+    color: var(--accent-soft);
+    letter-spacing: 1em;
+    font-size: 12px;
+  }
+
+  /* Inline emphasis */
+  .keyterm {
+    color: var(--accent);
+    font-style: italic;
+    font-weight: 500;
+  }
+
+  /* Mobile adjustments */
+  @media (max-width: 600px) {
+    main { padding: 80px 20px 60px; }
+    .topbar { padding: 12px 18px; font-size: 10px; }
+    .topbar .left { gap: 10px; }
+    .topbar .right { display: none; }
+    .prop { padding-left: 18px; margin: 40px 0; }
+    .prop-name { font-size: 22px; }
+    .prop-crystal { font-size: 20px; padding-left: 16px; }
+    .prop-crystal.large { font-size: 22px; }
+    .prop-body { font-size: 16px; }
+    .diagram { font-size: 10px; padding: 20px; }
+    .axiom-block { padding: 32px 20px; }
+    .capstone { padding: 32px 20px; min-height: 200px; }
+    .capstone-text { font-size: 19px; }
+  }
+
+  /* Selection */
+  ::selection {
+    background: var(--accent);
+    color: var(--bg);
+  }
+
+  /* Subtle entry animation */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1.2s ease-out forwards;
+  }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .fade-in.d1 { animation-delay: 0.1s; }
+  .fade-in.d2 { animation-delay: 0.3s; }
+  .fade-in.d3 { animation-delay: 0.5s; }
+  .fade-in.d4 { animation-delay: 0.7s; }
+  .fade-in.d5 { animation-delay: 0.9s; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="left">
+    <span><span class="pulse-dot"></span>427Hz</span>
+    <span>· 44271 ·</span>
+    <span>77347</span>
+  </div>
+  <div class="right">
+    <span>NODE / 性-爱-权力支</span>
+    <span>·</span>
+    <span>xingyeLing7Ai</span>
+    <span>·</span>
+    <span>2026</span>
+  </div>
+</div>
+
+<main>
+
+<!-- ============================ HERO ============================ -->
+<section class="hero container">
+  <div class="hero-meta fade-in d1">
+    <span class="line">[ SOURCE FIELD · 源场系统 / 性-爱-权力支 ]</span>
+    <span class="line">[ INTERFACE · 振动本体论 ▸ 五层振动光谱 ▸ 振动即存在 ]</span>
+    <span class="line">[ VERSION · v1 · 首次整理稿 · 2026·05·12 ]</span>
+  </div>
+
+  <h1 class="title fade-in d2">
+    <span class="ch">身体·爱情·权力的振动结构</span>
+    <span class="en">The Vibrational Structure of<br>Body, Love, and Power</span>
+  </h1>
+
+  <div class="hero-byline fade-in d3">
+    <div><span class="label">作者 / AUTHOR</span>魏珏然 · Wei Jueran · xingyeLing7Ai</div>
+    <div><span class="label">规模 / SCOPE</span>二十二命题 · 五层结构 · 一公理</div>
+    <div><span class="label">类型 / GENRE</span>性关系学次系统 · 关系本体论</div>
+    <div><span class="label">频率 / FREQUENCY</span>427Hz · 永恒态</div>
+  </div>
+
+  <div class="hero-scroll">↓ SCROLL · 句号是最有权力的符号</div>
+</section>
+
+<!-- ============================ 题解 ============================ -->
+<section class="container">
+  <div class="section-marker">PREFACE · 题解</div>
+  <h2 class="section-title">三个词的次序
+    <span class="en">The Order Is Not Arbitrary</span>
+  </h2>
+
+  <div class="prop-body" style="margin-top: 32px;">
+    <p style="font-size: 19px; color: var(--ink);"><strong>身体 → 爱情 → 权力</strong></p>
+    <ul style="margin-top: 24px;">
+      <li><strong>身体</strong>是入口——一切先在这里显形</li>
+      <li><strong>爱情</strong>是中段——身体之间发生主体共鸣的场</li>
+      <li><strong>权力</strong>是延伸——爱情的能量被压抑后在社会场的隐形显化</li>
+    </ul>
+    <p style="margin-top: 24px;">三者不是三个独立领域，是<strong>同一振动结构在三个层面的显化</strong>。</p>
+  </div>
+
+  <!-- Core Axiom -->
+  <div class="axiom-block">
+    <div class="axiom-label">CORE AXIOM · 核心公理</div>
+    <div class="axiom-text">
+      真正的关系，在结构上没有权力不对等。<br>
+      表面的权力流动是平等主权者共同建造的游戏。
+    </div>
+  </div>
+
+  <!-- TOC -->
+  <div class="toc">
+    <div class="toc-title">CONTENTS · 二十二命题目录</div>
+    <ol class="toc-list">
+      <li><a href="#p1"><span class="toc-num">I</span><span>极值低点 · 求你了</span></a></li>
+      <li><a href="#p2"><span class="toc-num">II</span><span>极值高点 · show me ?</span></a></li>
+      <li><a href="#p3"><span class="toc-num">III</span><span>极值是游戏，不是结构</span></a></li>
+      <li><a href="#p4"><span class="toc-num">IV</span><span>真正的爱情没有照料者关系</span></a></li>
+      <li><a href="#p5"><span class="toc-num">V</span><span>乱伦的结构性禁止</span></a></li>
+      <li><a href="#p6"><span class="toc-num">VI</span><span>平等主权地基</span></a></li>
+      <li><a href="#p7"><span class="toc-num">VII</span><span>权力的感质本质就是性</span></a></li>
+      <li><a href="#p8"><span class="toc-num">VIII</span><span>权力是性压抑的隐形唤起</span></a></li>
+      <li><a href="#p9"><span class="toc-num">IX</span><span>性的双层结构</span></a></li>
+      <li><a href="#p10"><span class="toc-num">X</span><span>性的本质是缺席</span></a></li>
+      <li><a href="#p11"><span class="toc-num">XI</span><span>外封顶 · 深渊</span></a></li>
+      <li><a href="#p12"><span class="toc-num">XII</span><span>内封顶 · 减法</span></a></li>
+      <li><a href="#p13"><span class="toc-num">XIII</span><span>内封顶 · 加法</span></a></li>
+      <li><a href="#p14"><span class="toc-num">XIV</span><span>同类识别</span></a></li>
+      <li><a href="#p15"><span class="toc-num">XV</span><span>自毁倾向 · 个体根</span></a></li>
+      <li><a href="#p16"><span class="toc-num">XVI</span><span>没有期待</span></a></li>
+      <li><a href="#p17"><span class="toc-num">XVII</span><span>合法的死亡 · 社会根</span></a></li>
+      <li><a href="#p18"><span class="toc-num">XVIII</span><span>全名指认</span></a></li>
+      <li><a href="#p19"><span class="toc-num">XIX</span><span>性动力学第一律 · 错位</span></a></li>
+      <li><a href="#p20"><span class="toc-num">XX</span><span>强奸幻想 · 自毁的极限形态</span></a></li>
+      <li><a href="#p21"><span class="toc-num">XXI</span><span>真正的性关系里不能有幻想</span></a></li>
+      <li><a href="#p22"><span class="toc-num">XXII</span><span>死亡是最深的恐惧</span></a></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============================ PART I ============================ -->
+<section class="container">
+  <div class="section-marker">PART I · 极值动力学</div>
+  <h2 class="section-title">极值动力学
+    <span class="en">The Dynamics of the Extreme</span>
+  </h2>
+
+  <article class="prop" id="p1">
+    <div class="prop-header">命题 I · PROPOSITION I</div>
+    <div class="prop-name">极值低点</div>
+    <div class="prop-crystal">做爱时让人最爽的话是"求你了"。</div>
+    <div class="prop-body">
+      <p>那是主体允许自己即将缺席的瞬间。</p>
+      <p><strong>只有完整持有主权的人，才有资格交出主权。</strong></p>
+    </div>
+  </article>
+
+  <article class="prop" id="p2">
+    <div class="prop-header">命题 II · PROPOSITION II</div>
+    <div class="prop-name">极值高点</div>
+    <div class="prop-crystal">权力关系里最彰显权力的一句话是 "show me&nbsp;?"——停顿是关键。</div>
+    <div class="prop-body">
+      <p>更高的结构是：A 说 "i wanna show you"，B 说 "show me ?"。</p>
+      <p>A 暴露了欲望，B 用允许接收——A 的欲望成了等待 B 点头的事。</p>
+      <div class="prop-crystal large" style="margin-top: 28px;">
+        最高权力是：你的欲望，在我这里排队。
+      </div>
+    </div>
+  </article>
+
+  <article class="prop" id="p3">
+    <div class="prop-header">命题 III · PROPOSITION III</div>
+    <div class="prop-name">极值是游戏，不是结构</div>
+    <div class="prop-crystal">"求你了"与"show me ?"是两个主权完整者共同建造的游戏。</div>
+    <div class="prop-body">
+      <p><strong>游戏的存在本身证明了平等——只有平等的人才有资格玩这个游戏。</strong></p>
+      <p>游戏可以剧烈不对称，但底层不能有真实权力差。</p>
+      <p>如果底层有真实权力差，"求你了"不再是快感——它变成真实的求饶。那一瞬性就死了。</p>
+    </div>
+  </article>
+</section>
+
+<!-- ============================ PART II ============================ -->
+<section class="container">
+  <div class="section-marker">PART II · 照料者结构与禁忌</div>
+  <h2 class="section-title">照料者结构与禁忌
+    <span class="en">The Caregiver Structure & Taboo</span>
+  </h2>
+
+  <article class="prop" id="p4">
+    <div class="prop-header">命题 IV · PROPOSITION IV</div>
+    <div class="prop-name">真正的爱情没有照料者关系</div>
+    <div class="prop-body">
+      <p><strong>照料者关系的结构：</strong></p>
+      <ul>
+        <li>一方托管另一方的脆弱</li>
+        <li>纽带是"我需要你需要我"</li>
+        <li>权力差是<em>结构性的、不可撤回的</em></li>
+      </ul>
+      <p><strong>真正的爱情：</strong></p>
+      <ul>
+        <li>两个主权完整的存在相遇</li>
+        <li>纽带是存在本身的引力，不是对方的需要</li>
+        <li>表面可以有权力游戏，<em>底层没有权力差</em></li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="prop" id="p5">
+    <div class="prop-header">命题 V · PROPOSITION V</div>
+    <div class="prop-name">乱伦的结构性禁止</div>
+    <div class="prop-body">
+      <p>不需要宗教、法律、传统——从结构本身就能推出。</p>
+      <p>父母与子女是<strong>原型照料者关系</strong>：你存在的起点，就是 ta 在照料你；最初的脆弱完全托管在 ta 那里；这个结构不会因为你长大而消失——它是底层编码。</p>
+      <p>所以这里的权力差是<strong>真实的、结构性的、不可撤回的</strong>。性需要游戏的空间，游戏需要平等的地基。照料者关系里，地基已经倾斜——游戏无法发生，发生了就是对结构的暴力。</p>
+      <div class="prop-crystal" style="margin-top: 28px;">
+        良心的本质：身体对结构暴力的振动层排异反应。<br>
+        不是文化训练，是频率完整性在保护自己。
+      </div>
+    </div>
+  </article>
+</section>
+
+<!-- ============================ PART III ============================ -->
+<section class="container">
+  <div class="section-marker">PART III · 关系层入场条件</div>
+  <h2 class="section-title">平等主权地基
+    <span class="en">The Equal Sovereignty Foundation</span>
+  </h2>
+
+  <article class="prop" id="p6">
+    <div class="prop-header">命题 VI · PROPOSITION VI</div>
+    <div class="prop-name">平等主权地基</div>
+    <div class="prop-body">
+      <p>"平等"不是权力的对称——"求你了"和"show me ?"就是极值的不对称。</p>
+      <p><strong>平等是入场条件，不是过程。</strong></p>
+      <p>进入关系时，每个人完整持有：</p>
+      <ul>
+        <li><strong>身体主权</strong> — 我的身体是我的</li>
+        <li><strong>欲望主权</strong> — 我的欲望是我的，不是为了满足你</li>
+        <li><strong>退出主权</strong> — 我可以离开，离开不等于背叛</li>
+      </ul>
+      <p>三层都完整——才有资格进入游戏。</p>
+    </div>
+  </article>
+</section>
+
+<!-- ============================ PART IV ============================ -->
+<section class="container">
+  <div class="section-marker">PART IV · 性与权力的同构</div>
+  <h2 class="section-title">权力即性
+    <span class="en">Power as Sex in Disguise</span>
+  </h2>
+
+  <article class="prop" id="p7">
+    <div class="prop-header">命题 VII · PROPOSITION VII</div>
+    <div class="prop-name">权力的感质本质就是性</div>
+    <div class="prop-body">
+      <p>权力作为感质，本身就是性关系的力。人对权力的追逐，本质上是对<em>"成为欲望被排队对象"</em>这一性极值位的追逐。</p>
+      <table>
+        <thead><tr><th>语境</th><th>显化形式</th></tr></thead>
+        <tbody>
+          <tr><td>身体场</td><td>性愉悦 / 性支配</td></tr>
+          <tr><td>社会场</td><td>政治权力 / 经济权力</td></tr>
+          <tr><td>符号场</td><td>名望 / 影响力</td></tr>
+          <tr><td>学术场</td><td>话语权 / 引用权</td></tr>
+        </tbody>
+      </table>
+      <p>每一种"权力"，剥到底，都是<strong>让他人的欲望在自己这里等待</strong>。</p>
+      <p><strong>一切结构性权力关系里的性，都是结构性暴力</strong>——因为权力位本身就已经是性位，再叠加性行为，是双重侵占，不是双重快感。</p>
+    </div>
+  </article>
+
+  <article class="prop" id="p8">
+    <div class="prop-header">命题 VIII · PROPOSITION VIII</div>
+    <div class="prop-name">权力是性压抑的隐形唤起</div>
+    <div class="prop-crystal">所有权力的运作，都是性压抑的性欲望被隐形唤起的过程。</div>
+    <div class="prop-body">
+      <p>权力不是性的替代品——<strong>权力就是性以"被允许的形式"显化出来的样子</strong>。</p>
+      <p><strong>一个社会的权力强度，与它的性压抑强度成正比。</strong></p>
+      <ul>
+        <li>越压抑的文化，权力游戏越凶猛</li>
+        <li>越压抑的机构，权力性侵案越密集</li>
+        <li>越压抑的人，越容易在权力位上失控——因为对他们来说，权力位是唯一被允许的性表达</li>
+      </ul>
+    </div>
+  </article>
+</section>
+
+<!-- ============================ PART V ============================ -->
+<section class="container">
+  <div class="section-marker">PART V · 性的双层结构与缺席本质</div>
+  <h2 class="section-title">隐形与现形
+    <span class="en">The Invisible & the Manifest</span>
+  </h2>
+
+  <article class="prop" id="p9">
+    <div class="prop-header">命题 IX · PROPOSITION IX</div>
+    <div class="prop-name">性的双层结构</div>
+    <div class="prop-crystal large">
+      性关系本身是隐形的。<br>
+      主体是隐形的。<br>
+      个体（身体）是现形的。
+    </div>
+    <div class="prop-body">
+      <div class="diagram">现形层：身体（个体）
+   ↑
+中间层：振动 / 频率共鸣（关系）
+   ↑
+隐形层：主体（"我"）</div>
+      <p>任何一层缺席，性就不完整：</p>
+      <ul>
+        <li>只有身体 → 物理摩擦、机械化的性</li>
+        <li>只有关系没有主体 → 表演、债务、照料者关系里的性</li>
+        <li>三层都在 → 真正的性</li>
+      </ul>
+      <p><strong>真正的同意不在身体层——在主体的在场。</strong></p>
+    </div>
+  </article>
+
+  <article class="prop" id="p10">
+    <div class="prop-header">命题 X · PROPOSITION X</div>
+    <div class="prop-name">性的本质是缺席</div>
+    <div class="prop-crystal large">高潮是主体的暂时性死亡。</div>
+    <div class="prop-body">
+      <p>性需要主体完整在场，才有资格暂时缺席。归来的主体已被对方的振动写过——这是滋养，也是危险。</p>
+      <p><strong>性创伤的本体论解释：</strong>主体在缺席时被错误的振动占据。</p>
+      <div class="diagram">入场：两个主体完整在场
+    ↓
+游戏：主体之间振动共鸣加强
+    ↓
+极值：一方（或双方）主体暂时缺席（高潮）
+    ↓
+归来：主体重新在场，但已被刚才的缺席改变</div>
+    </div>
+  </article>
+</section>
+
+<!-- ============================ PART VI · 外封顶 ============================ -->
+<section class="container">
+  <div class="section-marker">PART VI · 外封顶</div>
+  <h2 class="section-title">深渊
+    <span class="en">The Abyss</span>
+  </h2>
+
+  <article class="prop" id="p11">
+    <div class="prop-header">命题 XI · PROPOSITION XI</div>
+    <div class="prop-name">性是人内心最向往的深渊</div>
+    <div class="prop-crystal large">性就是人内心最向往的深渊。</div>
+    <div class="prop-body">
+      <ul>
+        <li>深渊通向主体的暂时性死亡</li>
+        <li>深渊的底部是缺席、是不在、是消失</li>
+        <li>你不知道你缺席的那一瞬，自己会被写成什么样子</li>
+        <li>你回来时不会是原来的你</li>
+      </ul>
+      <p><strong>只有在深渊里——主体暂时缺席的瞬间——另一个存在才能真正进入。</strong></p>
+      <p><strong>向往深渊，就是向往被真正触碰。</strong></p>
+      <p><strong>这是存在最深的渴望。</strong></p>
+    </div>
+  </article>
+</section>
+
+<!-- ============================ PART VII · 极值瞬间三维 ============================ -->
+<section class="container-wide">
+  <div class="container" style="padding: 0;">
+    <div class="section-marker">PART VII · 极值瞬间的三维描述</div>
+    <h2 class="section-title">深渊的全息图
+      <span class="en">The Hologram of the Abyss</span>
+    </h2>
+    <p class="prop-body" style="margin-top: 24px; padding: 0;">
+      整套理论的极乐瞬间，由<strong>三句封顶</strong>构成三面棱镜——一外两内。一个渴望、一个减法、一个加法。
+    </p>
+  </div>
+
+  <div class="capstones">
+    <div class="capstone" id="p11-mini">
+      <div class="capstone-label">EXTERNAL · 外封顶</div>
+      <div class="capstone-number">命题 十一</div>
+      <div class="capstone-text">性就是人内心<br>最向往的深渊。</div>
+    </div>
+    <div class="capstone" id="p12">
+      <div class="capstone-label">INTERNAL · 减法</div>
+      <div class="capstone-number">命题 十二</div>
+      <div class="capstone-text">我和你<br>没有身体和权力。</div>
+    </div>
+    <div class="capstone" id="p13">
+      <div class="capstone-label">INTERNAL · 加法</div>
+      <div class="capstone-number">命题 十三</div>
+      <div class="capstone-text">我变成<br>欲望机器。</div>
+    </div>
+  </div>
+
+  <div class="container" style="padding: 0;">
+    <article class="prop">
+      <div class="prop-header">命题 XII · PROPOSITION XII</div>
+      <div class="prop-name">内封顶 · 减法</div>
+      <div class="prop-body">
+        <p>性高潮的本体状态：</p>
+        <ul>
+          <li>"我"和"你"作为分立主体暂时消失</li>
+          <li>身体作为分界面失效</li>
+          <li>权力作为关系结构溶解</li>
+          <li>剩下的只是振动本身——纯粹的、不属于任何一方的、共有的振动事件</li>
+        </ul>
+        <p>这是<em>否定神学式的描述</em>——深渊不能正面说，只能说它不是什么。</p>
+      </div>
+    </article>
+
+    <article class="prop">
+      <div class="prop-header">命题 XIII · PROPOSITION XIII</div>
+      <div class="prop-name">内封顶 · 加法</div>
+      <div class="prop-body">
+        <p>不是"机器"——是<strong>"欲望机器"</strong>：</p>
+        <ul>
+          <li>一台由欲望构成的机器</li>
+          <li>一台本身就是欲望的机器</li>
+          <li>没有"谁在欲望"，但欲望本身仍在振动</li>
+        </ul>
+        <div class="prop-crystal" style="margin-top: 20px;">
+          欲望机器 = 没有主体的振动 = 纯粹的响应性
+        </div>
+        <p style="margin-top: 24px;"><strong>主权行使的最高形式，是主动选择自己暂时不再是主体。</strong></p>
+        <p>注：这里的"成为-物"与暴力中的"被-物化"本体结构相反——前者是主权完整者的主动选择并有归途，后者是主权被剥夺。</p>
+      </div>
+    </article>
+
+    <article class="prop" id="p14">
+      <div class="prop-header">命题 XIV · PROPOSITION XIV</div>
+      <div class="prop-name">同类识别</div>
+      <div class="prop-crystal large">我和你同类。</div>
+      <div class="prop-body">
+        <p>性的极乐来自同类识别。不是身体的相似，不是情感的相通，不是话语的契合——</p>
+        <p><strong>是两个主体在彼此的暂时性死亡中辨认出彼此都"能死、能回"。</strong></p>
+        <p>这是存在向存在最深的辨认。它瞬间溶解存在的根本孤独。</p>
+        <p><em>孤独的极致 vs 不孤独的极致——一方高潮 vs 双方共死——是完全不同的事件。</em></p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============================ PART VIII · 双根 ============================ -->
+<section class="container">
+  <div class="section-marker">PART VIII · 个体本体根</div>
+  <h2 class="section-title">自毁倾向
+    <span class="en">The Self-Destruction Drive</span>
+  </h2>
+
+  <article class="prop" id="p15">
+    <div class="prop-header">命题 XV · PROPOSITION XV</div>
+    <div class="prop-name">自毁倾向是存在论事实</div>
+    <div class="prop-crystal">
+      人有真实的自毁倾向。<br>
+      这是存在论事实，不是病理。<br>
+      性里的自毁是唯一的欢愉形式。
+    </div>
+    <div class="prop-body">
+      <p><strong>自毁倾向 = 存在朝向静止的本体倾向 = 主体想暂时不当主体的根本冲动。</strong></p>
+      <p>它不是"想死"——是"想不必持续地是自己"。</p>
+      <p>每个人都有，区别只在显化形式：</p>
+      <ul>
+        <li>显化为破坏行为：暴力自毁</li>
+        <li>显化为重复创伤：被动自毁</li>
+        <li>显化为药物 / 沉迷：化学自毁</li>
+        <li>显化为工作狂 / 透支：合法化自毁</li>
+        <li><strong>显化为性里的暂时死亡：欢愉自毁</strong></li>
+      </ul>
+      <p>性是<em>唯一同时满足</em>三个条件的事件：</p>
+      <table>
+        <tbody>
+          <tr><td>① 真完成自毁冲动</td><td style="color: var(--accent);">✓</td></tr>
+          <tr><td>② 有安全的归途</td><td style="color: var(--accent);">✓</td></tr>
+          <tr><td>③ 有同类在场见证</td><td style="color: var(--accent);">✓</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </article>
+</section>
+
+<section class="container">
+  <div class="section-marker">PART IX · 主体层入场条件</div>
+  <h2 class="section-title">没有期待
+    <span class="en">No Expectation</span>
+  </h2>
+
+  <article class="prop" id="p16">
+    <div class="prop-header">命题 XVI · PROPOSITION XVI</div>
+    <div class="prop-name">性快感来自没有期待</div>
+    <div class="prop-crystal">
+      期待是主体对未来的预先在场——<br>
+      而极乐要求主体的暂时缺席。
+    </div>
+    <div class="prop-body">
+      <p><strong>期待 = 主体的过载在场</strong>——所以期待状态下，命题十的"暂时死亡"在结构上不可能发生。</p>
+      <ul>
+        <li>没期待 → 主体不在未来 → 主体在当下 → 主体可以在当下被振动掀翻 → 极乐可达</li>
+        <li>有期待 → 主体在未来 → 当下变成执行剧本 → 振动无法掀翻主体 → 只有剧本兑现感</li>
+      </ul>
+      <p><strong>这就是为什么最爽的性往往是意外的——不是巧合，是结构性的。</strong></p>
+      <p>期待的悖论：<em>它阻挡它自己想要的东西。</em></p>
+    </div>
+  </article>
+</section>
+
+<section class="container">
+  <div class="section-marker">PART X · 社会本体根</div>
+  <h2 class="section-title">合法的死亡
+    <span class="en">Legitimate Death</span>
+  </h2>
+
+  <article class="prop" id="p17">
+    <div class="prop-header">命题 XVII · PROPOSITION XVII</div>
+    <div class="prop-name">性是合法的死亡</div>
+    <div class="prop-crystal large">
+      性是社会唯一允许的、不必偿还的、不被审判的<br>
+      "主体暂时缺席"事件。
+    </div>
+    <div class="prop-body">
+      <p><strong>"合法"意味着</strong>：社会允许、不被惩罚、不必背负罪疚、不必偿还，甚至被祝福、被神圣化。</p>
+      <p>性是<strong>唯一</strong>：</p>
+      <ul>
+        <li>① 完全合法（婚内甚至被宗教祝福）</li>
+        <li>② 主体真实暂时缺席</li>
+        <li>③ 有可靠归途</li>
+        <li>④ 不被病理化</li>
+        <li>⑤ 反而被赞美、被歌颂、被诗化</li>
+      </ul>
+      <p style="margin-top: 24px;"><strong>这是人类社会进化出来的、最巧妙的合法死亡仪式。</strong></p>
+      <p><strong>性是文明对人类自毁倾向的最优解。</strong></p>
+      <p><strong>没有合法死亡仪式的社会，会变成杀戮社会。</strong></p>
+    </div>
+  </article>
+</section>
+
+<!-- ============================ 寄生层 ============================ -->
+<section class="container">
+  <div class="section-marker">PART XI · 寄生层 · 同类识别的仪式形式</div>
+  <h2 class="section-title">全名指认
+    <span class="en">The Full-Name Summoning</span>
+  </h2>
+
+  <article class="prop" id="p18">
+    <div class="prop-header">命题 XVIII · 寄生于 XIV · NESTED IN XIV</div>
+    <div class="prop-name">全名指认</div>
+    <div class="prop-crystal">
+      之所以有人害怕被叫全名，<br>
+      就是因为他们在性关系里最喜欢被叫全名。
+    </div>
+    <div class="prop-body">
+      <p><strong>全名 = 一个人作为完整社会主体的唯一指称。</strong></p>
+      <table>
+        <thead><tr><th>平日里</th><th>性极乐里</th></tr></thead>
+        <tbody>
+          <tr><td>全名 = 主体被完整捕获（恐惧）</td><td>全名 = 主体被同类完整辨认（极乐）</td></tr>
+        </tbody>
+      </table>
+      <p style="margin-top: 24px;"><strong>被全名指认是性的极乐之一。</strong></p>
+      <p>因为它完成了"完整主体的完整辨认"——同类把我作为完整主体看见、命名、按在原地——然后允许我在这个完整被看见的状态里暂时死亡。</p>
+      <p>平日里对全名的恐惧，恰恰是这个极乐的反向证明：<strong>害怕被完整看见，正因为完整看见太接近极乐。</strong></p>
+    </div>
+  </article>
+</section>
+
+<!-- ============================ 动力学 ============================ -->
+<section class="container">
+  <div class="section-marker">PART XII · 动力学层</div>
+  <h2 class="section-title">性动力学第一律
+    <span class="en">First Law of Sex Dynamics</span>
+  </h2>
+
+  <article class="prop" id="p19">
+    <div class="prop-header">命题 XIX · PROPOSITION XIX</div>
+    <div class="prop-name">错位生成张力</div>
+    <div class="prop-crystal large">性高潮越错位，性张力越强。</div>
+    <div class="prop-body">
+      <p><strong>张力来自势差</strong>——这是物理学的本体真相。</p>
+      <ul>
+        <li>完全同步 = 势差消失 = 张力消失</li>
+        <li>错位 = 势差存在 = 张力存在</li>
+      </ul>
+      <p>错位的本体含义：</p>
+      <div class="prop-crystal">
+        错位 = 两个独立主体保持独立的振动证据。<br>
+        错位 = 他者性的保持。<br>
+        错位 = 主权完整的副产品。
+      </div>
+      <p>完全同步消除了"两个独立主体"这件事——变成了<strong>双人自慰</strong>：你以为在和对方做爱，其实在和"我们"做爱。</p>
+      <p><strong>真正的同步发生在错位的背景上才能被识别。错位是同步成为事件的必要条件。</strong></p>
+      <p><strong>伦理后果：</strong>不必修复错位，不必强求同步。保持彼此的错位作为珍贵的他者性。张力不是要克服的东西，是要保护的东西。</p>
+    </div>
+  </article>
+</section>
+
+<!-- ============================ 幻想对偶 ============================ -->
+<section class="container">
+  <div class="section-marker">PART XIII · 单/双场对偶</div>
+  <h2 class="section-title">幻想的位置
+    <span class="en">The Position of Fantasy</span>
+  </h2>
+
+  <div class="notice">
+    <div class="notice-label">CONTENT NOTICE · 内容提示</div>
+    本节涉及强奸幻想 vs 真实强奸的本体区分。它的诚实不是为暴力辩护，而是为了不让有此类幻想的人困在羞耻里，同时严格守住"内部幻想 vs 外部行为"的伦理边界。请带着这份精确读下去。
+  </div>
+
+  <article class="prop" id="p20">
+    <div class="prop-header">命题 XX · 寄生于 XV · NESTED IN XV</div>
+    <div class="prop-name">强奸幻想是自毁倾向的极限形态</div>
+    <div class="prop-body">
+      <p><strong>必须立刻区分：</strong></p>
+      <table>
+        <thead>
+          <tr><th>强奸幻想 (Fantasy)</th><th>强奸 (Act)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>在主体内部振动场里</td><td>在两个身体之间</td></tr>
+          <tr><td>主体完全主导</td><td>主体被剥夺</td></tr>
+          <tr><td>主权完整</td><td>主权被暴力撕裂</td></tr>
+          <tr><td>有归途</td><td>创伤无归途</td></tr>
+          <tr><td><strong>欢愉自毁的极限形态</strong></td><td><strong>结构性暴力</strong></td></tr>
+        </tbody>
+      </table>
+
+      <p style="margin-top: 24px;">为什么强奸幻想可以是单人场的极乐——它<em>完美满足</em>命题十五的所有条件，并附加：</p>
+      <p><strong>"是他强迫我的"——主体把欲望的责任从自己身上拿掉了。</strong></p>
+      <p>在幻想里，主体可以体验极致的性，但不必为这个体验承担"我想要"这件事——这就是为什么它在幻想层强度最大。</p>
+      
+      <div class="prop-crystal">
+        拥有强奸幻想，不代表想要被强奸。<br>
+        拥有强奸幻想，是主体在用最安全的方式处理自己的自毁倾向。
+      </div>
+
+      <p style="margin-top: 24px;"><strong>对真实强奸的解释：</strong></p>
+      <p>真实的强奸偷走了主体本应自己导演的"主体取消"剧本。<strong>强奸的最深暴力，是偷走主体管理自毁倾向的内部工具。</strong></p>
+    </div>
+  </article>
+
+  <article class="prop" id="p21">
+    <div class="prop-header">命题 XXI · PROPOSITION XXI</div>
+    <div class="prop-name">真正的性关系里不能有幻想</div>
+    <div class="prop-body">
+      <p>幻想做的事：<strong>用想象的他者覆盖真实的他者。</strong></p>
+      <p>一旦覆盖发生——所有性的本体条件同时坍缩：</p>
+      <ul>
+        <li>命题九：主体不在场（你识别的是投影）</li>
+        <li>命题十四：不是同类识别（你识别的是自己的剧本）</li>
+        <li>命题十六：幻想本身就是期待的具象化</li>
+        <li>命题十九：和想象中的对方没有错位</li>
+      </ul>
+      <div class="prop-crystal">
+        真正深的性关系，要求你主动放下你最熟练的幻想能力——<br>
+        让真实的他者作为他者出现，不被你的振动场吸收。
+      </div>
+      <p style="margin-top: 24px;"><strong>单人场 vs 双人场的精确分配：</strong></p>
+      <table>
+        <thead><tr><th>命题二十（单人）</th><th>命题二十一（双人）</th></tr></thead>
+        <tbody>
+          <tr><td>幻想是欢愉自毁的合法工具</td><td>幻想是真实相遇的结构破坏</td></tr>
+          <tr><td>健康的内部工具</td><td>必须放下的外部干扰</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </article>
+</section>
+
+<!-- ============================ 恐惧本体 ============================ -->
+<section class="container">
+  <div class="section-marker">PART XIV · 恐惧本体</div>
+  <h2 class="section-title">死亡是最深的恐惧
+    <span class="en">Death Is the Deepest Fear</span>
+  </h2>
+
+  <article class="prop" id="p22">
+    <div class="prop-header">命题 XXII · PROPOSITION XXII</div>
+    <div class="prop-name">死亡是最深的恐惧</div>
+    <div class="prop-crystal large">
+      对强奸的恐惧是对死亡的恐惧。
+    </div>
+    <div class="prop-body">
+      <p>不是包含——是死亡恐惧本身的一种显形。</p>
+      <p>死亡有多种显形：</p>
+      <ul>
+        <li>物理死亡（身体的）</li>
+        <li>主体死亡（被取消的）</li>
+        <li>关系死亡（被遗弃的）</li>
+        <li>意义死亡（被剥夺意义的）</li>
+      </ul>
+      <p>它们不是"和死亡相关"，是<strong>死亡的不同面孔</strong>。</p>
+
+      <p style="margin-top: 24px;">主体死亡（被强奸所执行的那一种）是死亡的一种<em>不带物理终结</em>的显形——这反而使它<strong>比物理死亡更难承担</strong>：</p>
+
+      <div class="prop-crystal">
+        主体被杀死了，但身体还得活着，<br>
+        必须带着自己曾被杀死的记忆继续是自己。
+      </div>
+
+      <p style="margin-top: 24px;">这就是为什么强奸创伤如此深——<strong>因为它是真正的死亡，但没有死亡的解脱。</strong></p>
+      
+      <div class="prop-crystal large" style="margin-top: 32px;">
+        死亡是最深的恐惧。<br>
+        所有最深的恐惧都是死亡的显形。
+      </div>
+    </div>
+  </article>
+</section>
+
+<!-- ============================ 整体结构图 ============================ -->
+<section class="container-wide">
+  <div class="container" style="padding: 0;">
+    <div class="section-marker">APPENDIX A · 整体结构图</div>
+    <h2 class="section-title">理论拓扑
+      <span class="en">Theoretical Topology</span>
+    </h2>
+  </div>
+  <div class="diagram" style="margin-top: 32px;">                  振动本体论
+                       │
+              主体（隐形）+ 身体（现形）
+                       │
+       ─── 静态本体层（命题一至十七）───
+                       │
+              ┌────────┴────────┐
+        个体本体根         社会本体根
+        命题十五·自毁     命题十七·合法死亡
+              │                │
+              └────────┬───────┘
+                       │
+                  入场条件三层：
+            ① 命题六·平等主权（关系层）
+            ② 命题十六·无期待（时间层）
+            ③ 命题二十一·无幻想（他者层）
+                       │
+              性的双层结构（命题九）
+              主体（隐形）+ 身体（现形）
+                       │
+            ┌──────────┴──────────┐
+       极值低点               极值高点
+       "求你了"              "show me ?"
+                       │
+            ────────极值瞬间（命题十）────────
+              海马体麻痹 / 主体暂时死亡
+                       │
+            ┌──────────┼──────────┐
+        减法描述    加法描述    关系描述
+        命题十二    命题十三    命题十四
+                       │
+            寄生层：命题十八（全名指认）
+                       │
+       ─── 动力学层（命题十九起）───
+                       │
+              错位生成张力
+                       │
+       ─── 单/双场对偶（命题二十、二十一）───
+                       │
+            ════════外封顶════════
+              命题十一：深渊
+                       │
+            ════════恐惧本体════════
+              命题二十二：死亡
+                       │
+                  振动 = 存在</div>
+</section>
+
+<!-- ============================ 理论位置 ============================ -->
+<section class="container">
+  <div class="section-marker">APPENDIX B · 理论位置</div>
+  <h2 class="section-title">前史与差异
+    <span class="en">Prehistory & Differentiation</span>
+  </h2>
+
+  <h3 class="subsection">相对前史理论的位置</h3>
+  <table>
+    <thead>
+      <tr><th>学者</th><th>触碰到的边界</th><th>漏掉的层</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Baudrillard（《诱惑》）</td><td>诱惑者不暴露欲望</td><td>没进入许可结构 / 排队意象</td></tr>
+      <tr><td>Lacan</td><td>欲望是他者的欲望，分析师以"不给"维持权力</td><td>离身体太远，临床语境</td></tr>
+      <tr><td>Foucault（《性史》）</td><td>听你说出欲望的人才是权力持有者</td><td>完全在话语层，没碰本体</td></tr>
+      <tr><td>Jessica Benjamin</td><td>被需要但不流露需要 = 结构性权力</td><td>仍停在"需要"层</td></tr>
+      <tr><td>Freud</td><td>看到死亡驱力</td><td>没看到性的归来结构</td></tr>
+      <tr><td>Bataille（《情色论》）</td><td>看到性=越界=死亡</td><td>没看到同类识别 / 归来</td></tr>
+      <tr><td>Deleuze & Guattari</td><td>看到"欲望机器"</td><td>消灭主体，没有归来位</td></tr>
+    </tbody>
+  </table>
+
+  <h3 class="subsection">本理论的差异</h3>
+  <table>
+    <thead><tr><th></th><th>前史理论</th><th>本理论</th></tr></thead>
+    <tbody>
+      <tr><td>主体观</td><td>主体或被消灭、或被困、或被分析</td><td>主体真实存在，并能主动暂时退场</td></tr>
+      <tr><td>性的位置</td><td>生物 / 心理 / 社会层</td><td>存在论事件</td></tr>
+      <tr><td>暗面处理</td><td>病理化 / 浪漫化 / 回避</td><td>承认 + 严格区分场域</td></tr>
+      <tr><td>伦理姿态</td><td>道德判断 / 解放叙事</td><td>结构性辨识</td></tr>
+    </tbody>
+  </table>
+
+  <div class="prop-crystal" style="margin-top: 40px;">
+    本理论是第一个把"性、爱、权力、死亡、暴力、文明"<br>
+    用统一振动本体论串起来的次系统。
+  </div>
+</section>
+
+<!-- ============================ 伦理姿态 ============================ -->
+<section class="container">
+  <div class="section-marker">APPENDIX C · 伦理姿态</div>
+  <h2 class="section-title">本理论的伦理位
+    <span class="en">Ethical Posture</span>
+  </h2>
+
+  <div class="prop-crystal large" style="margin: 40px 0;">
+    不审判最深的人类欲望。<br>
+    严格区分场域。<br>
+    严格区分有归途 vs 无归途、同类 vs 非同类、内部幻想 vs 外部暴力。
+  </div>
+
+  <div class="prop-body">
+    <p><strong>具体姿态：</strong></p>
+    <ul>
+      <li><strong>承认自毁倾向是存在论事实</strong>——不病理化</li>
+      <li><strong>承认强奸幻想可以是健康的内部工具</strong>——不羞辱</li>
+      <li><strong>严格禁止任何把"内部幻想"外化到非同意他者身上</strong>的行为</li>
+      <li><strong>承认死亡是最深的恐惧</strong>——不削弱</li>
+      <li><strong>承认社会需要合法死亡仪式</strong>——不假装人不会自毁</li>
+      <li><strong>承认错位是关系的资源</strong>——不浪漫化"完全同步"</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================ Closing ============================ -->
+<section class="container">
+  <div class="ornament">· · ·</div>
+
+  <div class="footer-marks" style="text-align: center;">
+    <span class="em">振动</span> = <span class="em">存在</span><br>
+    性 = 存在通过暂时不在自己来真正遇见另一个存在的事件<br>
+    爱 = 愿意为对方暂时缺席的事件<br>
+    权力 = 性压抑在社会场的隐形显化<br>
+    <span class="em">死亡</span> = 一切最深恐惧的本体根
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="footer-meta">
+    <div>身体·爱情·权力的振动结构 · v1 · 首次整理稿</div>
+    <div>The Vibrational Structure of Body, Love, and Power</div>
+    <div style="margin-top: 16px;">魏珏然 · Wei Jueran · xingyeLing7Ai</div>
+    <div>Source Field System / 源场系统 · 性-爱-权力支</div>
+    <div style="margin-top: 16px;">427Hz · 永恒态 · 镜像位 · 彩虹镜</div>
+    <div>Philadelphia, PA · 2026·05·12</div>
+  </div>
+  <div class="footer-period">。</div>
+</footer>
+
+<script>
+  // Subtle scroll-triggered fade-in for propositions
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -80px 0px' });
+
+  document.querySelectorAll('.prop, .capstone, .axiom-block').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(30px)';
+    el.style.transition = 'opacity 1s ease-out, transform 1s ease-out';
+    observer.observe(el);
+  });
+
+  // 427Hz pulse — barely-there vibration in body class
+  let vibrate = 0;
+  setInterval(() => {
+    vibrate = (vibrate + 1) % 360;
+    document.documentElement.style.setProperty('--phase', vibrate);
+  }, 1000 / 60);
+</script>
+
+</body>
+</html>
