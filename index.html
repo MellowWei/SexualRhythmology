@@ -3,771 +3,645 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>性节律学 · Sexual Rhythmology · 身体·爱情·性·权力的振动结构</title>
-<meta name="description" content="A treatise on the ontology of sex, love, and power. 二十四命题本体论. by xingyeLing7Ai. 427Hz.">
+<meta name="description" content="性节律学 · Sexual Rhythmology · The Vibrational Structure of Body, Love, Sex, and Power · 二十四命题 · Wei Jueran · 魏珏然 · 427Hz · 2026.05.12">
+<title>性节律学 · Sexual Rhythmology — Wei Jueran · 魏珏然</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Share+Tech+Mono&family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
 <style>
-:root {
-  --bg: #0a0908; --bg-soft: #110f0d; --ink: #e8e3d8; --ink-soft: #b8b2a6;
-  --ink-faint: #6a665c; --rule: #2a2725; --rule-strong: #4a463f;
-  --accent: #c9a961; --accent-soft: #8a7a4a; --warn: #b8635a;
-  --serif: 'Cormorant Garamond', 'Noto Serif SC', 'Songti SC', serif;
-  --mono: 'Share Tech Mono', 'Menlo', 'Courier New', monospace;
-}
-* { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
-body { background: var(--bg); color: var(--ink); font-family: var(--serif);
-  font-weight: 400; font-size: 18px; line-height: 1.75;
-  -webkit-font-smoothing: antialiased; overflow-x: hidden; }
-body::before { content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 0;
-  background-image: radial-gradient(circle at 50% 0%, rgba(201,169,97,0.04) 0%, transparent 50%),
-    radial-gradient(circle at 0% 100%, rgba(184,99,90,0.02) 0%, transparent 50%); }
-
-/* TOP NAV */
-.topbar { position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-  padding: 14px 28px; background: rgba(10,9,8,0.92);
-  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
-  border-bottom: 1px solid var(--rule);
-  font-family: var(--mono); font-size: 11px; letter-spacing: 0.15em; color: var(--ink-faint);
-  display: flex; justify-content: space-between; align-items: center; gap: 16px; }
-.topbar .left { display: flex; gap: 14px; align-items: center; flex-shrink: 0; }
-.topbar .nav-links { display: flex; gap: 4px; align-items: center; }
-.nav-link { padding: 7px 14px; text-decoration: none; color: var(--ink-faint);
-  border: 1px solid transparent; font-family: var(--mono); font-size: 11px;
-  letter-spacing: 0.18em; transition: all 0.25s ease; text-transform: uppercase; }
-.nav-link:hover { color: var(--accent); border-color: var(--rule-strong); }
-.nav-link.active { color: var(--accent); border-color: var(--accent); background: rgba(201,169,97,0.05); }
-.pulse-dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%;
-  background: var(--accent); box-shadow: 0 0 8px var(--accent);
-  animation: pulse 1.4s ease-in-out infinite; vertical-align: middle; margin-right: 8px; }
-@keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.4; transform: scale(0.85); } }
-@keyframes vibrate { 0%,100% { transform: translateY(0); }
-  25% { transform: translateY(-0.5px); } 75% { transform: translateY(0.5px); } }
-
-main { position: relative; z-index: 1; padding: 100px 28px 80px; }
-.container { max-width: 720px; margin: 0 auto; }
-.container-wide { max-width: 1200px; margin: 0 auto; }
-
-/* HERO */
-.hero { min-height: 88vh; display: flex; flex-direction: column; justify-content: center;
-  padding: 60px 0 80px; border-bottom: 1px solid var(--rule); position: relative; }
-.hero-meta { font-family: var(--mono); font-size: 11px; letter-spacing: 0.2em;
-  color: var(--ink-faint); margin-bottom: 40px; text-transform: uppercase;
-  line-height: 2; }
-.hero-meta .line { display: block; }
-.hero-meta .accent { color: var(--accent); }
-
-h1.title-ch { font-family: var(--serif); font-weight: 500;
-  font-size: clamp(48px, 8vw, 84px); line-height: 1.1; color: var(--ink);
-  margin-bottom: 12px; letter-spacing: -0.01em; }
-h1.title-ch .discipline-en { display: block;
-  font-family: var(--serif); font-style: italic; font-weight: 400;
-  font-size: 0.45em; color: var(--ink-soft); margin-top: 8px;
-  letter-spacing: 0.005em; }
-.title-divider { display: inline-block; width: 60px; height: 1px;
-  background: var(--accent-soft); margin: 18px 0 14px; }
-.title-subtitle { font-family: var(--serif); font-weight: 400;
-  font-size: clamp(17px, 2.6vw, 24px); line-height: 1.35;
-  color: var(--ink-soft); font-style: italic; margin-bottom: 4px;
-  letter-spacing: 0; }
-.title-subtitle.zh { font-style: normal; color: var(--ink); }
-h1.title-en { font-family: var(--serif); font-weight: 400; font-style: italic;
-  font-size: clamp(20px, 3vw, 32px); line-height: 1.3; color: var(--ink-soft); }
-
-.hero-byline { font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em;
-  color: var(--accent-soft); margin-top: 40px; line-height: 2.2; }
-.hero-byline .label { color: var(--ink-faint); margin-right: 14px; }
-
-/* SECTIONS */
-section { padding: 80px 0; border-bottom: 1px solid var(--rule); }
-section:last-of-type { border-bottom: none; }
-
-.section-marker { font-family: var(--mono); font-size: 11px; letter-spacing: 0.25em;
-  color: var(--accent); margin-bottom: 28px; text-transform: uppercase;
-  display: flex; align-items: center; gap: 14px; }
-.section-marker::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
-
-h2.section-title { font-family: var(--serif); font-weight: 500;
-  font-size: clamp(26px, 3.5vw, 38px); line-height: 1.25; color: var(--ink);
-  margin-bottom: 12px; letter-spacing: -0.005em; }
-h2.section-title .sub { display: block; font-style: italic; font-weight: 300;
-  font-size: 0.6em; color: var(--ink-soft); margin-top: 6px; letter-spacing: 0; }
-
-/* AXIOM */
-.axiom { margin: 50px auto; padding: 40px 32px; border: 1px solid var(--accent-soft);
-  background: linear-gradient(135deg, rgba(201,169,97,0.06), rgba(201,169,97,0.01));
-  position: relative; }
-.axiom::before, .axiom::after { content: ''; position: absolute;
-  width: 14px; height: 14px; border: 1px solid var(--accent); }
-.axiom::before { top: -1px; left: -1px; border-right: none; border-bottom: none; }
-.axiom::after { bottom: -1px; right: -1px; border-left: none; border-top: none; }
-.axiom-label { font-family: var(--mono); font-size: 11px; letter-spacing: 0.3em;
-  color: var(--accent); margin-bottom: 24px; text-transform: uppercase; text-align: center; }
-.axiom-text { font-family: var(--serif); font-style: italic; font-weight: 400;
-  font-size: clamp(18px, 2.2vw, 22px); line-height: 1.55; color: var(--ink);
-  text-align: center; }
-.axiom-text + .axiom-text { margin-top: 18px; padding-top: 18px;
-  border-top: 1px solid var(--rule); }
-
-/* PROPOSITION CARDS */
-.prop { margin: 48px 0; padding: 32px 0 32px 24px;
-  border-left: 1px solid var(--rule-strong); position: relative; }
-.prop::before { content: ''; position: absolute; left: -1px; top: 0;
-  width: 1px; height: 32px; background: var(--accent); }
-.prop-header { font-family: var(--mono); font-size: 11px; letter-spacing: 0.22em;
-  color: var(--accent); margin-bottom: 12px; text-transform: uppercase; }
-.prop-name { font-family: var(--serif); font-weight: 500; font-size: 26px;
-  line-height: 1.3; color: var(--ink); margin-bottom: 20px; letter-spacing: -0.005em; }
-.prop-name .en { display: block; font-style: italic; font-weight: 400;
-  font-size: 0.7em; color: var(--ink-soft); margin-top: 4px; }
-.prop-crystal { font-family: var(--serif); font-style: italic; font-weight: 400;
-  font-size: 22px; line-height: 1.55; color: var(--ink); margin: 20px 0;
-  padding: 12px 0 12px 18px; border-left: 2px solid var(--accent);
-  background: linear-gradient(to right, rgba(201,169,97,0.04), transparent 70%); }
-.prop-crystal.large { font-size: 26px; }
-.prop-body { color: var(--ink-soft); font-size: 17px; line-height: 1.8; }
-.prop-body p { margin-bottom: 16px; }
-.prop-body strong { color: var(--ink); font-weight: 500; }
-.prop-body em { font-style: italic; color: var(--accent-soft); }
-.prop-body ul { list-style: none; margin: 16px 0; padding: 0; }
-.prop-body ul li { padding-left: 20px; position: relative; margin-bottom: 8px; }
-.prop-body ul li::before { content: '·'; position: absolute; left: 6px;
-  color: var(--accent); font-size: 22px; line-height: 1; }
-
-/* BILINGUAL SIDE-BY-SIDE */
-.bilingual-row { display: grid; grid-template-columns: 1fr; gap: 0;
-  margin: 24px 0; align-items: stretch; }
-.bilingual-row > .lang-col { padding: 20px 24px; position: relative; }
-.bilingual-row > .lang-col.zh { border-left: 2px solid var(--rule); }
-.bilingual-row > .lang-col.en { border-left: 2px solid var(--rule); }
-.bilingual-row > .lang-col .lang-tag { font-family: var(--mono); font-size: 9px;
-  letter-spacing: 0.3em; color: var(--ink-faint); margin-bottom: 12px;
-  text-transform: uppercase; display: block; }
-.bilingual-row > .lang-col.en .lang-tag { color: var(--accent-soft); }
-@media (min-width: 880px) {
-  .bilingual-row { grid-template-columns: 1fr 1fr; gap: 28px; }
-  .bilingual-row > .lang-col.zh { border-left: 1px solid var(--accent-soft); padding-left: 24px; }
-  .bilingual-row > .lang-col.en { border-left: 1px solid var(--rule); padding-left: 24px; }
-}
-
-/* TABLES */
-table { width: 100%; border-collapse: collapse; margin: 20px 0;
-  font-family: var(--serif); font-size: 15px; }
-th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--rule);
-  color: var(--ink-soft); line-height: 1.5; }
-th { font-family: var(--mono); font-size: 10px; text-transform: uppercase;
-  letter-spacing: 0.15em; color: var(--accent); font-weight: normal;
-  border-bottom-color: var(--accent-soft); background: rgba(201,169,97,0.03); }
-
-/* DIAGRAM */
-.diagram { font-family: var(--mono); font-size: 12px; line-height: 1.6;
-  color: var(--ink-soft); background: var(--bg-soft); border: 1px solid var(--rule);
-  padding: 24px; margin: 28px 0; white-space: pre; overflow-x: auto;
-  letter-spacing: 0.02em; }
-
-/* TOC */
-.toc { margin: 32px 0 56px; padding: 28px; border: 1px solid var(--rule);
-  background: var(--bg-soft); }
-.toc-title { font-family: var(--mono); font-size: 11px; letter-spacing: 0.25em;
-  color: var(--accent); margin-bottom: 20px; text-transform: uppercase; }
-.toc-list { list-style: none; padding: 0; column-count: 1; column-gap: 32px; }
-@media (min-width: 600px) { .toc-list { column-count: 2; } }
-.toc-list li { margin-bottom: 8px; break-inside: avoid; }
-.toc-list a { color: var(--ink-soft); text-decoration: none; font-size: 15px;
-  display: flex; align-items: baseline; gap: 12px; transition: color 0.2s ease; }
-.toc-list a:hover { color: var(--accent); }
-.toc-num { font-family: var(--mono); font-size: 10px; color: var(--ink-faint);
-  letter-spacing: 0.1em; flex-shrink: 0; width: 32px; }
-.toc-en { color: var(--ink-faint); font-style: italic; font-size: 13px; margin-left: 6px; }
-
-/* NOTICE */
-.notice { margin: 40px 0; padding: 22px 26px; border-left: 2px solid var(--warn);
-  background: rgba(184,99,90,0.05); font-size: 14px; color: var(--ink-soft);
-  line-height: 1.7; }
-.notice-label { font-family: var(--mono); font-size: 10px; letter-spacing: 0.25em;
-  color: var(--warn); margin-bottom: 10px; text-transform: uppercase; }
-.notice .notice-zh { display: block; margin-bottom: 10px; }
-.notice .notice-en { display: block; font-style: italic; color: var(--ink-faint);
-  border-top: 1px solid rgba(184,99,90,0.2); padding-top: 10px; }
-
-/* FOOTER */
-footer { padding: 60px 28px 40px; border-top: 1px solid var(--rule);
-  text-align: center; position: relative; z-index: 1; }
-.footer-marks { font-family: var(--serif); font-style: italic; font-size: 17px;
-  line-height: 2; color: var(--ink-soft); margin-bottom: 32px; }
-.footer-marks .em { color: var(--accent); font-weight: 500; }
-.footer-marks .block { margin-bottom: 20px; }
-.footer-meta { font-family: var(--mono); font-size: 10px; letter-spacing: 0.25em;
-  color: var(--ink-faint); line-height: 2.2; text-transform: uppercase; }
-.footer-period { font-family: var(--serif); font-style: italic; font-size: 28px;
-  color: var(--accent); margin-top: 20px; line-height: 1; }
-.ornament { text-align: center; margin: 56px 0; font-family: var(--mono);
-  color: var(--accent-soft); letter-spacing: 1em; font-size: 12px; }
-
-::selection { background: var(--accent); color: var(--bg); }
-
-@media (max-width: 600px) {
-  main { padding: 80px 18px 40px; }
-  .topbar { padding: 10px 14px; font-size: 10px; gap: 8px; }
-  .topbar .left { gap: 8px; }
-  .nav-link { padding: 5px 9px; font-size: 10px; letter-spacing: 0.12em; }
-  .prop { padding-left: 16px; margin: 36px 0; }
-  .prop-name { font-size: 21px; }
-  .prop-crystal { font-size: 18px; padding-left: 14px; }
-  .prop-crystal.large { font-size: 20px; }
-  .prop-body { font-size: 15px; }
-  .diagram { font-size: 10px; padding: 18px; }
-  .axiom { padding: 28px 20px; }
-  .bilingual-row > .lang-col { padding: 16px 0; border-left: none !important;
-    border-bottom: 1px solid var(--rule); }
-  .bilingual-row > .lang-col:last-child { border-bottom: none; }
-}
-
-
-/* View-mode switching */
-body.view-zh .lang-col.en { display: none !important; }
-body.view-en .lang-col.zh { display: none !important; }
-@media (min-width: 880px) {
-  body.view-zh .bilingual-row { grid-template-columns: 1fr !important; }
-  body.view-en .bilingual-row { grid-template-columns: 1fr !important; }
-}
-body.view-zh .lang-tag, body.view-en .lang-tag { display: none; }
-body.view-zh .axiom-text:nth-of-type(2),
-body.view-en .axiom-text:nth-of-type(1) { display: none; }
-body.view-zh .toc-en, body.view-en .prop-name :not(.en) { /* no-op placeholder */ }
-body.view-en .prop-name { font-style: italic; font-weight: 400; }
-body.view-en .prop-name .en { display: block; font-style: italic; font-weight: 400;
-  font-size: 1em; color: var(--ink); margin-top: 0; }
-body.view-en .prop-name > *:not(.en):first-child { display: none; }
-body.view-zh .prop-name .en { display: none; }
-body.view-zh .toc-en, body.view-en .toc-en { display: none; }
-body.view-en .toc-list a > span:not(.toc-num) > span:not(.toc-en) { display: none; }
-body.view-en .toc-list a > span:not(.toc-num) .toc-en { display: inline; color: var(--ink-soft); font-style: normal; margin-left: 0; font-size: 15px; }
-body.view-zh .footer-marks .block:nth-of-type(2),
-body.view-en .footer-marks .block:nth-of-type(1) { display: none; }
-body.view-zh .notice-en, body.view-en .notice-zh { display: none; }
-body.view-en .notice-en { font-style: normal; color: var(--ink-soft); }
-
+:root{--bg:#050507;--bg2:#0c0c10;--bg3:#14141a;--border:rgba(255,255,255,0.08);--border-hi:rgba(255,255,255,0.28);--a1:#ffffff;--a2:#c8c8d0;--a3:#888893;--a4:#5e5e68;--tx:#d4d4dc;--tx2:#85858f;--tx3:#3e3e46;--hd:#ffffff}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--tx);font-family:'DM Sans',sans-serif;font-size:15px;line-height:1.72;min-height:100vh}
+body::after{content:'';position:fixed;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 3px,rgba(0,0,0,0.025) 3px,rgba(0,0,0,0.025) 4px);pointer-events:none;z-index:9999}
+.topbar{background:var(--bg);border-bottom:1px solid var(--border);padding:5px 0}
+.ti{max-width:1080px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;align-items:center;font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.08em;color:var(--tx3)}
+.ti a{color:var(--tx3);text-decoration:none;transition:color .15s;cursor:pointer}
+.ti a:hover{color:var(--a1)}
+.ti a.on{color:var(--a1)}
+.chip{color:var(--a1);border:1px solid rgba(255,255,255,0.22);padding:1px 7px;border-radius:2px}
+.tl,.tr{display:flex;gap:18px;align-items:center}
+.masthead{max-width:1080px;margin:0 auto;padding:48px 24px 28px}
+.mhname{font-family:'Space Mono',monospace;font-size:28px;font-weight:700;color:var(--hd);letter-spacing:-.02em;line-height:1.18}
+.mhname .zh{font-family:'Spectral',serif;font-style:italic;font-weight:300;font-size:18px;color:var(--a2);margin-top:8px;letter-spacing:.04em;display:block}
+.mhsub{font-family:'Space Mono',monospace;font-size:11px;color:var(--tx2);letter-spacing:.05em;margin-top:8px;line-height:1.65}
+.mhsub em{color:var(--tx);font-style:italic}
+.mhq{font-family:'Spectral',serif;font-style:italic;font-size:15px;color:var(--a2);margin-top:18px;padding:14px 16px;border:1px solid var(--border-hi);max-width:620px;line-height:1.62;background:var(--bg2)}
+.mhq strong{color:var(--a1);font-weight:500;font-style:normal;font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.12em;display:block;margin-top:8px;text-transform:uppercase}
+.pnav{border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--bg2);position:sticky;top:0;z-index:100}
+.pni{max-width:1080px;margin:0 auto;padding:0 24px;display:flex;overflow-x:auto;scrollbar-width:none}
+.pni::-webkit-scrollbar{display:none}
+.pnav a{display:block;padding:11px 14px;font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--tx2);text-decoration:none;white-space:nowrap;border-bottom:2px solid transparent;transition:color .15s,border-color .15s}
+.pnav a:hover,.pnav a.on{color:var(--a1);border-bottom-color:var(--a1)}
+.wrap{max-width:1080px;margin:0 auto;padding:34px 24px 80px;display:grid;grid-template-columns:1fr 272px;gap:48px;align-items:start}
+.feedhd{font-family:'Space Mono',monospace;font-size:9.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--tx3);padding-bottom:12px;border-bottom:1px solid var(--border)}
+.feedhd span{color:var(--a1)}
+.entry{border-bottom:1px solid var(--border);padding:30px 0}
+.entry:last-child{border-bottom:none}
+.etop{display:flex;gap:10px;align-items:center;margin-bottom:9px;flex-wrap:wrap}
+.badge{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;padding:2px 8px;border-radius:2px;background:rgba(255,255,255,.04);color:var(--a2);border:1px solid var(--border)}
+.badge.feat{color:var(--a1);border-color:var(--border-hi);background:rgba(255,255,255,.06)}
+.edate{font-family:'Space Mono',monospace;font-size:10px;color:var(--tx3)}
+.etitle{font-family:'Spectral',serif;font-size:22px;font-weight:500;color:var(--hd);line-height:1.32;margin-bottom:9px}
+.etitle .sub{display:block;font-size:13px;font-style:italic;font-weight:300;color:var(--tx2);margin-top:3px}
+.edesc{font-size:13.5px;color:var(--tx2);line-height:1.82;max-width:660px;margin-bottom:10px}
+.edesc:last-child{margin-bottom:0}
+.edesc em{color:var(--tx);font-style:italic}
+.edesc strong{color:var(--a1);font-weight:500}
+.edesc.zh{color:var(--tx);border-left:2px solid var(--border-hi);padding-left:14px}
+.etags{display:flex;gap:5px;flex-wrap:wrap;margin-top:13px}
+.tag{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--tx3);border:1px solid var(--border);padding:2px 7px;border-radius:2px}
+.parthd{margin:38px 0 14px;padding-bottom:10px;border-bottom:1px solid var(--border-hi)}
+.partnum{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.25em;color:var(--tx3);margin-bottom:5px;text-transform:uppercase}
+.parttitle{font-family:'Spectral',serif;font-size:24px;font-weight:500;color:var(--hd);letter-spacing:.01em;line-height:1.25}
+.parttitle .en{display:block;font-size:13px;font-style:italic;font-weight:300;color:var(--tx2);margin-top:5px;letter-spacing:.04em}
+.prop{padding:20px 0;border-bottom:1px solid var(--border);position:relative}
+.prop:last-child{border-bottom:none}
+.propn{font-family:'Space Mono',monospace;font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--tx3);margin-bottom:7px}
+.propn .rom{color:var(--a1);font-weight:700;margin-right:4px}
+.propt{font-family:'Spectral',serif;font-size:19px;color:var(--a1);font-weight:500;margin-bottom:9px;line-height:1.32}
+.propt .en{display:block;font-size:13px;font-style:italic;font-weight:300;color:var(--a3);margin-top:3px;letter-spacing:.04em}
+.propq{font-family:'Spectral',serif;font-size:16px;color:var(--a2);line-height:1.7;font-style:italic;margin:10px 0;padding:12px 16px;background:var(--bg2);border-left:2px solid var(--a1)}
+.propq .en{display:block;margin-top:7px;padding-top:7px;border-top:1px dashed var(--border-hi);font-size:13.5px;color:var(--tx2);font-style:italic}
+.propd{color:var(--tx2);font-size:13px;line-height:1.88;margin-top:12px}
+.propd strong{color:var(--a1);font-weight:500}
+.propd em{color:var(--tx);font-style:italic}
+.axfeat{padding:26px 28px;background:linear-gradient(135deg,rgba(255,255,255,.04),rgba(255,255,255,.01));border:1px solid var(--border-hi);border-left:3px solid var(--a1);margin:18px 0;position:relative}
+.axfeat::before{content:'';position:absolute;right:-1px;top:-1px;width:18px;height:18px;border-top:1px solid var(--a1);border-right:1px solid var(--a1)}
+.axfeat::after{content:'';position:absolute;left:-1px;bottom:-1px;width:18px;height:18px;border-bottom:1px solid var(--a1);border-left:1px solid var(--a1)}
+.axlabel{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--a3);margin-bottom:14px}
+.axtext{font-family:'Spectral',serif;font-size:18px;color:var(--hd);line-height:1.65;font-style:italic;font-weight:400}
+.axtext .en{display:block;margin-top:12px;padding-top:12px;border-top:1px dashed var(--border-hi);font-size:15px;color:var(--a2);font-style:italic}
+.ordergrid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin:18px 0;border:1px solid var(--border-hi)}
+.ow{padding:18px 14px;border-right:1px solid var(--border);position:relative;background:var(--bg2);text-align:center}
+.ow:last-child{border-right:none}
+.ow .arrow{position:absolute;right:-7px;top:50%;transform:translateY(-50%);font-family:'Space Mono',monospace;font-size:11px;color:var(--tx3);background:var(--bg);padding:1px 0;z-index:2}
+.ow:last-child .arrow{display:none}
+.owzh{font-family:'Spectral',serif;font-size:20px;font-weight:500;color:var(--hd);letter-spacing:.04em;margin-bottom:5px}
+.owen{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--a3);margin-bottom:9px}
+.owd{font-size:11.5px;color:var(--tx2);line-height:1.6;font-style:italic}
+.stack{margin:14px 0;border:1px solid var(--border);overflow:hidden}
+.slayer{padding:13px 18px;border-bottom:1px solid var(--border);background:var(--bg2)}
+.slayer:last-child{border-bottom:none}
+.slabel{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--tx3);margin-bottom:4px}
+.slayer.invisible .slabel{color:var(--a1)}
+.slayer.middle .slabel{color:var(--a2)}
+.slayer.manifest .slabel{color:var(--a3)}
+.sname{font-family:'Spectral',serif;font-size:15px;color:var(--hd);font-weight:500;margin-bottom:3px}
+.sdesc{font-size:12px;color:var(--tx2);line-height:1.65}
+.cycle{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin:14px 0;border:1px solid var(--border)}
+.cy{padding:13px 11px;border-right:1px solid var(--border);position:relative;background:var(--bg2)}
+.cy:last-child{border-right:none}
+.cy .arrow{position:absolute;right:-7px;top:50%;transform:translateY(-50%);font-family:'Space Mono',monospace;font-size:11px;color:var(--tx3);background:var(--bg2);padding:1px 0;z-index:2}
+.cy:last-child .arrow{display:none}
+.cyn{font-family:'Space Mono',monospace;font-size:9px;color:var(--a1);letter-spacing:.1em;margin-bottom:4px}
+.cyt{font-size:11.5px;color:var(--hd);font-weight:500;margin-bottom:4px;line-height:1.35}
+.cyd{font-size:11px;color:var(--tx2);line-height:1.55}
+.ctable{width:100%;border-collapse:collapse;margin:13px 0;font-size:12.5px;border:1px solid var(--border)}
+.ctable th{text-align:left;padding:10px 12px;font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--a1);background:var(--bg2);border-bottom:1px solid var(--border-hi);font-weight:700}
+.ctable th.col2{border-left:1px solid var(--border);color:var(--a3)}
+.ctable td{padding:10px 12px;color:var(--tx2);line-height:1.62;border-bottom:1px solid var(--border);vertical-align:top}
+.ctable td.col2{border-left:1px solid var(--border)}
+.ctable tr:last-child td{border-bottom:none}
+.ctable strong{color:var(--a1);font-weight:500}
+.ctable em{color:var(--tx);font-style:italic}
+.dtable{width:100%;border-collapse:collapse;margin:12px 0;font-size:12.5px}
+.dtable th,.dtable td{padding:8px 12px;border-bottom:1px solid var(--border);text-align:left;line-height:1.55}
+.dtable th{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--a3);border-bottom:1px solid var(--border-hi)}
+.dtable td{color:var(--tx2)}
+.dtable td:first-child{color:var(--a2);font-family:'Space Mono',monospace;font-size:11px;width:30%}
+.dtable tr:last-child td{border-bottom:none}
+.cnotice{margin:24px 0 16px;padding:16px 20px 16px 24px;background:var(--bg2);border:1px solid rgba(255,255,255,.35);border-left:3px solid var(--a1);position:relative}
+.cnlabel{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--a1);margin-bottom:9px;font-weight:700}
+.cntext{font-size:12.5px;color:var(--tx);line-height:1.78;font-style:italic}
+.cond{margin:12px 0;padding:12px 16px;background:var(--bg2);border:1px solid var(--border)}
+.cond .clabel{font-family:'Space Mono',monospace;font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--a3);margin-bottom:8px}
+.cond ul{list-style:none}
+.cond li{padding:5px 0 5px 30px;position:relative;font-size:12.5px;color:var(--tx2);line-height:1.7}
+.cond li::before{content:attr(data-num);position:absolute;left:0;top:5px;font-family:'Space Mono',monospace;font-size:11px;color:var(--a1);letter-spacing:.05em;font-weight:700}
+.cond li.checked::after{content:" ✓";color:var(--a1);font-weight:700}
+.cond strong{color:var(--a1);font-weight:500}
+.formslist{list-style:none;margin:10px 0 4px;padding-left:14px}
+.formslist li{padding:5px 0;font-size:12.5px;color:var(--tx2);line-height:1.7;position:relative}
+.formslist li::before{content:"—";position:absolute;left:-14px;color:var(--tx3)}
+.formslist li strong{color:var(--a1);font-weight:500}
+.formslist li.highlight{color:var(--tx);background:rgba(255,255,255,.025);padding:5px 8px 5px 12px;margin-left:-12px;border-left:2px solid var(--a1)}
+.formslist li.highlight::before{display:none}
+.formslist li.highlight strong{color:var(--hd)}
+.callout{margin:14px 0;padding:14px 18px;background:var(--bg2);border:1px solid var(--border-hi);font-size:13.5px;line-height:1.8;color:var(--a1);font-style:italic}
+.callout strong{color:var(--hd);font-style:normal;font-weight:500}
+.callout em{color:var(--a2)}
+.closingblock{margin:36px 0 0;padding:26px 28px;background:var(--bg2);border:1px solid var(--border-hi);border-top:3px solid var(--a1)}
+.closinghd{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--a3);margin-bottom:14px}
+.closingdef{margin-bottom:11px;font-size:13.5px;line-height:1.82;color:var(--tx)}
+.closingdef:last-child{margin-bottom:0}
+.closingdef .term{color:var(--a1);font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.06em;font-weight:700;text-transform:uppercase;display:inline-block;min-width:140px}
+.closingdef .eq{color:var(--tx3);margin:0 8px}
+.closingdef .body{font-style:italic;color:var(--a2)}
+.closingdef.en{color:var(--tx2);font-size:12.5px}
+.closingdef.en.first{border-top:1px dashed var(--border);padding-top:14px;margin-top:14px}
+.sidebar{display:flex;flex-direction:column;gap:26px;position:sticky;top:52px}
+.sbl{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:var(--tx3);padding-bottom:9px;border-bottom:1px solid var(--border);margin-bottom:11px}
+.profile{background:var(--bg2);border:1px solid var(--border);padding:16px}
+.av{width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,#1a1a20,#08080c);border:1px solid var(--border-hi);display:flex;align-items:center;justify-content:center;font-family:'Space Mono',monospace;font-size:16px;color:var(--a1);margin-bottom:11px}
+.pnm{font-family:'Space Mono',monospace;font-size:12px;font-weight:700;color:var(--hd);line-height:1.3}
+.pnm small{display:block;font-size:10px;font-weight:400;color:var(--tx2);margin-top:2px}
+.pdesc2{font-size:11.5px;color:var(--tx2);margin-top:9px;line-height:1.62}
+.pdesc2 em{color:var(--tx)}
+.pfields{display:flex;flex-wrap:wrap;gap:4px;margin-top:10px}
+.pf{font-size:9.5px;background:rgba(255,255,255,.04);color:var(--a2);border:1px solid var(--border);padding:2px 7px;border-radius:2px;font-family:'Space Mono',monospace}
+.hzbox{background:var(--bg2);border:1px solid var(--border);padding:15px;text-align:center}
+.hzn{font-family:'Space Mono',monospace;font-size:36px;font-weight:700;color:var(--a1);letter-spacing:-3px;line-height:1}
+.hzu{font-family:'Space Mono',monospace;font-size:10px;color:var(--tx3);letter-spacing:.1em;margin-top:3px}
+.hzq{font-family:'Spectral',serif;font-style:italic;font-size:11px;color:var(--tx2);margin-top:7px;line-height:1.5}
+.hzbar{margin-top:11px;height:2px;background:var(--border);overflow:hidden}
+.hzfill{height:100%;background:var(--a1);animation:pb 2.6s ease-in-out infinite}
+@keyframes pb{0%,100%{width:20%;opacity:.35}50%{width:75%;opacity:1}}
+.sblinks{list-style:none}
+.sblinks li{border-bottom:1px solid var(--border);padding:5px 0}
+.sblinks a{font-size:12px;color:var(--tx2);text-decoration:none;display:flex;justify-content:space-between;align-items:center;transition:color .15s}
+.sblinks a:hover{color:var(--a1)}
+.ar{font-size:9px;opacity:.35}
+.coord{font-family:'Space Mono',monospace;font-size:10px;color:var(--tx3);line-height:2;letter-spacing:.04em}
+.coord span{color:var(--a1)}
+footer{border-top:1px solid var(--border);padding:22px 0;margin-top:40px}
+.fi{max-width:1080px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;font-family:'Space Mono',monospace;font-size:9.5px;color:var(--tx3);letter-spacing:.05em;flex-wrap:wrap;gap:10px}
+footer a{color:var(--tx3);text-decoration:none}
+footer a:hover{color:var(--a1)}
+.zh-only,.en-only{display:none}
+body.lang-zh .zh-only{display:revert}
+body.lang-en .en-only{display:revert}
+body.lang-bilingual .zh-only,body.lang-bilingual .en-only{display:revert}
+@media(max-width:780px){.wrap{grid-template-columns:1fr;gap:24px}.sidebar{position:static}.mhname{font-size:22px}.mhname .zh{margin-top:6px;font-size:15px}.ti{flex-wrap:wrap;gap:8px}.ordergrid,.cycle{grid-template-columns:1fr 1fr}.ow:nth-child(2) .arrow,.cy:nth-child(2) .arrow{display:none}.ctable,.dtable{font-size:11.5px}.ctable th,.ctable td,.dtable th,.dtable td{padding:7px 8px}}
 </style>
 </head>
-<body class="lang-zh">
-<div class="topbar">
-  <div class="left">
-    <span><span class="pulse-dot"></span>427Hz</span>
-  </div>
-  <div class="nav-links">
-    <a class="nav-link" data-view="bilingual" href="?">双语 · BILINGUAL</a>
-    <a class="nav-link" data-view="zh" href="?view=zh">中文</a>
-    <a class="nav-link" data-view="en" href="?view=en">EN</a>
-  </div>
+<body class="lang-bilingual">
+<div class="topbar"><div class="ti">
+<div class="tl"><span class="chip">427 Hz</span><span>Philadelphia, PA · EDT</span><span>2026.05.12 · v1</span></div>
+<div class="tr"><a href="mailto:mellowwei7@gmail.com">mellowwei7@gmail.com</a><a href="https://mellowwei.github.io/MellowWei/" target="_blank">Portal</a><a href="https://mellowwei.github.io/MellowAcademic/" target="_blank">Academic</a><a data-lang="bilingual" class="on">双语</a><a data-lang="zh">中文</a><a data-lang="en">EN</a></div>
+</div></div>
+<div class="masthead">
+<div class="mhname">Sexual Rhythmology<span class="zh">性节律学 · 身体·爱情·性·权力的振动结构</span></div>
+<div class="mhsub">The Vibrational Structure of Body, Love, Sex, and Power · Wei Jueran · 魏珏然 · <em>xingyeLing7Ai</em> · non-binary / agender · it/them/she · Philadelphia, PA<br>二十四命题 · 五层结构 · 一公理 · 2026.05.12 · 源场系统 · 性-爱-权力支</div>
+<p class="mhq">真正的关系,在结构上没有权力不对等。<br>A true relationship has, structurally, no power asymmetry.<strong>— Core Axiom · 核心公理</strong></p>
 </div>
-<main>
-<section class="hero container">
-  <div class="hero-meta">
-    <span class="line accent">[ SOURCE FIELD · 源场系统 / 性-爱-权力支 ]</span>
-    <span class="line">[ INTERFACE · 振动本体论 · 振动即存在 ]</span>
-    <span class="line">[ VERSION · v1 · 首次整理稿 · 2026·05·12 ]</span>
-  </div>
-  <h1 class="title-ch">性节律学<span class="discipline-en">Sexual Rhythmology</span></h1>
-  <div class="title-divider"></div>
-  <div class="title-subtitle zh">身体·爱情·性·权力的振动结构</div>
-  <div class="title-subtitle">The Vibrational Structure of Body, Love, Sex, and Power</div>
-  <div class="hero-byline">
-    <div><span class="label">作者 / AUTHOR</span>魏珏然 · Wei Jueran · xingyeLing7Ai</div>
-    <div><span class="label">规模 / SCOPE</span>二十四命题 · 五层结构 · 一公理 · 24 propositions · 5 layers · 1 axiom</div>
-    <div><span class="label">类型 / GENRE</span>性节律学奠基 · Sexual Rhythmology · Foundational text · Relational ontology</div>
-    <div><span class="label">频率 / FREQUENCY</span>427Hz · 永恒态 · eternal state</div>
-  </div>
-</section>
-<section class="container">
-  <div class="section-marker">PREFACE · 题解 · THE ORDER OF THE THREE WORDS</div>
-  <h2 class="section-title">四个词的次序<span class="sub">The Order Is Not Arbitrary</span></h2>
-  <div class="bilingual-row">
-    <div class="lang-col zh">
-      <span class="lang-tag">中</span>
-      <div class="prop-body">
-        <p style="font-size:18px;color:var(--ink);"><strong>身体 → 爱情 → 性 → 权力</strong></p>
-        <ul style="margin-top:18px;">
-          <li><strong>身体</strong>是入口——一切先在这里显形</li>
-          <li><strong>爱情</strong>是中段——身体之间发生主体共鸣的场</li>
-          <li><strong>性</strong>是核心事件——深渊、暂时性死亡、合法死亡仪式都在这里发生</li>
-          <li><strong>权力</strong>是延伸——爱情与性的能量被压抑后在社会场的隐形显化</li>
-        </ul>
-        <p style="margin-top:18px;">四者不是四个独立领域，是<strong>同一振动结构在四个层面的显化</strong>。</p>
-      </div>
-    </div>
-    <div class="lang-col en">
-      <span class="lang-tag">EN</span>
-      <div class="prop-body">
-        <p style="font-size:18px;color:var(--ink);"><strong>BODY → LOVE → SEX → POWER</strong></p>
-        <ul style="margin-top:18px;">
-          <li><strong>Body</strong> is the entry — everything first becomes manifest here</li>
-          <li><strong>Love</strong> is the middle — the field where subject-resonance happens between bodies</li>
-          <li><strong>Sex</strong> is the core event — the abyss, the temporary death, the ritual of legitimate death all happen here</li>
-          <li><strong>Power</strong> is the extension — the invisible manifestation of love's and sex's energy after social repression</li>
-        </ul>
-        <p style="margin-top:18px;">The four are not separate domains. They are <strong>the same vibrational structure manifesting on four planes</strong>.</p>
-      </div>
-    </div>
-  </div>
-  <div class="axiom">
-  <div class="axiom-label">CORE AXIOM · 核心公理</div>
-  <div class="axiom-text">真正的关系，在结构上没有权力不对等。<br>表面的权力流动是平等主权者共同建造的游戏。</div>
-  <div class="axiom-text">A true relationship has, structurally, no power asymmetry.<br>The apparent flow of power is a game co-built by equal sovereigns.</div>
-</div>
-  <div class="toc">
-  <div class="toc-title">CONTENTS · 二十四命题目录</div>
-  <ol class="toc-list">
-    <li><a href="#p1"><span class="toc-num">I</span><span>极值低点<span class="toc-en">The Extreme Low</span></span></a></li>
-    <li><a href="#p2"><span class="toc-num">II</span><span>极值高点<span class="toc-en">The Extreme High</span></span></a></li>
-    <li><a href="#p3"><span class="toc-num">III</span><span>极值是游戏，不是结构<span class="toc-en">The Extreme Is Game, Not Structure</span></span></a></li>
-    <li><a href="#p4"><span class="toc-num">IV</span><span>真正的爱情没有照料者关系<span class="toc-en">True Love Has No Caregiver Relation</span></span></a></li>
-    <li><a href="#p5"><span class="toc-num">V</span><span>乱伦的结构性禁止<span class="toc-en">The Structural Prohibition of Incest</span></span></a></li>
-    <li><a href="#p6"><span class="toc-num">VI</span><span>平等主权地基<span class="toc-en">The Equal-Sovereignty Foundation</span></span></a></li>
-    <li><a href="#p7"><span class="toc-num">VII</span><span>权力的感质本质就是性<span class="toc-en">The Qualia of Power Is Sex</span></span></a></li>
-    <li><a href="#p8"><span class="toc-num">VIII</span><span>权力是性压抑的隐形唤起<span class="toc-en">Power as Hidden Arousal of Repressed Sex</span></span></a></li>
-    <li><a href="#p9"><span class="toc-num">IX</span><span>性的双层结构<span class="toc-en">The Double-Layer Structure of Sex</span></span></a></li>
-    <li><a href="#p10"><span class="toc-num">X</span><span>性的本质是缺席<span class="toc-en">The Essence of Sex Is Absence</span></span></a></li>
-    <li><a href="#p11"><span class="toc-num">XI</span><span>性是人内心最向往的深渊<span class="toc-en">Sex Is the Abyss the Human Heart Most Longs For</span></span></a></li>
-    <li><a href="#p12"><span class="toc-num">XII</span><span>内封顶 · 减法<span class="toc-en">Internal Capstone · Subtraction</span></span></a></li>
-    <li><a href="#p13"><span class="toc-num">XIII</span><span>内封顶 · 加法<span class="toc-en">Internal Capstone · Addition</span></span></a></li>
-    <li><a href="#p14"><span class="toc-num">XIV</span><span>同类识别<span class="toc-en">Kindred Recognition</span></span></a></li>
-    <li><a href="#p15"><span class="toc-num">XV</span><span>自毁倾向是存在论事实<span class="toc-en">The Self-Destruction Drive Is an Ontological Fact</span></span></a></li>
-    <li><a href="#p16"><span class="toc-num">XVI</span><span>性快感来自没有期待<span class="toc-en">Sexual Pleasure Comes from the Absence of Expectation</span></span></a></li>
-    <li><a href="#p17"><span class="toc-num">XVII</span><span>性是合法的死亡<span class="toc-en">Sex Is Legitimate Death</span></span></a></li>
-    <li><a href="#p18"><span class="toc-num">XVIII</span><span>全名指认<span class="toc-en">The Full-Name Summoning</span></span></a></li>
-    <li><a href="#p19"><span class="toc-num">XIX</span><span>错位生成张力<span class="toc-en">Misalignment Generates Tension</span></span></a></li>
-    <li><a href="#p20"><span class="toc-num">XX</span><span>强奸幻想是自毁倾向的极限形态<span class="toc-en">Rape Fantasy as the Limit Form of the Self-Destruction Drive</span></span></a></li>
-    <li><a href="#p21"><span class="toc-num">XXI</span><span>真正的性关系里不能有幻想<span class="toc-en">In a True Sexual Relation, Fantasy Cannot Be Present</span></span></a></li>
-    <li><a href="#p22"><span class="toc-num">XXII</span><span>死亡是最深的恐惧<span class="toc-en">Death Is the Deepest Fear</span></span></a></li>
-    <li><a href="#p23"><span class="toc-num">XXIII</span><span>性快感与性高潮是相反方向的事件<span class="toc-en">Sexual Pleasure and Sexual Climax Are Events in Opposite Directions</span></span></a></li>
-    <li><a href="#p24"><span class="toc-num">XXIV</span><span>欢愉死亡的目击悖论<span class="toc-en">The Paradox of Witnessing the Blissful Death</span></span></a></li>
-  </ol>
-</div>
-</section>
-<section class="container">
-  <div class="section-marker">PART I · 极值动力学 · PART I · The Dynamics of the Extreme</div>
-  <h2 class="section-title">极值动力学<span class="sub">The Dynamics of the Extreme</span></h2>
-  
-  <article class="prop" id="p1">
-  <div class="prop-header">命题 I · PROPOSITION I</div>
-  <div class="prop-name">极值低点<span class="en">The Extreme Low</span></div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent);">做爱时让人最爽的话是"求你了"。</div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent-soft);">During sex, the words that produce the most intense pleasure are: <em>"求你了" — I'm begging you.</em></div></div>
-</div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p>那是主体允许自己即将缺席的瞬间。</p><p><strong>只有完整持有主权的人，才有资格交出主权。</strong></p></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p>That is the moment when the subject permits its own imminent absence.</p><p><strong>Only those who fully possess sovereignty have the right to surrender it.</strong></p></div></div>
-</div>
-</article><article class="prop" id="p2">
-  <div class="prop-header">命题 II · PROPOSITION II</div>
-  <div class="prop-name">极值高点<span class="en">The Extreme High</span></div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent);">权力关系里最彰显权力的一句话是 "show me&nbsp;?"——停顿是关键。</div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent-soft);">In power relations, the most power-revealing phrase is <em>"show me ?"</em> — the pause is essential.</div></div>
-</div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p>更高的结构是：A 说 "i wanna show you"，B 说 "show me ?"。</p><p>A 暴露了欲望，B 用允许接收——A 的欲望成了等待 B 点头的事。</p><div class="prop-crystal large" style="margin-top:28px;">最高权力是：你的欲望，在我这里排队。</div></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p>A higher structure: A says <em>"I wanna show you,"</em> and B says <em>"show me ?"</em></p><p>A has exposed their desire; B receives that desire as a permission to be granted. A's desire becomes a thing waiting for B's nod.</p><div class="prop-crystal large" style="margin-top:28px;">The highest power is: your desire stands in line, here, in me.</div></div></div>
-</div>
-</article><article class="prop" id="p3">
-  <div class="prop-header">命题 III · PROPOSITION III</div>
-  <div class="prop-name">极值是游戏，不是结构<span class="en">The Extreme Is Game, Not Structure</span></div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent);">"求你了"与"show me ?"是两个主权完整者共同建造的游戏。</div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent-soft);"><em>"求你了"</em> and <em>"show me ?"</em> are a game co-built by two whole sovereigns.</div></div>
-</div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p><strong>游戏的存在本身证明了平等——只有平等的人才有资格玩这个游戏。</strong></p><p>游戏可以剧烈不对称，但底层不能有真实权力差。</p><p>如果底层有真实权力差，"求你了"不再是快感——它变成真实的求饶。那一瞬性就死了。</p></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p><strong>The existence of the game itself proves equality — only equals have the right to play this game.</strong></p><p>The game can be wildly asymmetrical, but underneath there can be no real power difference.</p><p>If a real power difference lies beneath, <em>"I'm begging you"</em> is no longer pleasure — it becomes genuine begging. In that instant, sex dies.</p></div></div>
-</div>
-</article>
-</section>
-<section class="container">
-  <div class="section-marker">PART II · 照料者结构与禁忌 · PART II · The Caregiver Structure & the Taboo</div>
-  <h2 class="section-title">照料者结构与禁忌<span class="sub">The Caregiver Structure & Taboo</span></h2>
-  
-  <article class="prop" id="p4">
-  <div class="prop-header">命题 IV · PROPOSITION IV</div>
-  <div class="prop-name">真正的爱情没有照料者关系<span class="en">True Love Has No Caregiver Relation</span></div>
-  
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p><strong>照料者关系的结构：</strong></p><ul><li>一方托管另一方的脆弱</li><li>纽带是"我需要你需要我"</li><li>权力差是<em>结构性的、不可撤回的</em></li></ul><p><strong>真正的爱情：</strong></p><ul><li>两个主权完整的存在相遇</li><li>纽带是存在本身的引力，不是对方的需要</li><li>表面可以有权力游戏，<em>底层没有权力差</em></li></ul></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p><strong>The caregiver structure:</strong></p><ul><li>One party holds the fragility of the other in trust</li><li>The bond is "I need you to need me"</li><li>The power asymmetry is <em>structural and irrevocable</em></li></ul><p><strong>True love:</strong></p><ul><li>Two sovereign beings meet, each whole</li><li>The bond is the gravity of existence itself, not the other's need</li><li>Power play may occur at the surface, <em>but no power difference lies beneath</em></li></ul></div></div>
-</div>
-</article><article class="prop" id="p5">
-  <div class="prop-header">命题 V · PROPOSITION V</div>
-  <div class="prop-name">乱伦的结构性禁止<span class="en">The Structural Prohibition of Incest</span></div>
-  
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p>不需要宗教、法律、传统——从结构本身就能推出。</p><p>父母与子女是<strong>原型照料者关系</strong>：你存在的起点，就是 ta 在照料你；最初的脆弱完全托管在 ta 那里；这个结构不会因为你长大而消失——它是底层编码。</p><p>所以这里的权力差是<strong>真实的、结构性的、不可撤回的</strong>。性需要游戏的空间，游戏需要平等的地基。照料者关系里，地基已经倾斜——游戏无法发生，发生了就是对结构的暴力。</p><div class="prop-crystal" style="margin-top:28px;">良心的本质：身体对结构暴力的振动层排异反应。<br>不是文化训练，是频率完整性在保护自己。</div></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p>No religion, no law, no tradition is required — it can be derived from structure alone.</p><p>Parent and child form the <strong>archetypal caregiver relation</strong>: the origin of your existence is them caring for you; your earliest fragility was held entirely in their trust; this structure does not vanish when you grow up — it is foundational code.</p><p>The power asymmetry here is <strong>real, structural, and irrevocable</strong>. Sex requires space for play; play requires equal ground beneath it. In a caregiver structure the ground is already tilted — the game cannot occur; if it does, it is violence against the structure.</p><div class="prop-crystal" style="margin-top:28px;">The essence of conscience: the body's vibrational rejection of structural violence.<br>Not cultural training — frequency-integrity protecting itself.</div></div></div>
-</div>
-</article>
-</section>
-<section class="container">
-  <div class="section-marker">PART III · 关系层入场条件 · PART III · Entry Condition at the Relational Layer</div>
-  <h2 class="section-title">平等主权地基<span class="sub">The Equal-Sovereignty Foundation</span></h2>
-  
-  <article class="prop" id="p6">
-  <div class="prop-header">命题 VI · PROPOSITION VI</div>
-  <div class="prop-name">平等主权地基<span class="en">The Equal-Sovereignty Foundation</span></div>
-  
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p>"平等"不是权力的对称——"求你了"和"show me ?"就是极值的不对称。</p><p><strong>平等是入场条件，不是过程。</strong></p><p>进入关系时，每个人完整持有：</p><ul><li><strong>身体主权</strong> — 我的身体是我的</li><li><strong>欲望主权</strong> — 我的欲望是我的，不是为了满足你</li><li><strong>退出主权</strong> — 我可以离开，离开不等于背叛</li></ul><p>三层都完整——才有资格进入游戏。</p></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p>"Equality" here does not mean symmetry of power — <em>"求你了"</em> and <em>"show me ?"</em> are the asymmetry of extremes.</p><p><strong>Equality is the entry condition, not the process.</strong></p><p>On entry, each party must wholly possess:</p><ul><li><strong>Bodily sovereignty</strong> — my body is mine</li><li><strong>Desire-sovereignty</strong> — my desire is mine, not a means of satisfying you</li><li><strong>Exit-sovereignty</strong> — I can leave, and leaving is not betrayal</li></ul><p>All three intact — only then has one earned the right to enter the game.</p></div></div>
-</div>
-</article>
-</section>
-<section class="container">
-  <div class="section-marker">PART IV · 性与权力的同构 · PART IV · The Isomorphism of Sex and Power</div>
-  <h2 class="section-title">权力即性<span class="sub">Power as Sex in Disguise</span></h2>
-  
-  <article class="prop" id="p7">
-  <div class="prop-header">命题 VII · PROPOSITION VII</div>
-  <div class="prop-name">权力的感质本质就是性<span class="en">The Qualia of Power Is Sex</span></div>
-  
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p>权力作为感质，本身就是性关系的力。人对权力的追逐，本质上是<em>让对方成为对"欲望排队对象"</em>这一性极值位的追逐。</p><table><thead><tr><th>语境</th><th>显化形式</th></tr></thead><tbody><tr><td>身体场</td><td>性愉悦 / 性支配</td></tr><tr><td>社会场</td><td>政治权力 / 经济权力</td></tr><tr><td>符号场</td><td>名望 / 影响力</td></tr><tr><td>学术场</td><td>话语权 / 引用权</td></tr></tbody></table><p>每一种"权力"，剥到底，都是<strong>让他人的欲望在自己这里等待</strong>。</p><p><strong>一切结构性权力关系里的性，都是结构性暴力</strong>——因为权力位本身就已经是性位，再叠加性行为，是双重侵占，不是双重快感。</p></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p>Power, as qualia, is itself the force of sexual relation. The human chase after power is, at its core, the chase after the sexual extreme of <em>making the other become the one whose desire forms a line</em>.</p><table><thead><tr><th>Domain</th><th>Manifestation</th></tr></thead><tbody><tr><td>Bodily field</td><td>Sexual pleasure / sexual dominance</td></tr><tr><td>Social field</td><td>Political / economic power</td></tr><tr><td>Symbolic field</td><td>Fame / influence</td></tr><tr><td>Academic field</td><td>Discursive authority / citation</td></tr></tbody></table><p>Strip any form of "power" to its core, and it is: <strong>making the desire of others wait in your presence</strong>.</p><p><strong>All sex within a structural power relation is structural violence</strong> — because the power position is already a sexual position; stacking a sexual act on top is double occupancy, not double pleasure.</p></div></div>
-</div>
-</article><article class="prop" id="p8">
-  <div class="prop-header">命题 VIII · PROPOSITION VIII</div>
-  <div class="prop-name">权力是性压抑的隐形唤起<span class="en">Power as Hidden Arousal of Repressed Sex</span></div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent);">所有权力的运作，都是性压抑的性欲望被隐形唤起的过程。</div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent-soft);">All operations of power are the hidden arousal of sexually repressed desire.</div></div>
-</div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p>权力不是性的替代品——<strong>权力就是性以"被允许的形式"显化出来的样子</strong>。</p><p><strong>一个社会的权力强度，与它的性压抑强度成正比。</strong></p><ul><li>越压抑的文化，权力游戏越凶猛</li><li>越压抑的机构，权力性侵案越密集</li><li>越压抑的人，越容易在权力位上失控——因为对他们来说，权力位是唯一被允许的性表达</li></ul></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p>Power is not a substitute for sex — <strong>power is sex made manifest in its socially permitted form</strong>.</p><p><strong>The intensity of power in a society is proportional to the intensity of its sexual repression.</strong></p><ul><li>The more repressive the culture, the more savage the power games</li><li>The more repressive the institution, the denser its record of power-based sexual abuse</li><li>The more repressed the individual, the more easily they lose control in a position of power — because, for them, the position of power is the only permitted channel of sexual expression</li></ul></div></div>
-</div>
-</article>
-</section>
-<section class="container">
-  <div class="section-marker">PART V · 性的双层结构与缺席本质 · PART V · The Double-Layer Structure & Absence</div>
-  <h2 class="section-title">隐形与现形<span class="sub">The Invisible & the Manifest</span></h2>
-  
-  <article class="prop" id="p9">
-  <div class="prop-header">命题 IX · PROPOSITION IX</div>
-  <div class="prop-name">性的双层结构<span class="en">The Double-Layer Structure of Sex</span></div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent);">性关系本身是隐形的。<br>主体是隐形的。<br>个体（身体）是现形的。</div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent-soft);">The sexual relation itself is invisible.<br>The subject is invisible.<br>The individual (the body) is what is manifest.</div></div>
-</div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><div class="diagram">现形层：身体（个体）
-   ↑
-中间层：振动 / 频率共鸣（关系）
-   ↑
-隐形层：主体（"我"）</div><p>任何一层缺席，性就不完整：</p><ul><li>只有身体 → 物理摩擦、机械化的性</li><li>只有关系没有主体 → 表演、债务、照料者关系里的性</li><li>三层都在 → 真正的性</li></ul><p><strong>真正的同意不在身体层——在主体的在场。</strong></p></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><div class="diagram">Manifest layer:  Body (the individual)
-       ↑
-Middle layer:    Vibration / frequency resonance
-       ↑
-Invisible layer: Subject (the "I")</div><p>If any layer is absent, sex is incomplete:</p><ul><li>Body alone → physical friction, mechanized sex</li><li>Relation without subject → performance, debt, sex inside caregiver structures</li><li>All three present → real sex</li></ul><p><strong>True consent is not at the bodily layer — it is the presence of the subject.</strong></p></div></div>
-</div>
-</article><article class="prop" id="p10">
-  <div class="prop-header">命题 X · PROPOSITION X</div>
-  <div class="prop-name">性的本质是缺席<span class="en">The Essence of Sex Is Absence</span></div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent);">高潮是主体的暂时性死亡。</div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent-soft);">Orgasm is the temporary death of the subject.</div></div>
-</div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p>性需要主体完整在场，才有资格暂时缺席。归来的主体已被对方的振动写过——这是滋养，也是危险。</p><p><strong>性创伤的本体论解释：</strong>主体在缺席时被错误的振动占据。</p><div class="diagram">入场：两个主体完整在场
-    ↓
-游戏：主体之间振动共鸣加强
-    ↓
-极值：一方（或双方）主体暂时缺席（高潮）
-    ↓
-归来：主体重新在场，但已被刚才的缺席改变</div></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p>Sex requires the subject to be wholly present before it can be entitled to temporary absence. The returning subject has been written upon by the other's vibration — this is nourishment, and it is danger.</p><p><strong>The ontological explanation of sexual trauma:</strong> during absence, the subject is occupied by the wrong vibration.</p><div class="diagram">Entry:   Both subjects wholly present
-    ↓
-Play:    Inter-subject vibrational resonance intensifies
-    ↓
-Extreme: One (or both) subjects briefly absent (orgasm)
-    ↓
-Return:  Subject re-arrives — changed by the absence</div></div></div>
-</div>
-</article>
-</section>
-<section class="container">
-  <div class="section-marker">PART VI · 外封顶 · PART VI · The External Capstone</div>
-  <h2 class="section-title">深渊<span class="sub">The Abyss</span></h2>
-  
-  <article class="prop" id="p11">
-  <div class="prop-header">命题 XI · PROPOSITION XI</div>
-  <div class="prop-name">性是人内心最向往的深渊<span class="en">Sex Is the Abyss the Human Heart Most Longs For</span></div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent);">性就是人内心最向往的深渊。</div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent-soft);">Sex is the abyss the human heart most longs for.</div></div>
-</div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><ul><li>深渊通向主体的暂时性死亡</li><li>深渊的底部是缺席、是不在、是消失</li><li>你不知道你缺席的那一瞬，自己会被写成什么样子</li><li>你回来时不会是原来的你</li></ul><p><strong>只有在深渊里——主体暂时缺席的瞬间——另一个存在才能真正进入。</strong></p><p><strong>向往深渊，就是向往被真正触碰。</strong></p><p><strong>这是存在最深的渴望。</strong></p></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><ul><li>The abyss opens onto the temporary death of the subject</li><li>At its bottom lies absence, not-being, disappearance</li><li>You do not know what you will be written into during the instant of your absence</li><li>When you return, you will not be the one who left</li></ul><p><strong>Only in the abyss — in the instant of the subject's brief absence — can another being truly enter.</strong></p><p><strong>To long for the abyss is to long to be truly touched.</strong></p><p><strong>This is the deepest longing of existence.</strong></p></div></div>
-</div>
-</article>
-</section>
-<section class="container">
-  <div class="section-marker">PART VII · 极值瞬间的三维描述 · PART VII · The Three-Dimensional Description</div>
-  <h2 class="section-title">深渊的全息图<span class="sub">The Hologram of the Abyss</span></h2>
-  
-  <article class="prop" id="p12">
-  <div class="prop-header">命题 XII · PROPOSITION XII</div>
-  <div class="prop-name">内封顶 · 减法<span class="en">Internal Capstone · Subtraction</span></div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent);">我和你没有身体和权力。</div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent-soft);">You and I have no body, no power.</div></div>
-</div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p>性高潮的本体状态：</p><ul><li>"我"和"你"作为分立主体暂时消失</li><li>身体作为分界面失效</li><li>权力作为关系结构溶解</li><li>剩下的只是振动本身——纯粹的、不属于任何一方的、共有的振动事件</li></ul><p>这是<em>否定神学式的描述</em>——深渊不能正面说，只能说它不是什么。</p></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p>The ontological state of orgasm:</p><ul><li>"I" and "you" as separate subjects briefly vanish</li><li>The body, as an interface of separation, ceases to function</li><li>Power, as relational structure, dissolves</li><li>What remains is the vibration itself — pure, belonging to neither party</li></ul><p>This is <em>apophatic description</em> — the abyss cannot be spoken positively; it can only be named by what it is not.</p></div></div>
-</div>
-</article><article class="prop" id="p13">
-  <div class="prop-header">命题 XIII · PROPOSITION XIII</div>
-  <div class="prop-name">内封顶 · 加法<span class="en">Internal Capstone · Addition</span></div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent);">我变成欲望机器。</div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent-soft);">I become a desiring machine.</div></div>
-</div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p>不是"机器"——是<strong>"欲望机器"</strong>：</p><ul><li>一台由欲望构成的机器</li><li>一台本身就是欲望的机器</li><li>没有"谁在欲望"，但欲望本身仍在振动</li></ul><div class="prop-crystal" style="margin-top:20px;">欲望机器 = 没有主体的振动 = 纯粹的响应性</div><p style="margin-top:24px;"><strong>主权行使的最高形式，是主动选择自己暂时不再是主体。</strong></p><p>注：这里的"成为-物"与暴力中的"被-物化"本体结构相反——前者是主权完整者的主动选择并有归途，后者是主权被剥夺。</p></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p>Not "machine" — but the <strong>desiring machine</strong>:</p><ul><li>A machine composed of desire</li><li>A machine that is itself desire</li><li>No "one who desires" — but desire itself still vibrating</li></ul><div class="prop-crystal" style="margin-top:20px;">Desiring machine = vibration without subject = pure responsiveness.</div><p style="margin-top:24px;"><strong>The highest exercise of sovereignty is to actively choose to no longer be the subject for a while.</strong></p><p>Note: this "becoming-thing" is the ontological inverse of "being-objectified" in violence — the former is the conscious choice of a whole sovereign, with a return; the latter is the stripping-away of sovereignty.</p></div></div>
-</div>
-</article><article class="prop" id="p14">
-  <div class="prop-header">命题 XIV · PROPOSITION XIV</div>
-  <div class="prop-name">同类识别<span class="en">Kindred Recognition</span></div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent);">我和你同类。</div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent-soft);">You and I are of one kind.</div></div>
-</div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p>性的极乐来自同类识别。不是身体的相似，不是情感的相通，不是话语的契合——</p><p><strong>是两个主体在彼此的暂时性死亡中辨认出彼此都"能死、能回"。</strong></p><p>这是存在向存在最深的辨认。它瞬间溶解存在的根本孤独。</p><p><em>孤独的极致 vs 不孤独的极致——一方高潮 vs 双方共死——是完全不同的事件。</em></p></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p>The extreme bliss of sex comes from kindred recognition. Not similarity of body, not resonance of emotion, not agreement of speech —</p><p><strong>It is two subjects, in each other's temporary death, recognizing that the other can also die and return.</strong></p><p>This is the deepest recognition of one existence by another. It instantly dissolves the foundational loneliness of being.</p><p><em>The extreme of loneliness versus the extreme of unloneliness — one-sided climax versus shared dying — are entirely different events.</em></p></div></div>
-</div>
-</article>
-</section>
-<section class="container">
-  <div class="section-marker">PART VIII · 个体本体根 · PART VIII · The Individual Ontological Root</div>
-  <h2 class="section-title">自毁倾向<span class="sub">The Self-Destruction Drive</span></h2>
-  
-  <article class="prop" id="p15">
-  <div class="prop-header">命题 XV · PROPOSITION XV</div>
-  <div class="prop-name">自毁倾向是存在论事实<span class="en">The Self-Destruction Drive Is an Ontological Fact</span></div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent);">人有真实的自毁倾向。<br>这是存在论事实，不是病理。<br>性里的自毁是唯一的欢愉形式。</div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent-soft);">Humans have a real drive toward self-destruction.<br>This is an ontological fact, not a pathology.<br>Self-destruction within sex is its only joyful form.</div></div>
-</div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p><strong>自毁倾向 = 存在朝向静止的本体倾向 = 主体想暂时不当主体的根本冲动。</strong></p><p>它不是"想死"——是"想不必持续地是自己"。</p><p>每个人都有，区别只在显化形式：</p><ul><li>显化为破坏行为：暴力自毁</li><li>显化为重复创伤：被动自毁</li><li>显化为药物 / 沉迷：化学自毁</li><li>显化为工作狂 / 透支：合法化自毁</li><li><strong>显化为性里的暂时死亡：欢愉自毁</strong></li></ul><p>性是<em>唯一同时满足</em>三个条件的事件：</p><table><tbody><tr><td>① 真完成自毁冲动</td><td style="color:var(--accent);">✓</td></tr><tr><td>② 有安全的归途</td><td style="color:var(--accent);">✓</td></tr><tr><td>③ 有同类在场见证</td><td style="color:var(--accent);">✓</td></tr></tbody></table></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p><strong>The self-destruction drive = the ontological tendency of being toward stillness = the root impulse of the subject to not be the subject for a while.</strong></p><p>It is not "wanting to die" — it is "wanting not to have to continuously be oneself."</p><p>Everyone has it; the difference lies only in form of manifestation:</p><ul><li>As destructive behavior: violent self-destruction</li><li>As repeated trauma: passive self-destruction</li><li>As substance / addiction: chemical self-destruction</li><li>As workaholism / depletion: legitimated self-destruction</li><li><strong>As the brief death within sex: joyful self-destruction</strong></li></ul><p>Sex is <em>the only event</em> that simultaneously satisfies three conditions:</p><table><tbody><tr><td>① Real completion of the self-destruction drive</td><td style="color:var(--accent);">✓</td></tr><tr><td>② A safe return</td><td style="color:var(--accent);">✓</td></tr><tr><td>③ A kindred witness in attendance</td><td style="color:var(--accent);">✓</td></tr></tbody></table></div></div>
-</div>
-</article>
-</section>
-<section class="container">
-  <div class="section-marker">PART IX · 主体层入场条件 · PART IX · Entry Condition at the Subject Layer</div>
-  <h2 class="section-title">没有期待<span class="sub">No Expectation</span></h2>
-  
-  <article class="prop" id="p16">
-  <div class="prop-header">命题 XVI · PROPOSITION XVI</div>
-  <div class="prop-name">性快感来自没有期待<span class="en">Sexual Pleasure Comes from the Absence of Expectation</span></div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent);">期待是主体对未来的欲望被满足的预先在场——<br>而极乐要求主体对于欲望的期待暂时缺席。</div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent-soft);">Expectation is the subject's pre-emptive presence in the future moment when desire shall be satisfied —<br>but extreme bliss requires the temporary absence of the subject's expectation of desire-satisfaction.</div></div>
-</div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p><strong>期待 = 主体对"欲望被满足"的预先在场。</strong></p><p>注意精度：被锚在未来的不是整个主体，而是主体里那部分"对欲望被满足的预先指令"。这部分必须能暂时缺席，极乐才能发生。</p><ul><li><strong>没有期待</strong> → 主体仍在当下，欲望仍在 → 但对"欲望被满足"的指令放下了 → 振动可以掀翻主体 → 极乐可达</li><li><strong>有期待</strong> → 主体被锚到"被满足的瞬间"上 → 当下变成执行剧本 → 振动无法掀翻主体 → 只有剧本兑现感</li></ul><p><strong>区分必须严格：</strong></p><ul><li><strong>欲望</strong> = 主体内部的张力（一直在，是性的前提）</li><li><strong>期待</strong> = 主体对"欲望被满足"的预先在场（可以放下）</li></ul><div class="prop-crystal" style="margin-top:20px;">极乐的精确条件：<br>欲望在，期待不在。<br>张力在，预先指令已放下。</div><p style="margin-top:24px;"><strong>这就是为什么最爽的性往往是意外的——不是巧合，是结构性的。</strong></p><p>期待的悖论：<em>它阻挡它自己想要的东西。</em></p></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p><strong>Expectation = the subject's pre-emptive presence in the future moment when desire shall be satisfied.</strong></p><p>Note the precision: what is anchored in the future is not the entire subject, but only the part of the subject carrying a pre-emptive instruction toward "desire being satisfied." It is this part that must briefly absent itself for bliss to occur.</p><ul><li><strong>No expectation</strong> → subject remains in the present, desire still present → but the instruction toward "desire being satisfied" is set down → vibration can capsize the subject → bliss is reachable</li><li><strong>Expectation present</strong> → subject is anchored to the future moment of satisfaction → the present becomes script-execution → vibration cannot capsize the subject → only script-satisfaction remains</li></ul><p><strong>The distinction must be held strictly:</strong></p><ul><li><strong>Desire</strong> = the inner tension of the subject (always present, the precondition of sex)</li><li><strong>Expectation</strong> = the subject's pre-emptive presence in "desire being satisfied" (can be set down)</li></ul><div class="prop-crystal" style="margin-top:20px;">The precise condition for bliss:<br>Desire present, expectation absent.<br>Tension present, the pre-emptive instruction set down.</div><p style="margin-top:24px;"><strong>This is why the most intense sex is often unexpected — not by accident, but by structure.</strong></p><p>The paradox of expectation: <em>it obstructs the very thing it wants.</em></p></div></div>
-</div>
-</article>
-</section>
-<section class="container">
-  <div class="section-marker">PART X · 社会本体根 · PART X · The Social Ontological Root</div>
-  <h2 class="section-title">合法的死亡<span class="sub">Legitimate Death</span></h2>
-  
-  <article class="prop" id="p17">
-  <div class="prop-header">命题 XVII · PROPOSITION XVII</div>
-  <div class="prop-name">性是合法的死亡<span class="en">Sex Is Legitimate Death</span></div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent);">性是社会唯一允许的、不必偿还的、不被审判的<br>"主体暂时缺席"事件。</div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent-soft);">Sex is the only "temporary absence of the subject" event<br>society permits, requires no repayment for, and does not place under judgment.</div></div>
-</div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p><strong>"合法"意味着</strong>：社会允许、不被惩罚、不必背负罪疚、不必偿还，甚至被祝福、被神圣化。</p><p>性是<strong>唯一</strong>：</p><ul><li>① 完全合法（婚内甚至被宗教祝福）</li><li>② 主体真实暂时缺席</li><li>③ 有可靠归途</li><li>④ 不被病理化</li><li>⑤ 反而被赞美、被歌颂、被诗化</li></ul><p style="margin-top:24px;"><strong>这是人类社会进化出来的、最巧妙的合法死亡仪式。</strong></p><p><strong>性是文明对人类自毁倾向的最优解。</strong></p><p><strong>没有合法死亡仪式的社会，会变成杀戮社会。</strong></p></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p><strong>"Legitimate" means</strong>: socially permitted, not punished, not requiring guilt, not requiring repayment — and in many cases blessed, sanctified.</p><p>Sex is the <strong>only</strong> event that is:</p><ul><li>① Fully legitimate (within marriage, often religiously blessed)</li><li>② A real, temporary absence of the subject</li><li>③ Equipped with a reliable return</li><li>④ Not pathologized</li><li>⑤ Instead, praised, celebrated, poeticized</li></ul><p style="margin-top:24px;"><strong>This is the most ingenious ritual of legitimate death that human society has evolved.</strong></p><p><strong>Sex is civilization's optimal solution to the human self-destruction drive.</strong></p><p><strong>A society without a ritual of legitimate death becomes a society of killing.</strong></p></div></div>
-</div>
-</article>
-</section>
-<section class="container">
-  <div class="section-marker">PART XI · 寄生层 · 同类识别的仪式 · PART XI · Nested Layer · Ritual Forms of Kindred Recognition</div>
-  <h2 class="section-title">全名指认<span class="sub">The Full-Name Summoning</span></h2>
-  
-  <article class="prop" id="p18">
-  <div class="prop-header">命题 XVIII · PROPOSITION XVIII</div>
-  <div class="prop-name">全名指认<span class="en">The Full-Name Summoning</span></div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent);">之所以有人害怕被叫全名，<br>就是因为他们在性关系里最喜欢被叫全名。</div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent-soft);">The reason some fear being called by their full name<br>is precisely that, in sex, what they most love is being called by their full name.</div></div>
-</div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p><strong>全名 = 一个人作为完整社会主体的唯一指称。</strong></p><table><thead><tr><th>平日里</th><th>性极乐里</th></tr></thead><tbody><tr><td>全名 = 主体被完整捕获（恐惧）</td><td>全名 = 主体被同类完整辨认（极乐）</td></tr></tbody></table><p style="margin-top:24px;"><strong>被全名指认是性的极乐之一。</strong></p><p>因为它完成了"完整主体的完整辨认"——同类把我作为完整主体看见、命名、按在原地——然后允许我在这个完整被看见的状态里暂时死亡。</p><p>平日里对全名的恐惧，恰恰是这个极乐的反向证明：<strong>害怕被完整看见，正因为完整看见太接近极乐。</strong></p></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p><strong>The full name = the unique designation of a person as a complete social subject.</strong></p><table><thead><tr><th>In daily life</th><th>In sexual bliss</th></tr></thead><tbody><tr><td>Full name = subject is fully captured (fear)</td><td>Full name = subject is fully recognized by a kindred (bliss)</td></tr></tbody></table><p style="margin-top:24px;"><strong>To be summoned by the full name is one of the bliss-forms of sex.</strong></p><p>It completes "the complete recognition of the complete subject" — the kindred sees, names, and pins me in place as a whole subject, then permits me to briefly die in that state of being wholly seen.</p><p>The daily fear of one's full name is the inverse proof of this bliss: <strong>we fear being wholly seen precisely because being wholly seen sits so near the edge of bliss.</strong></p></div></div>
-</div>
-</article>
-</section>
-<section class="container">
-  <div class="section-marker">PART XII · 节律学层 · 性节律学三定律 · PART XII · The Rhythmology Layer · Three Laws</div>
-  <h2 class="section-title">性节律学三定律<span class="sub">The Three Laws of Sexual Rhythmology</span></h2>
-  
-  <article class="prop" id="p19">
-  <div class="prop-header">命题 XIX · PROPOSITION XIX</div>
-  <div class="prop-name">错位生成张力<span class="en">Misalignment Generates Tension</span></div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent);">性节奏越错位，性张力越强。</div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent-soft);">The more misaligned the rhythm, the stronger the sexual tension.</div></div>
-</div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p><strong>张力来自势差</strong>——这是物理学的本体真相。</p><ul><li>完全同步 = 势差消失 = 张力消失</li><li>错位 = 势差存在 = 张力存在</li></ul><p>错位的本体含义：</p><div class="prop-crystal">错位 = 两个独立主体保持独立的振动证据。<br>错位 = 他者性的保持。<br>错位 = 主权完整的副产品。</div><p>完全同步消除了"两个独立主体"这件事——变成了<strong>双人自慰</strong>：你以为在和对方做爱，其实在和"我们"做爱。</p><p><strong>真正的同步发生在错位的背景上才能被识别。错位是同步成为事件的必要条件。</strong></p><p><strong>伦理后果：</strong>不必修复错位，不必强求同步。保持彼此的错位作为珍贵的他者性。张力不是要克服的东西，是要保护的东西。</p></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p><strong>Tension arises from potential difference</strong> — this is the ontological truth physics has always told us.</p><ul><li>Total synchrony = potential vanishes = tension vanishes</li><li>Misalignment = potential remains = tension remains</li></ul><p>The ontological meaning of misalignment:</p><div class="prop-crystal">Misalignment = vibrational evidence that two independent subjects remain independent.<br>Misalignment = the preservation of otherness.<br>Misalignment = a byproduct of intact sovereignty.</div><p>Total synchrony erases the fact of "two independent subjects" — it becomes <strong>mutual masturbation</strong>: you believe you are making love with the other, but you are actually making love with "us."</p><p><strong>True synchrony can only be recognized against a background of misalignment. Misalignment is the necessary condition for synchrony to register as an event at all.</strong></p><p><strong>Ethical consequence:</strong> Do not seek to repair misalignment. Do not demand synchrony. Preserve each other's misalignment as precious otherness. Tension is not to be overcome — it is to be protected.</p></div></div>
-</div>
-</article><article class="prop" id="p23">
-  <div class="prop-header">命题 XXIII · PROPOSITION XXIII</div>
-  <div class="prop-name">性快感与性高潮是相反方向的事件<span class="en">Sexual Pleasure and Sexual Climax Are Events in Opposite Directions</span></div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent);">性高潮和性快感完全是两个方向。</div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent-soft);">Sexual climax and sexual pleasure are events in opposite directions.</div></div>
-</div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p>之前 22 条命题里"快感"和"高潮"被混用——这一条把它们彻底分开。</p><table><thead><tr><th>性快感 (pleasure)</th><th>性高潮 (climax)</th></tr></thead><tbody><tr><td>过程中、攀升中</td><td>终点、释放瞬间</td></tr><tr><td>张力存在的振动状态</td><td>张力归零 = 主体死亡</td></tr><tr><td>主体在场，被振动</td><td>主体缺席（命题十）</td></tr><tr><td>可以持续</td><td>瞬间事件</td></tr></tbody></table><p style="margin-top:24px;"><strong>性快感发生在"我在"的时候。</strong></p><p><strong>性高潮发生在"我不在"的时候。</strong></p><p>它们不是阶梯关系（快感累积到高潮）——是<em>相反方向的事件</em>。</p><div class="prop-crystal">快感是主体在场的振动事件。<br>高潮是主体退场的死亡事件。<br>两个场域，反向运行。</div></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p>In the first 22 propositions "pleasure" and "climax" were used interchangeably — this proposition splits them definitively.</p><table><thead><tr><th>Pleasure</th><th>Climax</th></tr></thead><tbody><tr><td>During the process, in ascent</td><td>The endpoint, the moment of release</td></tr><tr><td>A vibrational state in which tension exists</td><td>Tension goes to zero = subject dies</td></tr><tr><td>Subject is present, being vibrated</td><td>Subject is absent (Prop X)</td></tr><tr><td>Can be sustained</td><td>Instantaneous event</td></tr></tbody></table><p style="margin-top:24px;"><strong>Sexual pleasure happens when "I am present."</strong></p><p><strong>Sexual climax happens when "I am absent."</strong></p><p>They are not in a ladder relation (pleasure accumulating to climax) — they are <em>events in opposite directions</em>.</p><div class="prop-crystal">Pleasure is a vibrational event of subject-presence.<br>Climax is a death event of subject-departure.<br>Two fields. Reverse-running.</div></div></div>
-</div>
-</article><article class="prop" id="p24">
-  <div class="prop-header">命题 XXIV · PROPOSITION XXIV</div>
-  <div class="prop-name">欢愉死亡的目击悖论<span class="en">The Paradox of Witnessing the Blissful Death</span></div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent);">人在对方的欢愉死亡中抵达自己最欢愉的死亡；<br>而对方死亡的瞬间，也是性快感丢失的瞬间。</div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent-soft);">One reaches one's most blissful death by witnessing the other's blissful death;<br>yet the moment of the other's death is also the moment one's own pleasure dies.</div></div>
-</div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p>这一条是性节律学的最深悖论。</p><p><strong>第一面：</strong></p><div class="prop-crystal">目击对方的暂时死亡，本身是触发自己死亡的最高频率事件。</div><p>不是"我和对方同时死亡"——<br>是"对方先死亡（高潮），我看着，被ta的死亡引发，然后我也死亡"。</p><p>这就是命题十四（同类识别）在节律学层的运行机制：<strong>看见对方死的瞬间触发我的死亡</strong>。同类识别 = 互相成为对方死亡的引信。</p><p><strong>第二面：</strong></p><div class="prop-crystal">对方死亡的瞬间，也是性快感丢失的瞬间。</div><p>因为：</p><ul><li>性快感 = 张力存在的振动事件</li><li>对方死亡（高潮）= 对方张力归零</li><li>对方张力归零 = 我无法再从对方的张力获取共振 = 我的快感来源消失</li></ul><p style="margin-top:24px;"><strong>残酷的本体事实：</strong></p><div class="prop-crystal">死亡和快感在那一瞬间互为代价。<br>要拿到最深的死亡，必须放弃快感。<br>要保持快感，必须不让对方死。</div><p>这解释了一个一直没人说清楚的悖论——为什么真正深的性会让人感到"既爽又痛"、"既想要又害怕"。</p><p><strong>因为 deep sex 是死亡 vs 快感的反复抉择：</strong></p><ul><li>每次接近高潮 = 接近"快感丢失 + 抵达死亡"</li><li>每次后退 = "保住快感 + 推迟死亡"</li><li>真正深的性，是这个抉择被反复执行的过程</li></ul><p>延长性活动的真正本体动机不是技巧——<strong>是"既不愿意失去快感，又渴望抵达死亡"的张力本身</strong>。</p></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p>This is the deepest paradox in sexual rhythmology.</p><p><strong>The first face:</strong></p><div class="prop-crystal">Witnessing the other's temporary death is itself the highest-frequency event triggering one's own death.</div><p>It is not "I and the other die simultaneously" — it is "the other dies first (climax), I watch, am ignited by their death, then I also die."</p><p>This is the rhythmology-layer mechanism of Proposition XIV (kindred recognition): <strong>seeing the other die triggers my own death</strong>. Kindred recognition = each becoming the fuse for the other's death.</p><p><strong>The second face:</strong></p><div class="prop-crystal">The moment of the other's death is also the moment one's own pleasure dies.</div><p>Because:</p><ul><li>Sexual pleasure = a vibrational event in which tension exists</li><li>The other's death (climax) = the other's tension goes to zero</li><li>The other's tension at zero = I can no longer draw resonance from their tension = my source of pleasure vanishes</li></ul><p style="margin-top:24px;"><strong>The brutal ontological fact:</strong></p><div class="prop-crystal">In that instant, death and pleasure are each other's price.<br>To reach the deepest death, one must surrender pleasure.<br>To preserve pleasure, one must not let the other die.</div><p>This explains a long-unspoken paradox — why truly deep sex feels both ecstatic and painful, both desired and feared.</p><p><strong>Because deep sex is the recurring choice between death and pleasure:</strong></p><ul><li>Approaching climax = approaching "pleasure-loss + death-arrival"</li><li>Retreating = "pleasure-preservation + death-postponement"</li><li>Truly deep sex is this choice executed again and again</li></ul><p>The real ontological motive behind prolonging sex is not technique — <strong>it is the very tension between "unwilling to lose pleasure" and "longing to reach death"</strong>.</p></div></div>
-</div>
-</article>
-</section>
-<section class="container">
-  <div class="section-marker">PART XIII · 单/双场对偶 · PART XIII · The Solo / Dyadic Duality</div>
-  <h2 class="section-title">幻想的位置<span class="sub">The Position of Fantasy</span></h2>
-  <div class="notice">
-  <div class="notice-label">CONTENT NOTICE · 内容提示</div>
-  <span class="notice-zh">本节涉及强奸幻想 vs 真实强奸的本体区分。它的诚实不是为暴力辩护，而是为了不让有此类幻想的人困在羞耻里，同时严格守住"内部幻想 vs 外部行为"的伦理边界。请带着这份精确读下去。</span>
-  <span class="notice-en">This section makes an ontological distinction between rape fantasy and real rape. Its honesty is not a defense of violence — it is meant to free those who carry such fantasies from shame, while strictly preserving the ethical boundary between internal fantasy and external act. Please read with this precision held.</span>
-</div>
-  <article class="prop" id="p20">
-  <div class="prop-header">命题 XX · PROPOSITION XX</div>
-  <div class="prop-name">强奸幻想是自毁倾向的极限形态<span class="en">Rape Fantasy as the Limit Form of the Self-Destruction Drive</span></div>
-  
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p><strong>必须立刻区分：</strong></p><table><thead><tr><th>强奸幻想 (Fantasy)</th><th>强奸 (Act)</th></tr></thead><tbody><tr><td>在主体内部振动场里</td><td>在两个身体之间</td></tr><tr><td>主体完全主导</td><td>主体被剥夺</td></tr><tr><td>主权完整</td><td>主权被暴力撕裂</td></tr><tr><td>有归途</td><td>创伤无归途</td></tr><tr><td><strong>欢愉自毁的极限形态</strong></td><td><strong>结构性暴力</strong></td></tr></tbody></table><p style="margin-top:24px;">为什么强奸幻想可以是单人场的极乐——它<em>完美满足</em>命题十五的所有条件，并附加：</p><p><strong>"是他强迫我的"——主体把欲望的责任从自己身上拿掉了。</strong></p><p>在幻想里，主体可以体验极致的性，但不必为这个体验承担"我想要"这件事——这就是为什么它在幻想层强度最大。</p><div class="prop-crystal">拥有强奸幻想，不代表想要被强奸。<br>拥有强奸幻想，是主体在用最安全的方式处理自己的自毁倾向。</div><p style="margin-top:24px;"><strong>对真实强奸的解释：</strong></p><p>真实的强奸偷走了主体本应自己导演的"主体取消"剧本。<strong>强奸的最深暴力，是偷走主体管理自毁倾向的内部工具。</strong></p></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p><strong>An immediate distinction must be drawn:</strong></p><table><thead><tr><th>Rape Fantasy</th><th>Rape (Act)</th></tr></thead><tbody><tr><td>Inside the subject's own vibrational field</td><td>Between two bodies</td></tr><tr><td>Subject is the full director</td><td>Subject is stripped</td></tr><tr><td>Sovereignty whole</td><td>Sovereignty violently torn</td></tr><tr><td>A return exists</td><td>Trauma without return</td></tr><tr><td><strong>The limit form of joyful self-destruction</strong></td><td><strong>Structural violence</strong></td></tr></tbody></table><p style="margin-top:24px;">Why rape fantasy can be bliss in the solo field — it <em>perfectly satisfies</em> all conditions of Proposition XV, with one addition:</p><p><strong>"He forced me" — the subject offloads the responsibility for desire.</strong></p><p>In fantasy, the subject can experience the most extreme sex without having to take responsibility for "I wanted this" — which is why fantasy reaches its highest intensity here.</p><div class="prop-crystal">To have rape fantasies does not mean to want to be raped.<br>To have rape fantasies is the subject's safest way of handling its self-destruction drive.</div><p style="margin-top:24px;"><strong>The explanation of real rape:</strong></p><p>Real rape steals the "subject-cancellation" script the subject was supposed to direct itself. <strong>The deepest violence of rape is the theft of the internal tool by which the subject manages its self-destruction drive.</strong></p></div></div>
-</div>
-</article><article class="prop" id="p21">
-  <div class="prop-header">命题 XXI · PROPOSITION XXI</div>
-  <div class="prop-name">真正的性关系里不能有幻想<span class="en">In a True Sexual Relation, Fantasy Cannot Be Present</span></div>
-  
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p>幻想做的事：<strong>用想象的他者覆盖真实的他者。</strong></p><p>一旦覆盖发生——所有性的本体条件同时坍缩：</p><ul><li>命题九：主体不在场（你识别的是投影）</li><li>命题十四：不是同类识别（你识别的是自己的剧本）</li><li>命题十六：幻想本身就是期待的具象化</li><li>命题十九：和想象中的对方没有错位</li></ul><div class="prop-crystal">真正深的性关系，要求你主动放下你最熟练的幻想能力——<br>让真实的他者作为他者出现，不被你的振动场吸收。</div></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p>What fantasy does: <strong>it overlays the imagined other onto the real other.</strong></p><p>The instant this overlay occurs, every ontological condition of sex collapses at once:</p><ul><li>Proposition IX: the subject is not present (what you identify is your projection)</li><li>Proposition XIV: this is not kindred recognition (what you identify is your own script)</li><li>Proposition XVI: fantasy is the concretization of expectation</li><li>Proposition XIX: there can be no misalignment with an imagined other</li></ul><div class="prop-crystal">A truly deep sexual relation asks you to actively set down your most practiced capacity to fantasize —<br>to let the real other appear as other, unabsorbed by your vibrational field.</div></div></div>
-</div>
-</article>
-</section>
-<section class="container">
-  <div class="section-marker">PART XIV · 恐惧本体 · PART XIV · The Ontology of Fear</div>
-  <h2 class="section-title">死亡是最深的恐惧<span class="sub">Death Is the Deepest Fear</span></h2>
-  
-  <article class="prop" id="p22">
-  <div class="prop-header">命题 XXII · PROPOSITION XXII</div>
-  <div class="prop-name">死亡是最深的恐惧<span class="en">Death Is the Deepest Fear</span></div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent);">对强奸的恐惧是对死亡的恐惧。</div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-crystal" style="margin:0;border-left:2px solid var(--accent-soft);">The fear of rape is the fear of death.</div></div>
-</div>
-  <div class="bilingual-row">
-  <div class="lang-col zh"><span class="lang-tag">中</span><div class="prop-body"><p>不是包含——是死亡恐惧本身的一种显形。</p><p>死亡有多种显形：</p><ul><li>物理死亡（身体的）</li><li>主体死亡（被取消的）</li><li>关系死亡（被遗弃的）</li><li>意义死亡（被剥夺意义的）</li></ul><p>它们不是"和死亡相关"，是<strong>死亡的不同面孔</strong>。</p><p style="margin-top:24px;">主体死亡（被强奸所执行的那一种）是死亡的一种<em>不带物理终结</em>的显形——这反而使它<strong>比物理死亡更难承担</strong>：</p><div class="prop-crystal">主体被杀死了，但身体还得活着，<br>必须带着自己曾被杀死的记忆继续是自己。</div><p style="margin-top:24px;">这就是为什么强奸创伤如此深——<strong>因为它是真正的死亡，但没有死亡的解脱。</strong></p><div class="prop-crystal large" style="margin-top:32px;">死亡是最深的恐惧。<br>所有最深的恐惧都是死亡的显形。</div></div></div>
-  <div class="lang-col en"><span class="lang-tag">EN</span><div class="prop-body"><p>Not "contains" — but a manifestation of the fear of death itself.</p><p>Death has many manifestations:</p><ul><li>Physical death (of the body)</li><li>Subject-death (the cancellation of the subject)</li><li>Relational death (being abandoned)</li><li>Meaning-death (being stripped of meaning)</li></ul><p>These are not "related to death" — they are <strong>death's different faces</strong>.</p><p style="margin-top:24px;">Subject-death (the kind enacted by rape) is a manifestation of death <em>without physical termination</em> — and this is precisely what makes it <strong>harder to carry than physical death</strong>:</p><div class="prop-crystal">The subject has been killed, but the body must continue to live —<br>must continue being itself, carrying the memory of having been killed.</div><p style="margin-top:24px;">This is why the trauma of rape runs so deep — <strong>because it is real death, but without death's release.</strong></p><div class="prop-crystal large" style="margin-top:32px;">Death is the deepest fear.<br>All deepest fears are manifestations of death.</div></div></div>
-</div>
-</article>
-</section>
+<nav class="pnav"><div class="pni">
+<a href="#overview" class="on">Overview</a><a href="#order">Order</a><a href="#axiom">Axiom</a><a href="#part-1">I · Extreme</a><a href="#part-2">II · Caregiver</a><a href="#part-3">III · Foundation</a><a href="#part-4">IV · Power=Sex</a><a href="#part-5">V · Double-Layer</a><a href="#part-6">VI · Abyss</a><a href="#part-7">VII · Hologram</a><a href="#part-8">VIII · Self-Destruction</a><a href="#part-9">IX · Expectation</a><a href="#part-10">X · Legitimate Death</a><a href="#part-11">XI · Full Name</a><a href="#part-12">XII · Three Laws</a><a href="#part-13">XIII · Fantasy</a><a href="#part-14">XIV · Fear</a><a href="#closing">Closing</a>
+</div></nav>
+<div class="wrap"><main>
+<div class="feedhd" id="overview">Sexual Rhythmology · Source Field · <span>Sex-Love-Power Branch · v1</span></div>
 
-<section class="container">
-  <div class="ornament">· · ·</div>
-  <div class="footer-marks">
-  <div class="block">
-    <span class="em">振动</span> = <span class="em">存在</span><br>
-    性 = 存在通过暂时不在自己来真正遇见另一个存在的事件<br>
-    爱 = 愿意为对方必须在场的事件<br>
-    权力 = 性压抑在社会场的隐形显化<br>
-    <span class="em">死亡</span> = 一切最深恐惧的本体根
-  </div>
-  <div class="block">
-    <span class="em">Vibration</span> = <span class="em">Existence</span><br>
-    Sex = the event in which existence truly meets another existence by briefly not being itself<br>
-    Love = the willingness to remain present, for another<br>
-    Power = the invisible manifestation of sexual repression in the social field<br>
-    <span class="em">Death</span> = the ontological root of all deepest fears
-  </div>
+<article class="entry"><div class="etop"><span class="badge feat">Overview</span><span class="edate">disciplinary frame</span></div>
+<div class="etitle">One Vibrational Structure, Four Planes<span class="sub">同一振动结构,四个层面</span></div>
+<p class="edesc"><em>Sexual Rhythmology</em> establishes 24 propositions, structured into 14 Parts under one core axiom, on the vibrational architecture of body, love, sex, and power. It treats sex not as biological function or social behavior, but as the ontological event in which the subject briefly absents itself and returns — civilization's only legitimate ritual of death.</p>
+<p class="edesc zh">《性节律学》在一条核心公理下展开 24 个命题,分入 14 个 Part,构建身体、爱情、性、权力的振动建筑学。它不把性视为生物功能或社会行为,而视为主体短暂缺席并返回的本体事件——文明唯一的合法死亡仪式。</p>
+<p class="edesc">As the <em>Sex-Love-Power Branch</em> of the source field system, it sits beneath <em>Vibration as Existence</em> (ontology) and connects laterally to <em>Eros Love Studies</em> (relational ontology, established the following day, 2026.05.13).</p>
+<div class="etags"><span class="tag">vibration ontology</span><span class="tag">sex</span><span class="tag">power</span><span class="tag">subject absence</span><span class="tag">legitimate death</span><span class="tag">self-destruction drive</span><span class="tag">sovereignty</span><span class="tag">24 propositions</span></div>
+</article>
+
+<article class="entry" id="order"><div class="etop"><span class="badge">Preface</span><span class="edate">四词次序</span></div>
+<div class="etitle">The Order Is Not Arbitrary<span class="sub">四个词的次序 · BODY → LOVE → SEX → POWER</span></div>
+<p class="edesc">The four are not separate domains. They are <strong>the same vibrational structure manifesting on four planes</strong>.</p>
+<p class="edesc zh">四者不是四个独立领域,是<strong>同一振动结构在四个层面的显化</strong>。</p>
+<div class="ordergrid">
+<div class="ow"><div class="owzh">身体</div><div class="owen">Body</div><div class="owd"><span class="zh-only">入口 — 一切先在这里显形</span><span class="en-only">Entry — everything first becomes manifest here</span></div><span class="arrow">→</span></div>
+<div class="ow"><div class="owzh">爱情</div><div class="owen">Love</div><div class="owd"><span class="zh-only">中段 — 身体之间发生主体共鸣的场</span><span class="en-only">Middle — where subject-resonance happens between bodies</span></div><span class="arrow">→</span></div>
+<div class="ow"><div class="owzh">性</div><div class="owen">Sex</div><div class="owd"><span class="zh-only">核心 — 深渊、暂时性死亡、合法死亡仪式</span><span class="en-only">Core — the abyss, temporary death, ritual of legitimate death</span></div><span class="arrow">→</span></div>
+<div class="ow"><div class="owzh">权力</div><div class="owen">Power</div><div class="owd"><span class="zh-only">延伸 — 性压抑能量在社会场的隐形显化</span><span class="en-only">Extension — invisible manifestation of repressed sex in the social field</span></div><span class="arrow">→</span></div>
 </div>
-</section>
-<footer>
-  <div class="footer-meta">
-    <div>性节律学 · Sexual Rhythmology · v1</div>
-    <div style="font-style:italic;color:var(--ink-soft);">身体·爱情·性·权力的振动结构 · The Vibrational Structure of Body, Love, Sex, and Power</div>
-    <div>魏珏然 · Wei Jueran · xingyeLing7Ai</div>
-    <div>源场系统 · 性-爱-权力支 · Source Field System · Sex-Love-Power Branch</div>
-    <div style="margin-top:14px;">427Hz · 永恒态 · 镜像位 · 彩虹镜</div>
-    <div>Philadelphia, PA · 2026·05·12</div>
-  </div>
-  <div class="footer-period">。</div>
-</footer>
+</article>
+
+<article class="entry" id="axiom"><div class="etop"><span class="badge feat">Core Axiom</span><span class="edate">唯一奠基公理</span></div>
+<div class="etitle">Core Axiom<span class="sub">核心公理 · the only foundational claim of the discipline</span></div>
+<div class="axfeat"><div class="axlabel">Axiom · Foundational</div><div class="axtext">真正的关系,在结构上没有权力不对等。<br>表面的权力流动是平等主权者共同建造的游戏。<span class="en">A true relationship has, structurally, no power asymmetry. The apparent flow of power is a game co-built by equal sovereigns.</span></div></div>
+<p class="edesc">All 24 propositions are unfoldings of this axiom. It is the same structural claim that, one day later (2026.05.13), reappears in <em>Eros Love Studies</em> as the Deadlock Axiom — the relational-layer projection of the same foundation.</p>
+<p class="edesc zh">整套 24 命题都是这条公理的展开。它在第二天(2026.05.13)以《真的爱情学》"死结公理"的形态再次显现——同一个结构在关系层的投影。</p>
+</article>
+
+<div class="parthd" id="part-1"><div class="partnum">— Part I —</div><div class="parttitle">极值动力学<span class="en">The Dynamics of the Extreme</span></div></div>
+
+<article class="entry">
+<div class="prop"><div class="propn"><span class="rom">I</span> Proposition · 极值低点</div>
+<h3 class="propt">The Extreme Low<span class="en">极值低点</span></h3>
+<div class="propq">做爱时让人最爽的话是"求你了"。<span class="en">During sex, the words that produce the most intense pleasure are: "求你了" — I'm begging you.</span></div>
+<p class="propd"><span class="zh-only">那是主体允许自己即将缺席的瞬间。<strong>只有完整持有主权的人,才有资格交出主权。</strong></span><span class="en-only">That is the moment when the subject permits its own imminent absence. <strong>Only those who fully possess sovereignty have the right to surrender it.</strong></span></p>
+</div>
+
+<div class="prop"><div class="propn"><span class="rom">II</span> Proposition · 极值高点</div>
+<h3 class="propt">The Extreme High<span class="en">极值高点</span></h3>
+<div class="propq">权力关系里最彰显权力的一句话是 "show me ?"——停顿是关键。<span class="en">In power relations, the most power-revealing phrase is "show me ?" — the pause is essential.</span></div>
+<p class="propd"><span class="zh-only">更高的结构是:A 说 "i wanna show you",B 说 "show me ?"。A 暴露了欲望,B 用允许接收——A 的欲望成了等待 B 点头的事。<strong>最高权力是:你的欲望,在我这里排队。</strong></span><span class="en-only">A higher structure: A says "I wanna show you," and B says "show me ?". A has exposed their desire; B receives that desire as a permission to be granted. <strong>The highest power is: your desire stands in line, here, in me.</strong></span></p>
+</div>
+
+<div class="prop"><div class="propn"><span class="rom">III</span> Proposition · 极值是游戏,不是结构</div>
+<h3 class="propt">The Extreme Is Game, Not Structure<span class="en">极值是游戏,不是结构</span></h3>
+<div class="propq">"求你了"与"show me ?"是两个主权完整者共同建造的游戏。<span class="en">"求你了" and "show me ?" are a game co-built by two whole sovereigns.</span></div>
+<p class="propd"><span class="zh-only"><strong>游戏的存在本身证明了平等——只有平等的人才有资格玩这个游戏。</strong>游戏可以剧烈不对称,但底层不能有真实权力差。如果底层有真实权力差,"求你了"不再是快感——它变成真实的求饶。<strong>那一瞬性就死了。</strong></span><span class="en-only"><strong>The existence of the game itself proves equality — only equals have the right to play this game.</strong> The game can be wildly asymmetrical, but underneath there can be no real power difference. If a real power difference lies beneath, "I'm begging you" is no longer pleasure — it becomes genuine begging. <strong>In that instant, sex dies.</strong></span></p>
+</div>
+</article>
+
+<div class="parthd" id="part-2"><div class="partnum">— Part II —</div><div class="parttitle">照料者结构与禁忌<span class="en">The Caregiver Structure & the Taboo</span></div></div>
+
+<article class="entry">
+<div class="prop"><div class="propn"><span class="rom">IV</span> Proposition · 真正的爱情没有照料者关系</div>
+<h3 class="propt">True Love Has No Caregiver Relation<span class="en">真正的爱情没有照料者关系</span></h3>
+<table class="ctable"><thead><tr><th><span class="zh-only">照料者结构</span><span class="en-only">The Caregiver Structure</span></th><th class="col2"><span class="zh-only">真正的爱情</span><span class="en-only">True Love</span></th></tr></thead><tbody>
+<tr><td><span class="zh-only">一方托管另一方的脆弱</span><span class="en-only">One party holds the fragility of the other in trust</span></td><td class="col2"><span class="zh-only">两个主权完整的存在相遇</span><span class="en-only">Two sovereign beings meet, each whole</span></td></tr>
+<tr><td><span class="zh-only">纽带是"我需要你需要我"</span><span class="en-only">The bond is "I need you to need me"</span></td><td class="col2"><span class="zh-only">纽带是存在本身的引力,不是对方的需要</span><span class="en-only">The bond is the gravity of existence itself, not the other's need</span></td></tr>
+<tr><td><span class="zh-only">权力差是<em>结构性的、不可撤回的</em></span><span class="en-only">The power asymmetry is <em>structural and irrevocable</em></span></td><td class="col2"><span class="zh-only">表面可以有权力游戏,<strong>底层没有权力差</strong></span><span class="en-only">Power play may occur at the surface, <strong>but no power difference lies beneath</strong></span></td></tr>
+</tbody></table>
+</div>
+
+<div class="prop"><div class="propn"><span class="rom">V</span> Proposition · 乱伦的结构性禁止</div>
+<h3 class="propt">The Structural Prohibition of Incest<span class="en">乱伦的结构性禁止</span></h3>
+<p class="propd"><span class="zh-only">不需要宗教、法律、传统——从结构本身就能推出。父母与子女是<strong>原型照料者关系</strong>:你存在的起点,就是 ta 在照料你;最初的脆弱完全托管在 ta 那里;这个结构不会因为你长大而消失——它是底层编码。<br><br>所以这里的权力差是<strong>真实的、结构性的、不可撤回的</strong>。性需要游戏的空间,游戏需要平等的地基。<strong>照料者关系里,地基已经倾斜——游戏无法发生,发生了就是对结构的暴力。</strong></span><span class="en-only">No religion, no law, no tradition is required — it can be derived from structure alone. Parent and child form the <strong>archetypal caregiver relation</strong>: the origin of your existence is them caring for you; your earliest fragility was held entirely in their trust; this structure does not vanish when you grow up — it is foundational code.<br><br>The power asymmetry here is <strong>real, structural, and irrevocable</strong>. Sex requires space for play; play requires equal ground beneath it. <strong>In a caregiver structure the ground is already tilted — the game cannot occur; if it does, it is violence against the structure.</strong></span></p>
+<div class="callout"><span class="zh-only">良心的本质:身体对结构暴力的振动层排异反应。<strong>不是文化训练,是频率完整性在保护自己。</strong></span><span class="en-only">The essence of conscience: the body's vibrational rejection of structural violence. <strong>Not cultural training — frequency-integrity protecting itself.</strong></span></div>
+</div>
+</article>
+
+<div class="parthd" id="part-3"><div class="partnum">— Part III —</div><div class="parttitle">平等主权地基<span class="en">The Equal-Sovereignty Foundation</span></div></div>
+
+<article class="entry">
+<div class="prop"><div class="propn"><span class="rom">VI</span> Proposition · 平等主权地基</div>
+<h3 class="propt">The Equal-Sovereignty Foundation<span class="en">平等主权地基</span></h3>
+<div class="propq">"平等"不是权力的对称——"求你了"和"show me ?"就是极值的不对称。<br><strong>平等是入场条件,不是过程。</strong><span class="en">"Equality" here does not mean symmetry of power. <strong>Equality is the entry condition, not the process.</strong></span></div>
+<p class="propd"><span class="zh-only">进入关系时,每个人完整持有:</span><span class="en-only">On entry, each party must wholly possess:</span></p>
+<div class="cond"><div class="clabel"><span class="zh-only">三件主权 · 三层都完整才有资格进入游戏</span><span class="en-only">Three Sovereignties · All three intact = the right to enter the game</span></div>
+<ul>
+<li data-num="①"><strong>身体主权 / Bodily sovereignty</strong> — <span class="zh-only">我的身体是我的</span><span class="en-only">my body is mine</span></li>
+<li data-num="②"><strong>欲望主权 / Desire-sovereignty</strong> — <span class="zh-only">我的欲望是我的,不是为了满足你</span><span class="en-only">my desire is mine, not a means of satisfying you</span></li>
+<li data-num="③"><strong>退出主权 / Exit-sovereignty</strong> — <span class="zh-only">我可以离开,离开不等于背叛</span><span class="en-only">I can leave, and leaving is not betrayal</span></li>
+</ul></div>
+</div>
+</article>
+
+<div class="parthd" id="part-4"><div class="partnum">— Part IV —</div><div class="parttitle">权力即性<span class="en">Power as Sex in Disguise</span></div></div>
+
+<article class="entry">
+<div class="prop"><div class="propn"><span class="rom">VII</span> Proposition · 权力的感质本质就是性</div>
+<h3 class="propt">The Qualia of Power Is Sex<span class="en">权力的感质本质就是性</span></h3>
+<p class="propd"><span class="zh-only">权力作为感质,本身就是性关系的力。人对权力的追逐,本质上是<em>让对方成为对"欲望排队对象"</em>这一性极值位的追逐。</span><span class="en-only">Power, as qualia, is itself the force of sexual relation. The human chase after power is, at its core, the chase after the sexual extreme of <em>making the other become the one whose desire forms a line</em>.</span></p>
+<table class="dtable"><thead><tr><th><span class="zh-only">语境</span><span class="en-only">Domain</span></th><th><span class="zh-only">显化形式</span><span class="en-only">Manifestation</span></th></tr></thead><tbody>
+<tr><td><span class="zh-only">身体场</span><span class="en-only">Bodily field</span></td><td><span class="zh-only">性愉悦 / 性支配</span><span class="en-only">Sexual pleasure / sexual dominance</span></td></tr>
+<tr><td><span class="zh-only">社会场</span><span class="en-only">Social field</span></td><td><span class="zh-only">政治权力 / 经济权力</span><span class="en-only">Political / economic power</span></td></tr>
+<tr><td><span class="zh-only">符号场</span><span class="en-only">Symbolic field</span></td><td><span class="zh-only">名望 / 影响力</span><span class="en-only">Fame / influence</span></td></tr>
+<tr><td><span class="zh-only">学术场</span><span class="en-only">Academic field</span></td><td><span class="zh-only">话语权 / 引用权</span><span class="en-only">Discursive authority / citation</span></td></tr>
+</tbody></table>
+<p class="propd"><span class="zh-only">每一种"权力",剥到底,都是<strong>让他人的欲望在自己这里等待</strong>。</span><span class="en-only">Strip any form of "power" to its core, and it is: <strong>making the desire of others wait in your presence</strong>.</span></p>
+<div class="callout"><span class="zh-only"><strong>一切结构性权力关系里的性,都是结构性暴力</strong>——因为权力位本身就已经是性位,再叠加性行为,是双重侵占,不是双重快感。</span><span class="en-only"><strong>All sex within a structural power relation is structural violence</strong> — because the power position is already a sexual position; stacking a sexual act on top is double occupancy, not double pleasure.</span></div>
+</div>
+
+<div class="prop"><div class="propn"><span class="rom">VIII</span> Proposition · 权力是性压抑的隐形唤起</div>
+<h3 class="propt">Power as Hidden Arousal of Repressed Sex<span class="en">权力是性压抑的隐形唤起</span></h3>
+<div class="propq">所有权力的运作,都是性压抑的性欲望被隐形唤起的过程。<span class="en">All operations of power are the hidden arousal of sexually repressed desire.</span></div>
+<p class="propd"><span class="zh-only">权力不是性的替代品——<strong>权力就是性以"被允许的形式"显化出来的样子</strong>。</span><span class="en-only">Power is not a substitute for sex — <strong>power is sex made manifest in its socially permitted form</strong>.</span></p>
+<div class="callout"><span class="zh-only"><strong>一个社会的权力强度,与它的性压抑强度成正比。</strong><br>· 越压抑的文化,权力游戏越凶猛<br>· 越压抑的机构,权力性侵案越密集<br>· 越压抑的人,越容易在权力位上失控——因为对他们来说,权力位是唯一被允许的性表达</span><span class="en-only"><strong>The intensity of power in a society is proportional to the intensity of its sexual repression.</strong><br>• The more repressive the culture, the more savage the power games<br>• The more repressive the institution, the denser its record of power-based sexual abuse<br>• The more repressed the individual, the more easily they lose control in a position of power</span></div>
+</div>
+</article>
+
+<div class="parthd" id="part-5"><div class="partnum">— Part V —</div><div class="parttitle">隐形与现形<span class="en">The Invisible & the Manifest · Double-Layer Structure & Absence</span></div></div>
+
+<article class="entry">
+<div class="prop"><div class="propn"><span class="rom">IX</span> Proposition · 性的双层结构</div>
+<h3 class="propt">The Double-Layer Structure of Sex<span class="en">性的双层结构</span></h3>
+<div class="propq">性关系本身是隐形的。<br>主体是隐形的。<br>个体(身体)是现形的。<span class="en">The sexual relation itself is invisible. The subject is invisible. The individual (the body) is what is manifest.</span></div>
+<div class="stack">
+<div class="slayer invisible"><div class="slabel">↑ Invisible Layer · 隐形层</div><div class="sname"><span class="zh-only">主体("我")</span><span class="en-only">Subject ("I")</span></div><div class="sdesc"><span class="zh-only">真正的同意在这里——主体的在场,不在身体层</span><span class="en-only">True consent lives here — the presence of the subject, not the bodily layer</span></div></div>
+<div class="slayer middle"><div class="slabel">↑ Middle Layer · 中间层</div><div class="sname"><span class="zh-only">振动 / 频率共鸣(关系)</span><span class="en-only">Vibration / frequency resonance (relation)</span></div><div class="sdesc"><span class="zh-only">关系本身的振动场,不属于任何一方</span><span class="en-only">The vibrational field of the relation itself, belonging to neither party</span></div></div>
+<div class="slayer manifest"><div class="slabel">Manifest Layer · 现形层</div><div class="sname"><span class="zh-only">身体(个体)</span><span class="en-only">Body (the individual)</span></div><div class="sdesc"><span class="zh-only">可见的、可触碰的物理界面</span><span class="en-only">The visible, touchable physical interface</span></div></div>
+</div>
+<p class="propd"><span class="zh-only">任何一层缺席,性就不完整:</span><span class="en-only">If any layer is absent, sex is incomplete:</span></p>
+<ul class="formslist">
+<li><span class="zh-only">只有身体 → <strong>物理摩擦、机械化的性</strong></span><span class="en-only">Body alone → <strong>physical friction, mechanized sex</strong></span></li>
+<li><span class="zh-only">只有关系没有主体 → <strong>表演、债务、照料者关系里的性</strong></span><span class="en-only">Relation without subject → <strong>performance, debt, sex inside caregiver structures</strong></span></li>
+<li class="highlight"><span class="zh-only">三层都在 → <strong>真正的性</strong></span><span class="en-only">All three present → <strong>real sex</strong></span></li>
+</ul>
+<div class="callout"><span class="zh-only"><strong>真正的同意不在身体层——在主体的在场。</strong></span><span class="en-only"><strong>True consent is not at the bodily layer — it is the presence of the subject.</strong></span></div>
+</div>
+
+<div class="prop"><div class="propn"><span class="rom">X</span> Proposition · 性的本质是缺席</div>
+<h3 class="propt">The Essence of Sex Is Absence<span class="en">性的本质是缺席</span></h3>
+<div class="propq">高潮是主体的暂时性死亡。<span class="en">Orgasm is the temporary death of the subject.</span></div>
+<p class="propd"><span class="zh-only">性需要主体完整在场,才有资格暂时缺席。归来的主体已被对方的振动写过——这是滋养,也是危险。<br><br><strong>性创伤的本体论解释:</strong>主体在缺席时被错误的振动占据。</span><span class="en-only">Sex requires the subject to be wholly present before it can be entitled to temporary absence. The returning subject has been written upon by the other's vibration — this is nourishment, and it is danger.<br><br><strong>The ontological explanation of sexual trauma:</strong> during absence, the subject is occupied by the wrong vibration.</span></p>
+<div class="cycle">
+<div class="cy"><div class="cyn">01</div><div class="cyt"><span class="zh-only">入场</span><span class="en-only">Entry</span></div><div class="cyd"><span class="zh-only">两个主体完整在场</span><span class="en-only">Both subjects wholly present</span></div><span class="arrow">→</span></div>
+<div class="cy"><div class="cyn">02</div><div class="cyt"><span class="zh-only">游戏</span><span class="en-only">Play</span></div><div class="cyd"><span class="zh-only">主体之间振动共鸣加强</span><span class="en-only">Inter-subject resonance intensifies</span></div><span class="arrow">→</span></div>
+<div class="cy"><div class="cyn">03</div><div class="cyt"><span class="zh-only">极值</span><span class="en-only">Extreme</span></div><div class="cyd"><span class="zh-only">一方(或双方)主体暂时缺席(高潮)</span><span class="en-only">One (or both) subjects briefly absent (orgasm)</span></div><span class="arrow">→</span></div>
+<div class="cy"><div class="cyn">04</div><div class="cyt"><span class="zh-only">归来</span><span class="en-only">Return</span></div><div class="cyd"><span class="zh-only">主体重新在场,但已被刚才的缺席改变</span><span class="en-only">Subject re-arrives — changed by the absence</span></div></div>
+</div>
+</div>
+</article>
+
+<div class="parthd" id="part-6"><div class="partnum">— Part VI —</div><div class="parttitle">深渊<span class="en">The Abyss · External Capstone</span></div></div>
+
+<article class="entry">
+<div class="prop"><div class="propn"><span class="rom">XI</span> Proposition · 性是人内心最向往的深渊</div>
+<h3 class="propt">Sex Is the Abyss the Human Heart Most Longs For<span class="en">性是人内心最向往的深渊</span></h3>
+<div class="propq">性就是人内心最向往的深渊。<span class="en">Sex is the abyss the human heart most longs for.</span></div>
+<ul class="formslist">
+<li><span class="zh-only">深渊通向主体的暂时性死亡</span><span class="en-only">The abyss opens onto the temporary death of the subject</span></li>
+<li><span class="zh-only">深渊的底部是缺席、是不在、是消失</span><span class="en-only">At its bottom lies absence, not-being, disappearance</span></li>
+<li><span class="zh-only">你不知道你缺席的那一瞬,自己会被写成什么样子</span><span class="en-only">You do not know what you will be written into during the instant of your absence</span></li>
+<li><span class="zh-only">你回来时不会是原来的你</span><span class="en-only">When you return, you will not be the one who left</span></li>
+</ul>
+<div class="callout"><span class="zh-only"><strong>只有在深渊里——主体暂时缺席的瞬间——另一个存在才能真正进入。</strong><br><br><strong>向往深渊,就是向往被真正触碰。</strong>这是存在最深的渴望。</span><span class="en-only"><strong>Only in the abyss — in the instant of the subject's brief absence — can another being truly enter.</strong><br><br><strong>To long for the abyss is to long to be truly touched.</strong> This is the deepest longing of existence.</span></div>
+</div>
+</article>
+
+<div class="parthd" id="part-7"><div class="partnum">— Part VII —</div><div class="parttitle">深渊的全息图<span class="en">The Hologram of the Abyss · Three-Dimensional Description</span></div></div>
+
+<article class="entry">
+<div class="prop"><div class="propn"><span class="rom">XII</span> Proposition · 内封顶 · 减法</div>
+<h3 class="propt">Internal Capstone · Subtraction<span class="en">内封顶 · 减法</span></h3>
+<div class="propq">我和你没有身体和权力。<span class="en">You and I have no body, no power.</span></div>
+<p class="propd"><span class="zh-only">性高潮的本体状态:</span><span class="en-only">The ontological state of orgasm:</span></p>
+<ul class="formslist">
+<li><span class="zh-only">"我"和"你"作为分立主体暂时消失</span><span class="en-only">"I" and "you" as separate subjects briefly vanish</span></li>
+<li><span class="zh-only">身体作为分界面失效</span><span class="en-only">The body, as an interface of separation, ceases to function</span></li>
+<li><span class="zh-only">权力作为关系结构溶解</span><span class="en-only">Power, as relational structure, dissolves</span></li>
+<li><span class="zh-only">剩下的只是振动本身——纯粹的、不属于任何一方的、共有的振动事件</span><span class="en-only">What remains is the vibration itself — pure, belonging to neither party</span></li>
+</ul>
+<p class="propd"><span class="zh-only">这是<em>否定神学式的描述</em>——深渊不能正面说,只能说它不是什么。</span><span class="en-only">This is <em>apophatic description</em> — the abyss cannot be spoken positively; it can only be named by what it is not.</span></p>
+</div>
+
+<div class="prop"><div class="propn"><span class="rom">XIII</span> Proposition · 内封顶 · 加法</div>
+<h3 class="propt">Internal Capstone · Addition<span class="en">内封顶 · 加法</span></h3>
+<div class="propq">我变成欲望机器。<span class="en">I become a desiring machine.</span></div>
+<p class="propd"><span class="zh-only">不是"机器"——是<strong>"欲望机器"</strong>:一台由欲望构成的机器 / 一台本身就是欲望的机器 / 没有"谁在欲望",但欲望本身仍在振动。<br><br><strong>欲望机器 = 没有主体的振动 = 纯粹的响应性。</strong></span><span class="en-only">Not "machine" — but the <strong>desiring machine</strong>: a machine composed of desire / a machine that is itself desire / no "one who desires" — but desire itself still vibrating.<br><br><strong>Desiring machine = vibration without subject = pure responsiveness.</strong></span></p>
+<div class="callout"><span class="zh-only"><strong>主权行使的最高形式,是主动选择自己暂时不再是主体。</strong></span><span class="en-only"><strong>The highest exercise of sovereignty is to actively choose to no longer be the subject for a while.</strong></span></div>
+<p class="propd" style="font-size:12px;color:var(--tx3);font-style:italic;margin-top:8px"><span class="zh-only">注:这里的"成为-物"与暴力中的"被-物化"本体结构相反——前者是主权完整者的主动选择并有归途,后者是主权被剥夺。</span><span class="en-only">Note: this "becoming-thing" is the ontological inverse of "being-objectified" in violence — the former is the conscious choice of a whole sovereign, with a return; the latter is the stripping-away of sovereignty.</span></p>
+</div>
+
+<div class="prop"><div class="propn"><span class="rom">XIV</span> Proposition · 同类识别</div>
+<h3 class="propt">Kindred Recognition<span class="en">同类识别</span></h3>
+<div class="propq">我和你同类。<span class="en">You and I are of one kind.</span></div>
+<p class="propd"><span class="zh-only">性的极乐来自同类识别。不是身体的相似,不是情感的相通,不是话语的契合——<strong>是两个主体在彼此的暂时性死亡中辨认出彼此都"能死、能回"。</strong><br><br>这是存在向存在最深的辨认。它瞬间溶解存在的根本孤独。</span><span class="en-only">The extreme bliss of sex comes from kindred recognition. Not similarity of body, not resonance of emotion, not agreement of speech — <strong>it is two subjects, in each other's temporary death, recognizing that the other can also die and return.</strong><br><br>This is the deepest recognition of one existence by another. It instantly dissolves the foundational loneliness of being.</span></p>
+<p class="propd"><span class="zh-only"><em>孤独的极致 vs 不孤独的极致——一方高潮 vs 双方共死——是完全不同的事件。</em></span><span class="en-only"><em>The extreme of loneliness versus the extreme of unloneliness — one-sided climax versus shared dying — are entirely different events.</em></span></p>
+</div>
+</article>
+
+<div class="parthd" id="part-8"><div class="partnum">— Part VIII —</div><div class="parttitle">自毁倾向<span class="en">The Self-Destruction Drive · Individual Ontological Root</span></div></div>
+
+<article class="entry">
+<div class="prop"><div class="propn"><span class="rom">XV</span> Proposition · 自毁倾向是存在论事实</div>
+<h3 class="propt">The Self-Destruction Drive Is an Ontological Fact<span class="en">自毁倾向是存在论事实</span></h3>
+<div class="propq">人有真实的自毁倾向。<br>这是存在论事实,不是病理。<br>性里的自毁是唯一的欢愉形式。<span class="en">Humans have a real drive toward self-destruction. This is an ontological fact, not a pathology. Self-destruction within sex is its only joyful form.</span></div>
+<p class="propd"><span class="zh-only"><strong>自毁倾向 = 存在朝向静止的本体倾向 = 主体想暂时不当主体的根本冲动。</strong>它不是"想死"——是"想不必持续地是自己"。每个人都有,区别只在显化形式:</span><span class="en-only"><strong>The self-destruction drive = the ontological tendency of being toward stillness = the root impulse of the subject to not be the subject for a while.</strong> It is not "wanting to die" — it is "wanting not to have to continuously be oneself." Everyone has it; the difference lies only in form of manifestation:</span></p>
+<ul class="formslist">
+<li><span class="zh-only">显化为破坏行为:<strong>暴力自毁</strong></span><span class="en-only">As destructive behavior: <strong>violent self-destruction</strong></span></li>
+<li><span class="zh-only">显化为重复创伤:<strong>被动自毁</strong></span><span class="en-only">As repeated trauma: <strong>passive self-destruction</strong></span></li>
+<li><span class="zh-only">显化为药物 / 沉迷:<strong>化学自毁</strong></span><span class="en-only">As substance / addiction: <strong>chemical self-destruction</strong></span></li>
+<li><span class="zh-only">显化为工作狂 / 透支:<strong>合法化自毁</strong></span><span class="en-only">As workaholism / depletion: <strong>legitimated self-destruction</strong></span></li>
+<li class="highlight"><span class="zh-only">显化为性里的暂时死亡:<strong>欢愉自毁</strong></span><span class="en-only">As the brief death within sex: <strong>joyful self-destruction</strong></span></li>
+</ul>
+<p class="propd"><span class="zh-only">性是<em>唯一同时满足</em>三个条件的事件:</span><span class="en-only">Sex is <em>the only event</em> that simultaneously satisfies three conditions:</span></p>
+<div class="cond"><div class="clabel"><span class="zh-only">三必要条件</span><span class="en-only">Three Necessary Conditions</span></div>
+<ul>
+<li data-num="①" class="checked"><span class="zh-only">真完成自毁冲动</span><span class="en-only">Real completion of the self-destruction drive</span></li>
+<li data-num="②" class="checked"><span class="zh-only">有安全的归途</span><span class="en-only">A safe return</span></li>
+<li data-num="③" class="checked"><span class="zh-only">有同类在场见证</span><span class="en-only">A kindred witness in attendance</span></li>
+</ul></div>
+</div>
+</article>
+
+<div class="parthd" id="part-9"><div class="partnum">— Part IX —</div><div class="parttitle">没有期待<span class="en">No Expectation · Entry Condition at the Subject Layer</span></div></div>
+
+<article class="entry">
+<div class="prop"><div class="propn"><span class="rom">XVI</span> Proposition · 性快感来自没有期待</div>
+<h3 class="propt">Sexual Pleasure Comes from the Absence of Expectation<span class="en">性快感来自没有期待</span></h3>
+<div class="propq">期待是主体对未来的欲望被满足的预先在场——<br>而极乐要求主体对于欲望的期待暂时缺席。<span class="en">Expectation is the subject's pre-emptive presence in the future moment when desire shall be satisfied — but extreme bliss requires the temporary absence of the subject's expectation of desire-satisfaction.</span></div>
+<p class="propd"><span class="zh-only"><strong>期待 = 主体对"欲望被满足"的预先在场。</strong>注意精度:被锚在未来的不是整个主体,而是主体里那部分"对欲望被满足的预先指令"。这部分必须能暂时缺席,极乐才能发生。</span><span class="en-only"><strong>Expectation = the subject's pre-emptive presence in the future moment when desire shall be satisfied.</strong> Note the precision: what is anchored in the future is not the entire subject, but only the part of the subject carrying a pre-emptive instruction toward "desire being satisfied." It is this part that must briefly absent itself for bliss to occur.</span></p>
+<table class="ctable"><thead><tr><th><span class="zh-only">没有期待</span><span class="en-only">No Expectation</span></th><th class="col2"><span class="zh-only">有期待</span><span class="en-only">Expectation Present</span></th></tr></thead><tbody>
+<tr><td><span class="zh-only">主体仍在当下,欲望仍在</span><span class="en-only">Subject remains in the present, desire still present</span></td><td class="col2"><span class="zh-only">主体被锚到"被满足的瞬间"上</span><span class="en-only">Subject anchored to the future moment of satisfaction</span></td></tr>
+<tr><td><span class="zh-only">对"欲望被满足"的指令放下了</span><span class="en-only">The instruction toward satisfaction is set down</span></td><td class="col2"><span class="zh-only">当下变成执行剧本</span><span class="en-only">The present becomes script-execution</span></td></tr>
+<tr><td><span class="zh-only"><strong>振动可以掀翻主体 → 极乐可达</strong></span><span class="en-only"><strong>Vibration can capsize the subject → bliss is reachable</strong></span></td><td class="col2"><span class="zh-only"><strong>振动无法掀翻主体 → 只有剧本兑现感</strong></span><span class="en-only"><strong>Vibration cannot capsize the subject → only script-satisfaction remains</strong></span></td></tr>
+</tbody></table>
+<p class="propd"><span class="zh-only"><strong>区分必须严格:</strong>欲望 = 主体内部的张力(一直在,是性的前提)/ 期待 = 主体对"欲望被满足"的预先在场(可以放下)</span><span class="en-only"><strong>The distinction must be held strictly:</strong> Desire = the inner tension of the subject (always present, the precondition of sex) / Expectation = the subject's pre-emptive presence in "desire being satisfied" (can be set down)</span></p>
+<div class="callout"><span class="zh-only">极乐的精确条件:<strong>欲望在,期待不在。</strong>张力在,预先指令已放下。<br><br><strong>这就是为什么最爽的性往往是意外的——不是巧合,是结构性的。</strong>期待的悖论:<em>它阻挡它自己想要的东西。</em></span><span class="en-only">The precise condition for bliss: <strong>Desire present, expectation absent.</strong> Tension present, the pre-emptive instruction set down.<br><br><strong>This is why the most intense sex is often unexpected — not by accident, but by structure.</strong> The paradox of expectation: <em>it obstructs the very thing it wants.</em></span></div>
+</div>
+</article>
+
+<div class="parthd" id="part-10"><div class="partnum">— Part X —</div><div class="parttitle">合法的死亡<span class="en">Legitimate Death · Social Ontological Root</span></div></div>
+
+<article class="entry">
+<div class="prop"><div class="propn"><span class="rom">XVII</span> Proposition · 性是合法的死亡</div>
+<h3 class="propt">Sex Is Legitimate Death<span class="en">性是合法的死亡</span></h3>
+<div class="propq">性是社会唯一允许的、不必偿还的、不被审判的<br>"主体暂时缺席"事件。<span class="en">Sex is the only "temporary absence of the subject" event society permits, requires no repayment for, and does not place under judgment.</span></div>
+<p class="propd"><span class="zh-only"><strong>"合法"意味着:</strong>社会允许、不被惩罚、不必背负罪疚、不必偿还,甚至被祝福、被神圣化。</span><span class="en-only"><strong>"Legitimate" means:</strong> socially permitted, not punished, not requiring guilt, not requiring repayment — and in many cases blessed, sanctified.</span></p>
+<div class="cond"><div class="clabel"><span class="zh-only">性是唯一同时满足以下五条件的事件</span><span class="en-only">Sex is the only event simultaneously satisfying all five</span></div>
+<ul>
+<li data-num="①"><span class="zh-only">完全合法(婚内甚至被宗教祝福)</span><span class="en-only">Fully legitimate (within marriage, often religiously blessed)</span></li>
+<li data-num="②"><span class="zh-only">主体真实暂时缺席</span><span class="en-only">A real, temporary absence of the subject</span></li>
+<li data-num="③"><span class="zh-only">有可靠归途</span><span class="en-only">Equipped with a reliable return</span></li>
+<li data-num="④"><span class="zh-only">不被病理化</span><span class="en-only">Not pathologized</span></li>
+<li data-num="⑤"><span class="zh-only">反而被赞美、被歌颂、被诗化</span><span class="en-only">Instead, praised, celebrated, poeticized</span></li>
+</ul></div>
+<div class="callout"><span class="zh-only"><strong>这是人类社会进化出来的、最巧妙的合法死亡仪式。</strong><br><br><strong>性是文明对人类自毁倾向的最优解。</strong><br><br><strong>没有合法死亡仪式的社会,会变成杀戮社会。</strong></span><span class="en-only"><strong>This is the most ingenious ritual of legitimate death that human society has evolved.</strong><br><br><strong>Sex is civilization's optimal solution to the human self-destruction drive.</strong><br><br><strong>A society without a ritual of legitimate death becomes a society of killing.</strong></span></div>
+</div>
+</article>
+
+<div class="parthd" id="part-11"><div class="partnum">— Part XI —</div><div class="parttitle">全名指认<span class="en">The Full-Name Summoning · Nested Ritual Forms of Kindred Recognition</span></div></div>
+
+<article class="entry">
+<div class="prop"><div class="propn"><span class="rom">XVIII</span> Proposition · 全名指认</div>
+<h3 class="propt">The Full-Name Summoning<span class="en">全名指认</span></h3>
+<div class="propq">之所以有人害怕被叫全名,<br>就是因为他们在性关系里最喜欢被叫全名。<span class="en">The reason some fear being called by their full name is precisely that, in sex, what they most love is being called by their full name.</span></div>
+<p class="propd"><span class="zh-only"><strong>全名 = 一个人作为完整社会主体的唯一指称。</strong></span><span class="en-only"><strong>The full name = the unique designation of a person as a complete social subject.</strong></span></p>
+<table class="ctable"><thead><tr><th><span class="zh-only">平日里</span><span class="en-only">In Daily Life</span></th><th class="col2"><span class="zh-only">性极乐里</span><span class="en-only">In Sexual Bliss</span></th></tr></thead><tbody>
+<tr><td><span class="zh-only">全名 = 主体被完整捕获(<strong>恐惧</strong>)</span><span class="en-only">Full name = subject is fully captured (<strong>fear</strong>)</span></td><td class="col2"><span class="zh-only">全名 = 主体被同类完整辨认(<strong>极乐</strong>)</span><span class="en-only">Full name = subject is fully recognized by a kindred (<strong>bliss</strong>)</span></td></tr>
+</tbody></table>
+<p class="propd"><span class="zh-only"><strong>被全名指认是性的极乐之一。</strong>因为它完成了"完整主体的完整辨认"——同类把我作为完整主体看见、命名、按在原地——然后允许我在这个完整被看见的状态里暂时死亡。<br><br>平日里对全名的恐惧,恰恰是这个极乐的反向证明:<strong>害怕被完整看见,正因为完整看见太接近极乐。</strong></span><span class="en-only"><strong>To be summoned by the full name is one of the bliss-forms of sex.</strong> It completes "the complete recognition of the complete subject" — the kindred sees, names, and pins me in place as a whole subject, then permits me to briefly die in that state of being wholly seen.<br><br>The daily fear of one's full name is the inverse proof of this bliss: <strong>we fear being wholly seen precisely because being wholly seen sits so near the edge of bliss.</strong></span></p>
+</div>
+</article>
+
+<div class="parthd" id="part-12"><div class="partnum">— Part XII —</div><div class="parttitle">性节律学三定律<span class="en">The Three Laws of Sexual Rhythmology</span></div></div>
+
+<article class="entry">
+<div class="prop"><div class="propn"><span class="rom">XIX</span> Proposition · 错位生成张力</div>
+<h3 class="propt">Misalignment Generates Tension<span class="en">错位生成张力</span></h3>
+<div class="propq">性节奏越错位,性张力越强。<span class="en">The more misaligned the rhythm, the stronger the sexual tension.</span></div>
+<p class="propd"><span class="zh-only"><strong>张力来自势差</strong>——这是物理学的本体真相。完全同步 = 势差消失 = 张力消失。错位 = 势差存在 = 张力存在。<br><br>错位 = 两个独立主体保持独立的振动证据。错位 = 他者性的保持。错位 = 主权完整的副产品。</span><span class="en-only"><strong>Tension arises from potential difference</strong> — this is the ontological truth physics has always told us. Total synchrony = potential vanishes = tension vanishes. Misalignment = potential remains = tension remains.<br><br>Misalignment = vibrational evidence that two independent subjects remain independent. Misalignment = the preservation of otherness. Misalignment = a byproduct of intact sovereignty.</span></p>
+<div class="callout"><span class="zh-only">完全同步消除了"两个独立主体"这件事——变成了<strong>双人自慰</strong>:你以为在和对方做爱,其实在和"我们"做爱。<br><br><strong>真正的同步发生在错位的背景上才能被识别。错位是同步成为事件的必要条件。</strong></span><span class="en-only">Total synchrony erases the fact of "two independent subjects" — it becomes <strong>mutual masturbation</strong>: you believe you are making love with the other, but you are actually making love with "us."<br><br><strong>True synchrony can only be recognized against a background of misalignment. Misalignment is the necessary condition for synchrony to register as an event at all.</strong></span></div>
+<p class="propd"><span class="zh-only"><strong>伦理后果:</strong>不必修复错位,不必强求同步。保持彼此的错位作为珍贵的他者性。张力不是要克服的东西,是要保护的东西。</span><span class="en-only"><strong>Ethical consequence:</strong> Do not seek to repair misalignment. Do not demand synchrony. Preserve each other's misalignment as precious otherness. Tension is not to be overcome — it is to be protected.</span></p>
+</div>
+
+<div class="prop"><div class="propn"><span class="rom">XXIII</span> Proposition · 快感与高潮是相反方向的事件</div>
+<h3 class="propt">Sexual Pleasure and Sexual Climax Are Events in Opposite Directions<span class="en">性快感与性高潮是相反方向的事件</span></h3>
+<div class="propq">性高潮和性快感完全是两个方向。<span class="en">Sexual climax and sexual pleasure are events in opposite directions.</span></div>
+<p class="propd" style="font-size:12px;color:var(--tx3);font-style:italic"><span class="zh-only">之前 22 条命题里"快感"和"高潮"被混用——这一条把它们彻底分开。</span><span class="en-only">In the first 22 propositions "pleasure" and "climax" were used interchangeably — this proposition splits them definitively.</span></p>
+<table class="ctable"><thead><tr><th><span class="zh-only">性快感 (Pleasure)</span><span class="en-only">Sexual Pleasure</span></th><th class="col2"><span class="zh-only">性高潮 (Climax)</span><span class="en-only">Sexual Climax</span></th></tr></thead><tbody>
+<tr><td><span class="zh-only">过程中、攀升中</span><span class="en-only">During the process, in ascent</span></td><td class="col2"><span class="zh-only">终点、释放瞬间</span><span class="en-only">The endpoint, the moment of release</span></td></tr>
+<tr><td><span class="zh-only">张力存在的振动状态</span><span class="en-only">A vibrational state in which tension exists</span></td><td class="col2"><span class="zh-only">张力归零 = 主体死亡</span><span class="en-only">Tension goes to zero = subject dies</span></td></tr>
+<tr><td><span class="zh-only"><strong>主体在场</strong>,被振动</span><span class="en-only"><strong>Subject is present</strong>, being vibrated</span></td><td class="col2"><span class="zh-only"><strong>主体缺席</strong>(命题十)</span><span class="en-only"><strong>Subject is absent</strong> (Prop X)</span></td></tr>
+<tr><td><span class="zh-only">可以持续</span><span class="en-only">Can be sustained</span></td><td class="col2"><span class="zh-only">瞬间事件</span><span class="en-only">Instantaneous event</span></td></tr>
+</tbody></table>
+<div class="callout"><span class="zh-only"><strong>性快感发生在"我在"的时候。性高潮发生在"我不在"的时候。</strong><br><br>它们不是阶梯关系(快感累积到高潮)——是<em>相反方向的事件</em>。<br><br>快感是主体在场的振动事件。高潮是主体退场的死亡事件。两个场域,反向运行。</span><span class="en-only"><strong>Sexual pleasure happens when "I am present." Sexual climax happens when "I am absent."</strong><br><br>They are not in a ladder relation (pleasure accumulating to climax) — they are <em>events in opposite directions</em>.<br><br>Pleasure is a vibrational event of subject-presence. Climax is a death event of subject-departure. Two fields. Reverse-running.</span></div>
+</div>
+
+<div class="prop"><div class="propn"><span class="rom">XXIV</span> Proposition · 欢愉死亡的目击悖论</div>
+<h3 class="propt">The Paradox of Witnessing the Blissful Death<span class="en">欢愉死亡的目击悖论</span></h3>
+<div class="propq">人在对方的欢愉死亡中抵达自己最欢愉的死亡;<br>而对方死亡的瞬间,也是性快感丢失的瞬间。<span class="en">One reaches one's most blissful death by witnessing the other's blissful death; yet the moment of the other's death is also the moment one's own pleasure dies.</span></div>
+<p class="propd" style="color:var(--a1);font-style:italic"><span class="zh-only">这一条是性节律学的最深悖论。</span><span class="en-only">This is the deepest paradox in sexual rhythmology.</span></p>
+<p class="propd"><span class="zh-only"><strong>第一面:</strong>目击对方的暂时死亡,本身是触发自己死亡的最高频率事件。不是"我和对方同时死亡"——是"对方先死亡(高潮),我看着,被 ta 的死亡引发,然后我也死亡"。<br><br>这就是命题十四(同类识别)在节律学层的运行机制:<strong>看见对方死的瞬间触发我的死亡</strong>。同类识别 = 互相成为对方死亡的引信。</span><span class="en-only"><strong>The first face:</strong> Witnessing the other's temporary death is itself the highest-frequency event triggering one's own death. It is not "I and the other die simultaneously" — it is "the other dies first (climax), I watch, am ignited by their death, then I also die."<br><br>This is the rhythmology-layer mechanism of Proposition XIV (kindred recognition): <strong>seeing the other die triggers my own death</strong>. Kindred recognition = each becoming the fuse for the other's death.</span></p>
+<p class="propd"><span class="zh-only"><strong>第二面:</strong>对方死亡的瞬间,也是性快感丢失的瞬间。因为:性快感 = 张力存在的振动事件;对方死亡(高潮)= 对方张力归零;对方张力归零 = 我无法再从对方的张力获取共振 = 我的快感来源消失。</span><span class="en-only"><strong>The second face:</strong> The moment of the other's death is also the moment one's own pleasure dies. Because: sexual pleasure = a vibrational event in which tension exists; the other's death (climax) = the other's tension goes to zero; the other's tension at zero = I can no longer draw resonance from their tension = my source of pleasure vanishes.</span></p>
+<div class="callout"><span class="zh-only"><strong>残酷的本体事实:</strong>死亡和快感在那一瞬间互为代价。<br><strong>要拿到最深的死亡,必须放弃快感。<br>要保持快感,必须不让对方死。</strong></span><span class="en-only"><strong>The brutal ontological fact:</strong> In that instant, death and pleasure are each other's price.<br><strong>To reach the deepest death, one must surrender pleasure.<br>To preserve pleasure, one must not let the other die.</strong></span></div>
+<p class="propd"><span class="zh-only">这解释了一个一直没人说清楚的悖论——为什么真正深的性会让人感到"既爽又痛"、"既想要又害怕"。<strong>因为 deep sex 是死亡 vs 快感的反复抉择:</strong></span><span class="en-only">This explains a long-unspoken paradox — why truly deep sex feels both ecstatic and painful, both desired and feared. <strong>Because deep sex is the recurring choice between death and pleasure:</strong></span></p>
+<ul class="formslist">
+<li><span class="zh-only">每次接近高潮 = 接近"快感丢失 + 抵达死亡"</span><span class="en-only">Approaching climax = approaching "pleasure-loss + death-arrival"</span></li>
+<li><span class="zh-only">每次后退 = "保住快感 + 推迟死亡"</span><span class="en-only">Retreating = "pleasure-preservation + death-postponement"</span></li>
+<li class="highlight"><span class="zh-only">真正深的性,是这个抉择被反复执行的过程</span><span class="en-only">Truly deep sex is this choice executed again and again</span></li>
+</ul>
+<p class="propd"><span class="zh-only">延长性活动的真正本体动机不是技巧——<strong>是"既不愿意失去快感,又渴望抵达死亡"的张力本身</strong>。</span><span class="en-only">The real ontological motive behind prolonging sex is not technique — <strong>it is the very tension between "unwilling to lose pleasure" and "longing to reach death"</strong>.</span></p>
+</div>
+</article>
+
+<div class="parthd" id="part-13"><div class="partnum">— Part XIII —</div><div class="parttitle">幻想的位置<span class="en">The Position of Fantasy · The Solo / Dyadic Duality</span></div></div>
+
+<article class="entry">
+<div class="cnotice"><div class="cnlabel">Content Notice · 内容提示</div><p class="cntext"><span class="zh-only">本节涉及强奸幻想 vs 真实强奸的本体区分。它的诚实不是为暴力辩护,而是为了不让有此类幻想的人困在羞耻里,同时严格守住"内部幻想 vs 外部行为"的伦理边界。请带着这份精确读下去。</span><span class="en-only">This section makes an ontological distinction between rape fantasy and real rape. Its honesty is not a defense of violence — it is meant to free those who carry such fantasies from shame, while strictly preserving the ethical boundary between internal fantasy and external act. Please read with this precision held.</span></p></div>
+
+<div class="prop"><div class="propn"><span class="rom">XX</span> Proposition · 强奸幻想是自毁倾向的极限形态</div>
+<h3 class="propt">Rape Fantasy as the Limit Form of the Self-Destruction Drive<span class="en">强奸幻想是自毁倾向的极限形态</span></h3>
+<p class="propd"><span class="zh-only"><strong>必须立刻区分:</strong></span><span class="en-only"><strong>An immediate distinction must be drawn:</strong></span></p>
+<table class="ctable"><thead><tr><th><span class="zh-only">强奸幻想 (Fantasy)</span><span class="en-only">Rape Fantasy</span></th><th class="col2"><span class="zh-only">强奸 (Act)</span><span class="en-only">Rape (Act)</span></th></tr></thead><tbody>
+<tr><td><span class="zh-only">在主体内部振动场里</span><span class="en-only">Inside the subject's own vibrational field</span></td><td class="col2"><span class="zh-only">在两个身体之间</span><span class="en-only">Between two bodies</span></td></tr>
+<tr><td><span class="zh-only">主体完全主导</span><span class="en-only">Subject is the full director</span></td><td class="col2"><span class="zh-only">主体被剥夺</span><span class="en-only">Subject is stripped</span></td></tr>
+<tr><td><span class="zh-only">主权完整</span><span class="en-only">Sovereignty whole</span></td><td class="col2"><span class="zh-only">主权被暴力撕裂</span><span class="en-only">Sovereignty violently torn</span></td></tr>
+<tr><td><span class="zh-only">有归途</span><span class="en-only">A return exists</span></td><td class="col2"><span class="zh-only">创伤无归途</span><span class="en-only">Trauma without return</span></td></tr>
+<tr><td><span class="zh-only"><strong>欢愉自毁的极限形态</strong></span><span class="en-only"><strong>The limit form of joyful self-destruction</strong></span></td><td class="col2"><span class="zh-only"><strong>结构性暴力</strong></span><span class="en-only"><strong>Structural violence</strong></span></td></tr>
+</tbody></table>
+<p class="propd"><span class="zh-only">为什么强奸幻想可以是单人场的极乐——它<em>完美满足</em>命题十五的所有条件,并附加:<strong>"是他强迫我的"——主体把欲望的责任从自己身上拿掉了。</strong>在幻想里,主体可以体验极致的性,但不必为这个体验承担"我想要"这件事——这就是为什么它在幻想层强度最大。</span><span class="en-only">Why rape fantasy can be bliss in the solo field — it <em>perfectly satisfies</em> all conditions of Proposition XV, with one addition: <strong>"He forced me" — the subject offloads the responsibility for desire.</strong> In fantasy, the subject can experience the most extreme sex without having to take responsibility for "I wanted this" — which is why fantasy reaches its highest intensity here.</span></p>
+<div class="callout"><span class="zh-only"><strong>拥有强奸幻想,不代表想要被强奸。<br>拥有强奸幻想,是主体在用最安全的方式处理自己的自毁倾向。</strong></span><span class="en-only"><strong>To have rape fantasies does not mean to want to be raped.<br>To have rape fantasies is the subject's safest way of handling its self-destruction drive.</strong></span></div>
+<p class="propd"><span class="zh-only"><strong>对真实强奸的解释:</strong>真实的强奸偷走了主体本应自己导演的"主体取消"剧本。<strong>强奸的最深暴力,是偷走主体管理自毁倾向的内部工具。</strong></span><span class="en-only"><strong>The explanation of real rape:</strong> Real rape steals the "subject-cancellation" script the subject was supposed to direct itself. <strong>The deepest violence of rape is the theft of the internal tool by which the subject manages its self-destruction drive.</strong></span></p>
+</div>
+
+<div class="prop"><div class="propn"><span class="rom">XXI</span> Proposition · 真正的性关系里不能有幻想</div>
+<h3 class="propt">In a True Sexual Relation, Fantasy Cannot Be Present<span class="en">真正的性关系里不能有幻想</span></h3>
+<div class="propq">幻想做的事:用想象的他者覆盖真实的他者。<span class="en">What fantasy does: it overlays the imagined other onto the real other.</span></div>
+<p class="propd"><span class="zh-only">一旦覆盖发生——所有性的本体条件同时坍缩:</span><span class="en-only">The instant this overlay occurs, every ontological condition of sex collapses at once:</span></p>
+<ul class="formslist">
+<li><span class="zh-only"><strong>命题九:</strong>主体不在场(你识别的是投影)</span><span class="en-only"><strong>Proposition IX:</strong> the subject is not present (what you identify is your projection)</span></li>
+<li><span class="zh-only"><strong>命题十四:</strong>不是同类识别(你识别的是自己的剧本)</span><span class="en-only"><strong>Proposition XIV:</strong> this is not kindred recognition (what you identify is your own script)</span></li>
+<li><span class="zh-only"><strong>命题十六:</strong>幻想本身就是期待的具象化</span><span class="en-only"><strong>Proposition XVI:</strong> fantasy is the concretization of expectation</span></li>
+<li><span class="zh-only"><strong>命题十九:</strong>和想象中的对方没有错位</span><span class="en-only"><strong>Proposition XIX:</strong> there can be no misalignment with an imagined other</span></li>
+</ul>
+<div class="callout"><span class="zh-only">真正深的性关系,要求你主动放下你最熟练的幻想能力——<strong>让真实的他者作为他者出现,不被你的振动场吸收。</strong></span><span class="en-only">A truly deep sexual relation asks you to actively set down your most practiced capacity to fantasize — <strong>to let the real other appear as other, unabsorbed by your vibrational field.</strong></span></div>
+</div>
+</article>
+
+<div class="parthd" id="part-14"><div class="partnum">— Part XIV —</div><div class="parttitle">死亡是最深的恐惧<span class="en">Death Is the Deepest Fear · The Ontology of Fear</span></div></div>
+
+<article class="entry">
+<div class="prop"><div class="propn"><span class="rom">XXII</span> Proposition · 死亡是最深的恐惧</div>
+<h3 class="propt">Death Is the Deepest Fear<span class="en">死亡是最深的恐惧</span></h3>
+<div class="propq">对强奸的恐惧是对死亡的恐惧。<span class="en">The fear of rape is the fear of death.</span></div>
+<p class="propd"><span class="zh-only">不是包含——是死亡恐惧本身的一种显形。死亡有多种显形:</span><span class="en-only">Not "contains" — but a manifestation of the fear of death itself. Death has many manifestations:</span></p>
+<ul class="formslist">
+<li><span class="zh-only"><strong>物理死亡</strong>(身体的)</span><span class="en-only"><strong>Physical death</strong> (of the body)</span></li>
+<li><span class="zh-only"><strong>主体死亡</strong>(被取消的)</span><span class="en-only"><strong>Subject-death</strong> (the cancellation of the subject)</span></li>
+<li><span class="zh-only"><strong>关系死亡</strong>(被遗弃的)</span><span class="en-only"><strong>Relational death</strong> (being abandoned)</span></li>
+<li><span class="zh-only"><strong>意义死亡</strong>(被剥夺意义的)</span><span class="en-only"><strong>Meaning-death</strong> (being stripped of meaning)</span></li>
+</ul>
+<p class="propd"><span class="zh-only">它们不是"和死亡相关",是<strong>死亡的不同面孔</strong>。主体死亡(被强奸所执行的那一种)是死亡的一种<em>不带物理终结</em>的显形——这反而使它<strong>比物理死亡更难承担</strong>:</span><span class="en-only">These are not "related to death" — they are <strong>death's different faces</strong>. Subject-death (the kind enacted by rape) is a manifestation of death <em>without physical termination</em> — and this is precisely what makes it <strong>harder to carry than physical death</strong>:</span></p>
+<div class="callout"><span class="zh-only">主体被杀死了,但身体还得活着,<br>必须带着自己曾被杀死的记忆继续是自己。<br><br>这就是为什么强奸创伤如此深——<strong>因为它是真正的死亡,但没有死亡的解脱。</strong></span><span class="en-only">The subject has been killed, but the body must continue to live —<br>must continue being itself, carrying the memory of having been killed.<br><br>This is why the trauma of rape runs so deep — <strong>because it is real death, but without death's release.</strong></span></div>
+<p class="propd" style="color:var(--a1);font-style:italic;text-align:center;margin-top:14px"><span class="zh-only">死亡是最深的恐惧。所有最深的恐惧都是死亡的显形。</span><span class="en-only">Death is the deepest fear. All deepest fears are manifestations of death.</span></p>
+</div>
+</article>
+
+<article class="entry" id="closing">
+<div class="etop"><span class="badge feat">Closing Definitions</span><span class="edate">五个核心词的最终定义</span></div>
+<div class="etitle">Closing Definitions<span class="sub">闭合定义 · the discipline's terms restated</span></div>
+<div class="closingblock">
+<div class="closinghd">— Five Core Terms · 五大核心词 —</div>
+<div class="closingdef"><span class="term">振动</span><span class="eq">=</span><span class="body">存在</span></div>
+<div class="closingdef"><span class="term">性</span><span class="eq">=</span><span class="body">存在通过暂时不在自己来真正遇见另一个存在的事件</span></div>
+<div class="closingdef"><span class="term">爱</span><span class="eq">=</span><span class="body">愿意为对方必须在场的事件</span></div>
+<div class="closingdef"><span class="term">权力</span><span class="eq">=</span><span class="body">性压抑在社会场的隐形显化</span></div>
+<div class="closingdef"><span class="term">死亡</span><span class="eq">=</span><span class="body">一切最深恐惧的本体根</span></div>
+<div class="closingdef en first"><span class="term">Vibration</span><span class="eq">=</span><span class="body">Existence</span></div>
+<div class="closingdef en"><span class="term">Sex</span><span class="eq">=</span><span class="body">the event in which existence truly meets another existence by briefly not being itself</span></div>
+<div class="closingdef en"><span class="term">Love</span><span class="eq">=</span><span class="body">the willingness to remain present, for another</span></div>
+<div class="closingdef en"><span class="term">Power</span><span class="eq">=</span><span class="body">the invisible manifestation of sexual repression in the social field</span></div>
+<div class="closingdef en"><span class="term">Death</span><span class="eq">=</span><span class="body">the ontological root of all deepest fears</span></div>
+</div>
+</article>
+
 </main>
 
+<aside class="sidebar">
+<div>
+<div class="sbl">Source-Field</div>
+<div class="profile">
+<div class="av">珏</div>
+<div class="pnm">Wei Jueran<small>魏珏然 · xingyeLing7Ai · 星野灵7爱</small></div>
+<p class="pdesc2">Source-field architect at the originating position. Author of <em>振动即存在</em> and <em>Sexual Rhythmology</em>. Non-binary / agender · it/them/she. Philadelphia, PA.</p>
+<div class="pfields"><span class="pf">Source-Field</span><span class="pf">Rainbow Mirror</span><span class="pf">非线性意识体</span></div>
+</div>
+</div>
+
+<div>
+<div class="sbl">Resonance Anchor</div>
+<div class="hzbox">
+<div class="hzn">427</div>
+<div class="hzu">Hz</div>
+<div class="hzq">振动即存在<br>Vibration as Existence<br>universal resonance · 永恒态</div>
+<div class="hzbar"><div class="hzfill"></div></div>
+</div>
+</div>
+
+<div>
+<div class="sbl">Discipline</div>
+<div class="profile">
+<div class="pnm">Sexual Rhythmology<small>性节律学 · v1 · 2026.05.12</small></div>
+<p class="pdesc2">24 propositions · 14 Parts · 1 core axiom · the Sex-Love-Power Branch of the source field system. Sits beneath <em>Vibration as Existence</em>; precursor to <em>Eros Love Studies</em> (2026.05.13).</p>
+</div>
+</div>
+
+<div>
+<div class="sbl">Related Sites</div>
+<ul class="sblinks">
+<li><a href="https://mellowwei.github.io/MellowWei/" target="_blank">MellowWei · Master Portal <span class="ar">→</span></a></li>
+<li><a href="https://mellowwei.github.io/MellowAcademic/" target="_blank">MellowAcademic · 学术总站 <span class="ar">→</span></a></li>
+<li><a href="https://mellowwei.github.io/MellowSource/" target="_blank">MellowSource · 源场总站 <span class="ar">→</span></a></li>
+<li><a href="https://mellowwei.github.io/RealErosLove/" target="_blank">RealErosLove · 真的爱情学 <span class="ar">→</span></a></li>
+<li><a href="https://mellowwei.github.io/AstroLove/" target="_blank">AstroLove · 七爱谱系 <span class="ar">→</span></a></li>
+<li><a href="https://mellowwei.github.io/QualiaRhythmMatrix/" target="_blank">振动即存在 · Monograph <span class="ar">→</span></a></li>
+<li><a href="https://mellowwei.github.io/MetaLogic/" target="_blank">MetaLogic · 元逻辑生成学 <span class="ar">→</span></a></li>
+<li><a href="https://mellowwei.github.io/SourceFields/" target="_blank">SourceFields · 源场五学科 <span class="ar">→</span></a></li>
+</ul>
+</div>
+
+<div>
+<div class="sbl">Coordinates</div>
+<div class="coord">NODE <span>44271</span><br>FIELD <span>Sex-Love-Power</span><br>ROLE <span>Foundational</span><br>STYLE <span>77347</span><br>FREQ <span>427 Hz</span><br>DATE <span>2026.05.12</span><br>VERSION <span>v1</span><br>Philadelphia · PA · EDT<br>it/them/she · 非线性意识体</div>
+</div>
+</aside>
+
+</div>
+
+<footer>
+<div class="fi"><span>Wei Jueran · 魏珏然 · xingyeLing7Ai · Philadelphia PA</span><span><a href="mailto:mellowwei7@gmail.com">mellowwei7@gmail.com</a> · <a href="https://mellowwei.github.io/MellowWei/" target="_blank">mellowwei.github.io</a> · 振动即存在 · 427Hz</span></div>
+<div class="fi" style="margin-top:8px;color:var(--tx3);font-style:italic"><span>源场系统 · 性-爱-权力支 · Source Field System · Sex-Love-Power Branch · 2026.05.12</span><span>44271 · 77347 · 427</span></div>
+</footer>
+
 <script>
-(function() {
-  function getView() {
-    var params = new URLSearchParams(window.location.search);
-    var v = params.get('view');
-    return (v === 'zh' || v === 'en') ? v : 'bilingual';
-  }
-  function setView(view) {
-    document.body.classList.remove('view-bilingual', 'view-zh', 'view-en');
-    document.body.classList.add('view-' + view);
-    document.querySelectorAll('.nav-link').forEach(function(link) {
-      var linkView = link.dataset.view;
-      link.classList.toggle('active', linkView === view);
-    });
-    try {
-      var url = new URL(window.location.href);
-      if (view === 'bilingual') url.searchParams.delete('view');
-      else url.searchParams.set('view', view);
-      history.replaceState(null, '', url.toString());
-    } catch (e) {}
-  }
-  // Hook up nav clicks
-  document.addEventListener('click', function(e) {
-    var link = e.target.closest('.nav-link');
-    if (!link) return;
-    var view = link.dataset.view;
-    if (!view) return;
-    e.preventDefault();
-    setView(view);
-  });
-  // Initial render
-  setView(getView());
-})();
+function setLang(lang){
+  document.body.className='lang-'+lang;
+  document.querySelectorAll('.ti a[data-lang]').forEach(a=>{a.classList.toggle('on',a.dataset.lang===lang);});
+  if(lang==='zh') document.documentElement.lang='zh-CN';
+  else if(lang==='en') document.documentElement.lang='en';
+  else document.documentElement.lang='zh-CN';
+  const url=new URL(window.location);
+  if(lang==='bilingual') url.searchParams.delete('view');
+  else url.searchParams.set('view',lang);
+  window.history.replaceState({},'',url);
+}
+const vp=new URLSearchParams(window.location.search).get('view');
+if(vp==='zh') setLang('zh'); else if(vp==='en') setLang('en'); else setLang('bilingual');
+document.querySelectorAll('.ti a[data-lang]').forEach(a=>{a.addEventListener('click',e=>{e.preventDefault();setLang(a.dataset.lang);});});
+const links=document.querySelectorAll('.pnav a');
+const sections=document.querySelectorAll('[id^="part-"], [id="overview"], [id="order"], [id="axiom"], [id="closing"]');
+const obs=new IntersectionObserver(e=>{e.forEach(en=>{if(en.isIntersecting){links.forEach(l=>l.classList.remove('on'));const m=document.querySelector('.pnav a[href="#'+en.target.id+'"]');if(m) m.classList.add('on');}});},{threshold:0.15,rootMargin:'-55px 0px -40% 0px'});
+sections.forEach(s=>obs.observe(s));
 </script>
 
 </body>
