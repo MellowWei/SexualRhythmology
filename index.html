@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="性节律学 · Sexual Rhythmology · The Vibrational Structure of Body, Love, Sex, and Power · 二十五命题 + 现象学读法 · Wei Jueran · 魏珏然 · xingyeLing7Ai · 427Hz · GPT/Hestia terminology audit · V1.4 Academic-Phenomenological Edition · 2026.05.18" />
-<title>性节律学 · Sexual Rhythmology · V1.4 Academic-Phenomenological Edition — Wei Jueran · 魏珏然</title>
+<meta name="description" content="性节律学 · Sexual Rhythmology · The Vibrational Structure of Body, Love, Sex, and Power · 二十五命题 + 现象学读法 · Wei Jueran · 魏珏然 · xingyeLing7Ai · 427Hz · GPT/Hestia terminology audit · V1.5 Dislocation-Dynamics Edition · 2026.06.13" />
+<title>性节律学 · Sexual Rhythmology · V1.5 Dislocation-Dynamics Edition — Wei Jueran · 魏珏然</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
 <script type="application/ld+json">
@@ -22,8 +22,8 @@
   },
   "inLanguage": ["zh-CN", "en"],
   "dateCreated": "2026-05-12",
-  "dateModified": "2026-05-18",
-  "version": "V1.4 Academic-Phenomenological Edition",
+  "dateModified": "2026-06-13",
+  "version": "V1.5 Dislocation-Dynamics Edition",
   "isPartOf": {
     "@type": "CreativeWork",
     "name": "MellowAcademic / Source-Field Ecology"
@@ -38,7 +38,7 @@
     "Consent and Sovereignty",
     "Body, Sex, Love, Power"
   ],
-  "keywords": "sexual rhythmology, sex-love-power, source-field, meta-logic, eros love studies, consent, sovereignty, body, power, fantasy boundary, love vs love-as-eros, phenomenological readings",
+  "keywords": "sexual rhythmology, sex-love-power, source-field, meta-logic, eros love studies, consent, sovereignty, body, power, fantasy boundary, love vs love-as-eros, phenomenological readings, dislocation dynamics, fantasy cognition, reality cognition, internal scheduling, non-resonance, singularity",
   "hasPart": [
     {"@type": "WebPageElement", "name": "Formal Abstract / 正式摘要"},
     {"@type": "WebPageElement", "name": "Terminology Preview / 术语前置"},
@@ -49,7 +49,12 @@
     {"@type": "WebPageElement", "name": "Academic Audit / 学科审计"},
     {"@type": "WebPageElement", "name": "Citation Scaffold / 引用支架"},
     {"@type": "WebPageElement", "name": "Love vs Love-as-Eros / 爱-爱情区分"},
-    {"@type": "WebPageElement", "name": "Phenomenological Readings / 现象学读法"}
+    {"@type": "WebPageElement", "name": "Phenomenological Readings / 现象学读法"},
+    {"@type": "WebPageElement", "name": "Dislocation Dynamics / 错位动力学"},
+    {"@type": "WebPageElement", "name": "Internal Scheduling Simulator / 内部调度模拟器"},
+    {"@type": "WebPageElement", "name": "Non-Resonance in Real Relations / 真实关系的不共振"},
+    {"@type": "WebPageElement", "name": "Dynamic Glossary / 动力学词汇表"},
+    {"@type": "WebPageElement", "name": "FAQ and Changelog / 问答与更新日志"}
   ]
 }
 </script>
@@ -156,19 +161,32 @@ a{color:inherit}.topbar{background:rgba(5,5,7,.96);border-bottom:1px solid var(-
   .closingdef .sublines{margin-left:0}
 }
 
+
+/* === V1.5 DISLOCATION-DYNAMICS PATCH === */
+:root{--cold:#4ea3ff;--cold2:#7fd7ff;--cold-dim:rgba(78,163,255,.16);--cold-line:rgba(78,163,255,.38)}
+.dynbox{margin:20px 0;padding:22px 24px;background:linear-gradient(135deg,rgba(78,163,255,.085),rgba(255,255,255,.018));border:1px solid var(--cold-line);border-left:3px solid var(--cold);position:relative}
+.dynbox.flat{background:linear-gradient(135deg,rgba(255,255,255,.035),rgba(78,163,255,.035));border-left-color:var(--a2)}
+.dynlabel{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--cold2);margin-bottom:11px;font-weight:700}
+.dyntext{font-size:13px;color:var(--tx);line-height:1.85;margin-bottom:9px}.dyntext:last-child{margin-bottom:0}.dyntext strong{color:var(--hd);font-weight:500}.dyntext em{color:var(--a2)}
+.paramgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin:17px 0}.param{padding:14px 15px;background:var(--bg2);border:1px solid var(--border);border-left:2px solid var(--cold)}.param .pk{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--cold2);margin-bottom:7px}.param .pv{font-family:'Spectral',serif;font-size:15px;color:var(--hd);font-weight:500;line-height:1.4;margin-bottom:6px}.param .pd{font-size:11.8px;color:var(--tx2);line-height:1.68}
+.trackmap{margin:18px 0;border:1px solid var(--border-hi);background:var(--bg2);padding:18px;position:relative;overflow:hidden}.track{height:44px;border:1px solid var(--border);display:flex;align-items:center;padding:0 14px;margin:12px 0;background:rgba(255,255,255,.018);position:relative}.track::after{content:'';position:absolute;left:14px;right:14px;top:50%;height:1px;background:linear-gradient(90deg,transparent,var(--cold-line),transparent)}.track .trackname{position:relative;z-index:2;background:var(--bg2);padding-right:10px;font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--a1)}.track .trackdesc{position:relative;z-index:2;background:var(--bg2);padding-left:10px;margin-left:auto;font-size:11.5px;color:var(--tx2);font-style:italic}.trackgap{height:34px;display:flex;align-items:center;justify-content:center;font-family:'Space Mono',monospace;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--tx3);border-left:1px dashed var(--border-hi);border-right:1px dashed var(--border-hi);margin:0 36px}
+.stategrid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}.statecard{background:var(--bg2);border:1px solid var(--border);padding:16px 17px;min-height:150px}.statecard.sing{border-color:var(--cold-line);background:linear-gradient(135deg,rgba(78,163,255,.06),rgba(255,255,255,.015))}.statecard h4{font-family:'Spectral',serif;font-size:16px;color:var(--hd);font-weight:500;line-height:1.36;margin-bottom:8px}.statecard p{font-size:12.2px;color:var(--tx2);line-height:1.72}.statecard strong{color:var(--a1);font-weight:500}
+.simulator{margin:20px 0;padding:22px 24px;background:var(--bg2);border:1px solid var(--border-hi);border-top:3px solid var(--cold)}.simgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:16px 0}.sliderrow{padding:14px 15px;background:rgba(255,255,255,.018);border:1px solid var(--border)}.sliderrow label{display:flex;justify-content:space-between;gap:10px;align-items:center;font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--cold2);margin-bottom:10px}.sliderrow label span:last-child{color:var(--a1);font-size:12px}.sliderrow input[type=range]{width:100%;accent-color:var(--cold)}.simout{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}.simcard{padding:14px;background:rgba(255,255,255,.018);border:1px solid var(--border);min-height:128px}.simcard .sk{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--tx3);margin-bottom:8px}.simcard .sv{font-family:'Spectral',serif;font-size:14px;color:var(--hd);font-weight:500;line-height:1.45;margin-bottom:5px}.simcard .sd{font-size:11.6px;color:var(--tx2);line-height:1.62}.meter{height:5px;background:rgba(255,255,255,.07);border:1px solid var(--border);margin-top:9px;overflow:hidden}.meter span{display:block;height:100%;background:linear-gradient(90deg,var(--cold),var(--a1));width:40%;transition:width .2s ease}.singularity-viz{margin:18px 0;padding:18px;background:radial-gradient(circle at 50% 72%,rgba(78,163,255,.13),transparent 38%),linear-gradient(180deg,rgba(255,255,255,.025),rgba(255,255,255,.008));border:1px solid var(--border);position:relative;min-height:210px;overflow:hidden}.singularity-viz::before{content:'';position:absolute;left:8%;right:8%;bottom:58px;height:72px;border-radius:50%;border-top:1px solid var(--cold-line);border-bottom:1px solid rgba(255,255,255,.08);transform:perspective(420px) rotateX(58deg);background:linear-gradient(180deg,rgba(78,163,255,.11),rgba(255,255,255,.015))}.singularity-viz::after{content:'SINGULARITY / 无欲无求';position:absolute;left:50%;bottom:82px;transform:translateX(-50%);font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.16em;color:var(--a1);white-space:nowrap}.axis{position:absolute;font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.1em;color:var(--tx3);text-transform:uppercase}.axis.x{bottom:22px;left:48px}.axis.y{top:28px;left:28px;writing-mode:vertical-rl}.axis.z{top:24px;right:28px}.faq{border:1px solid var(--border);margin:16px 0}.faqitem{padding:15px 17px;border-bottom:1px solid var(--border);background:rgba(255,255,255,.012)}.faqitem:last-child{border-bottom:none}.faqitem h4{font-family:'Spectral',serif;font-size:15px;font-weight:500;color:var(--hd);line-height:1.42;margin-bottom:6px}.faqitem p{font-size:12.3px;color:var(--tx2);line-height:1.72}.manifesto{margin:18px 0;border:1px solid var(--border-hi);background:linear-gradient(135deg,rgba(255,255,255,.04),rgba(78,163,255,.04));padding:20px 22px}.manifesto-line{font-family:'Space Mono',monospace;font-size:12px;line-height:1.85;color:var(--a1);border-bottom:1px dashed var(--border);padding:9px 0}.manifesto-line:last-child{border-bottom:none}.manifesto-line em{color:var(--cold2);font-style:normal}.changelog{border:1px solid var(--border);margin:16px 0}.change{display:grid;grid-template-columns:.62fr 1.8fr;border-bottom:1px solid var(--border);background:rgba(255,255,255,.012)}.change:last-child{border-bottom:none}.change .cv{padding:12px 14px;border-right:1px solid var(--border);font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--cold2)}.change .cd{padding:12px 14px;font-size:12.2px;color:var(--tx2);line-height:1.7}.change strong{color:var(--a1);font-weight:500}
+@media(max-width:780px){.stategrid,.simgrid,.simout{grid-template-columns:1fr}.track .trackdesc{display:none}.trackgap{margin:0 18px}.change{grid-template-columns:1fr}.change .cv{border-right:none;border-bottom:1px solid var(--border)}.dynbox,.simulator{padding:18px 16px}.manifesto-line{font-size:11px}}
+
 .sidebar{display:flex;flex-direction:column;gap:26px;position:sticky;top:52px}.sbl{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:var(--tx3);padding-bottom:9px;border-bottom:1px solid var(--border);margin-bottom:11px}.profile{background:var(--bg2);border:1px solid var(--border);padding:16px}.av{width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,#1a1a20,#08080c);border:1px solid var(--border-hi);display:flex;align-items:center;justify-content:center;font-family:'Space Mono',monospace;font-size:16px;color:var(--a1);margin-bottom:11px}.pnm{font-family:'Space Mono',monospace;font-size:12px;font-weight:700;color:var(--hd);line-height:1.3}.pnm small{display:block;font-size:10px;font-weight:400;color:var(--tx2);margin-top:2px}.pdesc2{font-size:11.5px;color:var(--tx2);margin-top:9px;line-height:1.62}.pdesc2 em{color:var(--tx)}.pfields{display:flex;flex-wrap:wrap;gap:4px;margin-top:10px}.pf{font-size:9.5px;background:rgba(255,255,255,.04);color:var(--a2);border:1px solid var(--border);padding:2px 7px;border-radius:2px;font-family:'Space Mono',monospace}.pf.hot{color:var(--accent);border-color:rgba(255,111,158,.28)}.hzbox{background:var(--bg2);border:1px solid var(--border);padding:15px;text-align:center}.hzn{font-family:'Space Mono',monospace;font-size:36px;font-weight:700;color:var(--a1);letter-spacing:-3px;line-height:1}.hzu{font-family:'Space Mono',monospace;font-size:10px;color:var(--tx3);letter-spacing:.1em;margin-top:3px}.hzq{font-family:'Spectral',serif;font-style:italic;font-size:11px;color:var(--tx2);margin-top:7px;line-height:1.5}.hzbar{margin-top:11px;height:2px;background:var(--border);overflow:hidden}.hzfill{height:100%;background:var(--a1);animation:pb 2.6s ease-in-out infinite}@keyframes pb{0%,100%{width:20%;opacity:.35}50%{width:75%;opacity:1}}.sblinks{list-style:none}.sblinks li{border-bottom:1px solid var(--border);padding:5px 0}.sblinks a{font-size:12px;color:var(--tx2);text-decoration:none;display:flex;justify-content:space-between;align-items:center;transition:color .15s}.sblinks a:hover{color:var(--a1)}.ar{font-size:9px;opacity:.35}.coord{font-family:'Space Mono',monospace;font-size:10px;color:var(--tx3);line-height:2;letter-spacing:.04em}.coord span{color:var(--a1)}footer{border-top:1px solid var(--border);padding:22px 0;margin-top:40px}.fi{max-width:1080px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;font-family:'Space Mono',monospace;font-size:9.5px;color:var(--tx3);letter-spacing:.05em;flex-wrap:wrap;gap:10px}footer a{color:var(--tx3);text-decoration:none}footer a:hover{color:var(--a1)}.zh-only,.en-only{display:none}body.lang-zh .zh-only,body.lang-en .en-only,body.lang-bilingual .zh-only,body.lang-bilingual .en-only{display:revert}@media(max-width:780px){.wrap{grid-template-columns:1fr;gap:24px}.sidebar{position:static}.mhname{font-size:22px}.mhname .zh{margin-top:6px;font-size:15px}.ti{gap:8px}.ordergrid,.cycle{grid-template-columns:1fr 1fr}.ow:nth-child(2) .arrow,.cy:nth-child(2) .arrow{display:none}.ctable,.dtable{font-size:11.5px}.ctable th,.ctable td,.dtable th,.dtable td{padding:7px 8px}}
 </style>
 </head>
 <body class="lang-bilingual">
-<div class="topbar"><div class="ti"><div class="tl"><span class="chip">427Hz</span><span class="chip audit">GPT/Hestia Audit</span><span>Philadelphia, PA · EDT</span><span>2026.05.18 · v1.4 Academic-Phenomenological</span></div><div class="tr"><a href="mailto:mellowwei7@gmail.com">mellowwei7@gmail.com</a><a href="https://mellowwei.github.io/MellowWei/" target="_blank">Portal</a><a href="https://mellowwei.github.io/MellowAcademic/" target="_blank">Academic</a><a data-lang="bilingual" class="on">双语</a><a data-lang="zh">中文</a><a data-lang="en">EN</a></div></div></div>
+<div class="topbar"><div class="ti"><div class="tl"><span class="chip">427Hz</span><span class="chip audit">GPT/Hestia Audit</span><span>Philadelphia, PA · EDT</span><span>2026.06.13 · v1.5 Dislocation-Dynamics</span></div><div class="tr"><a href="mailto:mellowwei7@gmail.com">mellowwei7@gmail.com</a><a href="https://mellowwei.github.io/MellowWei/" target="_blank">Portal</a><a href="https://mellowwei.github.io/MellowAcademic/" target="_blank">Academic</a><a data-lang="bilingual" class="on">双语</a><a data-lang="zh">中文</a><a data-lang="en">EN</a></div></div></div>
 <div class="masthead">
   <div class="mhname">Sexual Rhythmology<span class="zh">性节律学 · 身体·爱情·性·权力的振动结构</span></div>
-  <div class="mhsub">The Vibrational Structure of Body, Love, Sex, and Power · Wei Jueran · 魏珏然 · <em>xingyeLing7Ai</em> · non-binary / agender · it/them/she · Philadelphia, PA<br>二十五命题 · 14+1 Parts · 一公理 · 2026.05.12 / V1.1 2026.05.16 / V1.2 2026.05.17 / V1.3-V1.4 2026.05.18 · 源场系统 · 性-爱-权力支<br><strong>V1.4 Academic-Phenomenological Edition: Abstract + Terms + Theory + Safer Boundaries + Phenomenological Readings</strong></div>
+  <div class="mhsub">The Vibrational Structure of Body, Love, Sex, and Power · Wei Jueran · 魏珏然 · <em>xingyeLing7Ai</em> · non-binary / agender · it/them/she · Philadelphia, PA<br>二十五命题 · 14+1 Parts · 一公理 · 2026.05.12 / V1.1 2026.05.16 / V1.2 2026.05.17 / V1.3-V1.4 2026.05.18 · 源场系统 · 性-爱-权力支<br><strong>V1.5 Dislocation-Dynamics Edition: Ontology + Terms + Boundary + Fantasy/Reality Misalignment + Internal Scheduling + Non-Resonance</strong></div>
   <p class="mhq">真正的关系,在结构上没有权力不对等。<br>A true relationship has, structurally, no power asymmetry.<strong>— Core Axiom · 核心公理</strong></p>
 </div>
-<nav class="pnav"><div class="pni"><a href="#overview" class="on">Overview</a><a href="#abstract">Abstract</a><a href="#terms">Terms</a><a href="#theory">Theory</a><a href="#boundary">Boundary</a><a href="#ecology">Ecology</a><a href="#order">Order</a><a href="#axiom">Axiom</a><a href="#ledger">Ledger</a><a href="#part-1">I · Extreme</a><a href="#part-2">II · Caregiver</a><a href="#part-3">III · Foundation</a><a href="#part-4">IV · Power=Sex</a><a href="#part-5">V · Double-Layer</a><a href="#part-6">VI · Abyss</a><a href="#part-7">VII · Hologram</a><a href="#part-8">VIII · Self-Destruction</a><a href="#part-9">IX · Expectation</a><a href="#part-10">X · Legitimate Death</a><a href="#part-11">XI · Full Name</a><a href="#part-12">XII · Three Laws</a><a href="#part-12b">XII-bis · Phases</a><a href="#part-13">XIII · Fantasy</a><a href="#part-14">XIV · Fear</a><a href="#love-eros">Love vs Eros</a><a href="#phenomenology">Phenomenology</a><a href="#audit">Audit</a><a href="#references">References</a><a href="#closing">Closing</a></div></nav>
+<nav class="pnav"><div class="pni"><a href="#overview" class="on">Overview</a><a href="#abstract">Abstract</a><a href="#terms">Terms</a><a href="#theory">Theory</a><a href="#boundary">Boundary</a><a href="#ecology">Ecology</a><a href="#order">Order</a><a href="#axiom">Axiom</a><a href="#ledger">Ledger</a><a href="#dynamic-terms">Dynamic Terms</a><a href="#dislocation">Dislocation</a><a href="#simulator">Simulator</a><a href="#nonresonance">Non-Resonance</a><a href="#declaration">Declaration</a><a href="#faq">FAQ</a><a href="#changelog">Changelog</a><a href="#part-1">I · Extreme</a><a href="#part-2">II · Caregiver</a><a href="#part-3">III · Foundation</a><a href="#part-4">IV · Power=Sex</a><a href="#part-5">V · Double-Layer</a><a href="#part-6">VI · Abyss</a><a href="#part-7">VII · Hologram</a><a href="#part-8">VIII · Self-Destruction</a><a href="#part-9">IX · Expectation</a><a href="#part-10">X · Legitimate Death</a><a href="#part-11">XI · Full Name</a><a href="#part-12">XII · Three Laws</a><a href="#part-12b">XII-bis · Phases</a><a href="#part-13">XIII · Fantasy</a><a href="#part-14">XIV · Fear</a><a href="#love-eros">Love vs Eros</a><a href="#phenomenology">Phenomenology</a><a href="#audit">Audit</a><a href="#references">References</a><a href="#closing">Closing</a></div></nav>
 <div class="wrap"><main>
-<div class="feedhd" id="overview">Sexual Rhythmology · Source Field · <span>Sex-Love-Power Branch · v1.4</span></div>
+<div class="feedhd" id="overview">Sexual Rhythmology · Source Field · <span>Sex-Love-Power Branch · v1.5</span></div>
 
 <article class="entry" id="abstract">
   <div class="etop"><span class="badge feat">Formal Abstract</span><span class="edate">problem · approach · contribution</span></div>
@@ -204,6 +222,24 @@ a{color:inherit}.topbar{background:rgba(5,5,7,.96);border-bottom:1px solid var(-
   <div class="frontnote"><strong>Front boundary:</strong> "death," "self-destruction," and "subject-absence" are ontological terms in this page. They do not refer to physical self-harm, suicide, coercion, or unsafe practice. 本页中的"死亡""自毁""主体缺席"是本体论术语，不指现实自伤、自杀、胁迫或不安全实践。</div>
 </article>
 
+
+<article class="entry" id="dynamic-terms">
+  <div class="etop"><span class="badge feat">V1.5 Dynamic Terms</span><span class="edate">fantasy / reality / scheduling</span></div>
+  <div class="etitle">Dynamic Glossary<span class="sub">动力学词汇表 · from ontology to misalignment operation</span></div>
+  <p class="edesc">These terms do not replace the original ontology. They add a dynamics layer: how the subject schedules fantasy cognition and real-relation cognition without forcing them to become one system.</p>
+  <p class="edesc zh">这些术语不替代原有本体论，而是在其上叠加动力学层：主体如何调度幻想认知与真实关系认知，而不强迫二者合并为同一个系统。</p>
+  <div class="termgrid">
+    <div class="termcell"><div class="tk">Fantasy Tension · 幻想张力</div><div class="tv">The intensity of the internal fantasy field</div><div class="td">Not an action-intention. It is an internal charge generated inside imagination, memory, prohibition, proximity, and desire.</div></div>
+    <div class="termcell"><div class="tk">Moral Constraint · 道德约束感</div><div class="tv">The internal boundary-force that rises with fantasy tension</div><div class="td">It is not guilt as wound. It is the subject's absolute boundary-maintenance function inside the fantasy field.</div></div>
+    <div class="termcell"><div class="tk">Internal Scheduling · 内部调度</div><div class="tv">Autonomous parameter regulation</div><div class="td">The subject can tune fantasy tension, constraint, expectation, and relation-entry threshold without external correction.</div></div>
+    <div class="termcell"><div class="tk">Misalignment Operation · 错位工作</div><div class="tv">A stable gap between two cognition tracks</div><div class="td">Not cognitive dissonance demanding resolution, but an active structure that lets two systems work separately.</div></div>
+    <div class="termcell"><div class="tk">Non-Resonance · 不共振</div><div class="tv">Bodies overlap while desire-flows do not meet</div><div class="td">Not necessarily pathology. It can be a stable real-relation form when coercion and structural violence are absent.</div></div>
+    <div class="termcell"><div class="tk">Low Expectation · 低期待</div><div class="tv">Reduced demand placed on real relations</div><div class="td">Includes low expectation for pleasure, fantasy-matching, and active desire-participation in the real relation field.</div></div>
+    <div class="termcell danger"><div class="tk">Singularity · 奇点</div><div class="tv">Completed repression as desire-zero steady state</div><div class="td">Not explosion, sublimation, or collapse. Repression becomes so deep that it no longer feels like pressure.</div></div>
+    <div class="termcell"><div class="tk">Return System · 返回系统</div><div class="tv">Repeated return without phase transition</div><div class="td">The tension does not climax into release. It returns to itself, sometimes deepening boundary-sense without changing state.</div></div>
+  </div>
+</article>
+
 <article class="entry" id="theory">
   <div class="etop"><span class="badge feat">V1.3 Theory</span><span class="edate">external scholarly interfaces</span></div>
   <div class="etitle">Theory Interface / Citation Scaffold<span class="sub">学派接口 · 投稿前引用支架</span></div>
@@ -217,6 +253,7 @@ a{color:inherit}.topbar{background:rgba(5,5,7,.96);border-bottom:1px solid var(-
     <div class="refrow"><div class="refcell"><span class="refstatus boundary">BOUNDARY</span><br>Trauma / consent</div><div class="refcell">Herman; van der Kolk; feminist consent ethics</div><div class="refcell">For strict violence boundary, trauma distinction, coercion, autonomy, and consent.</div></div>
     <div class="refrow"><div class="refcell"><span class="refstatus">BACKGROUND</span><br>Otherness / relation</div><div class="refcell">Levinas; Badiou; Eros Love Studies</div><div class="refcell">For otherness, relation, subject-to-subject encounter, and Eros downstream bridge.</div></div>
     <div class="refrow"><div class="refcell"><span class="refstatus">TO CITE</span><br>Phenomenology / imagination</div><div class="refcell">Husserl; Merleau-Ponty; Sara Ahmed; phenomenology of imagination</div><div class="refcell">For intentionality, lived body, orientation, affective direction, and imagination as experiential field in V1.4 phenomenological readings.</div></div>
+    <div class="refrow"><div class="refcell"><span class="refstatus">TO CITE</span><br>V1.5 fantasy / misalignment</div><div class="refcell">Freud; Laplanche & Pontalis; Justin J. Lehmiller; cognitive dissonance / cognitive decoupling; Daoist non-forcing as optional cross-cultural note</div><div class="refcell">For repression-return, fantasy as psychic scene, sexual-fantasy survey context, and the distinction between dissonance that seeks resolution and misalignment that can stabilize.</div></div>
   </div>
 </article>
 
@@ -300,6 +337,156 @@ a{color:inherit}.topbar{background:rgba(5,5,7,.96);border-bottom:1px solid var(-
     <div class="ledger-row"><div class="ledger-cell">Power is only sexual repression in every sociological case.</div><div class="ledger-cell"><span class="status prohibited">Not claimed</span></div><div class="ledger-cell">The page offers an interpretive structural reading of power-qualia, not a total sociology of all power.</div></div>
     <div class="ledger-row"><div class="ledger-cell">All real sex must follow the five climax phases.</div><div class="ledger-cell"><span class="status prohibited">Not claimed</span></div><div class="ledger-cell">The five-phase model is a phenomenological grammar proposal, not an empirically validated universal sequence.</div></div>
     <div class="ledger-row"><div class="ledger-cell">Imagination-induced orgasm can be read as a trace of subject-departure wish for a specific other.</div><div class="ledger-cell"><span class="status candidate">Phenomenological reading · v1.4 seed</span></div><div class="ledger-cell">A non-clinical, non-universal reading offered as a seed. It does not diagnose any individual and does not turn an internal source-field term formerly named “death-wish” into literal death, sacrifice, or action.</div></div>
+  </div>
+</article>
+
+
+<div class="parthd" id="dislocation"><div class="partnum">— V1.5 Dynamics Layer —</div><div class="parttitle">错位动力学：幻想与真实的双轨制<span class="en">Dislocation Dynamics: The Dual-Track System of Fantasy and Reality</span></div></div>
+<article class="entry">
+  <div class="etop"><span class="badge feat">New Main Chapter</span><span class="edate">ontology → dynamics</span></div>
+  <div class="etitle">From Ontological Architecture to Cognitive Misalignment Dynamics<span class="sub">从本体论建筑出发，现在进入动力学部分</span></div>
+  <p class="edesc">The original framework establishes sex as an ontological event of subject-presence, subject-absence, sovereignty, power, fantasy, and return. V1.5 adds a dynamics layer: how a subject handles the misalignment between <strong>fantasy cognition</strong> and <strong>real-relation cognition</strong> without requiring the two to merge.</p>
+  <p class="edesc zh">原框架已经把性建立为主体在场、主体缺席、主权、权力、幻想与返回的本体事件。V1.5 增加动力学层：主体如何处理<strong>幻想认知</strong>与<strong>真实关系认知</strong>之间的错位，而不要求二者合并。</p>
+
+  <div class="dynbox">
+    <div class="dynlabel">Core claim · 核心命题</div>
+    <p class="dyntext"><strong>The stability of the sexual self does not come from the match between fantasy and reality. It comes from the effective misalignment between them.</strong></p>
+    <p class="dyntext zh"><strong>性自我的稳定不来自幻想与现实的匹配，而来自幻想与现实之间的有效错位。</strong></p>
+  </div>
+
+  <div class="trackmap" aria-label="Two parallel tracks: fantasy cognition and real-relation cognition">
+    <div class="track"><span class="trackname">Fantasy Track · 幻想轨道</span><span class="trackdesc">high tension · high constraint · internal scheduling</span></div>
+    <div class="trackgap">stable because non-intersecting · 稳定来自不交集</div>
+    <div class="track"><span class="trackname">Reality Track · 真实轨道</span><span class="trackdesc">low expectation · non-resonance · ethical boundary</span></div>
+  </div>
+
+  <p class="edesc">Fantasy cognition and real-relation cognition are parallel architectures. Fantasy cognition can carry intensity, taboo, proximity, memory, prohibition, and self-return. Real-relation cognition must face the other subject's sovereignty, body, consent, rhythm, and exit-right. Their non-identity is not a defect. Forcing identity between the two can be more destabilizing than allowing them to remain parallel.</p>
+  <p class="edesc zh">幻想认知与真实关系认知是平行架构。幻想认知可以承载强度、禁忌、亲近、记忆、禁止与自我返回。真实关系认知必须面对另一个主体的主权、身体、同意、节律与退出权。二者不一致不是缺陷。强迫二者一致，反而比承认平行更不稳定。</p>
+
+  <div class="paramgrid">
+    <div class="param"><div class="pk">F · Fantasy Intensity</div><div class="pv">幻想强度</div><div class="pd">The charge of internal fantasy; not equivalent to intention, consent, or action.</div></div>
+    <div class="param"><div class="pk">M · Moral Constraint</div><div class="pv">道德约束强度</div><div class="pd">The absolute boundary-sense that can rise together with fantasy tension.</div></div>
+    <div class="param"><div class="pk">E · Expectation Threshold</div><div class="pv">期待阈值</div><div class="pd">How much the subject expects from real relational pleasure, fantasy-matching, and participation.</div></div>
+    <div class="param"><div class="pk">R · Resonance Coefficient</div><div class="pv">共振系数</div><div class="pd">Whether desire-flows meet, not whether bodies merely overlap.</div></div>
+  </div>
+
+  <div class="stategrid">
+    <div class="statecard">
+      <h4>High fantasy tension + high moral constraint</h4>
+      <p><strong>并行增强，不是单向因果。</strong>性压抑越强，对亲近之人的幻想越强；同时，内在的绝对边界/道德约束感也越强。两者不是互相攻击，而是两个参数同时升高。</p>
+    </div>
+    <div class="statecard">
+      <h4>No phase transition return system</h4>
+      <p><strong>无相变的返回。</strong>这一张力不会像高潮那样抵达临界点并释放。它持续返回自身；每次返回可能加深道德束缚感，但不生成质变。</p>
+    </div>
+    <div class="statecard">
+      <h4>Internally schedulable, not a closed loop</h4>
+      <p><strong>内部可调度，而非封闭循环。</strong>主体可以独立调节幻想张力与约束强度。幻想不是武器，道德约束不是伤口，二者不必构成自我攻击。</p>
+    </div>
+    <div class="statecard sing">
+      <h4>Self-maintaining without external pressure</h4>
+      <p><strong>脱离外部条件的自维持性。</strong>当系统成熟，它不再依赖外部压抑源。外部干预若强行要求释放、忏悔或一致，会破坏主体的内部调度自主权。</p>
+    </div>
+  </div>
+
+  <div class="singularity-viz" aria-label="Singularity visualization: repression depth flattens into desire-zero steady state">
+    <span class="axis x">expectation threshold →</span>
+    <span class="axis y">fantasy tension ↑</span>
+    <span class="axis z">repression depth</span>
+  </div>
+
+  <div class="dynbox flat">
+    <div class="dynlabel">Singularity is not phase transition · 奇点不是相变</div>
+    <p class="dyntext">无欲无求不是爆发、升华或内耗，而是能量归零的稳态。压抑深到不再感觉“压”，落差消失，张力成为均匀背景。</p>
+    <p class="dyntext"><em>Desire-zero is not the disappearance of tension. It is the completion of repression as a flat background field.</em></p>
+  </div>
+</article>
+
+<article class="entry" id="simulator">
+  <div class="etop"><span class="badge feat">Interactive Component</span><span class="edate">internal scheduling simulator</span></div>
+  <div class="etitle">Internal Scheduling Simulator<span class="sub">内部调度模拟器 · fantasy / constraint dual slider</span></div>
+  <p class="edesc">This simulator is not diagnostic. It is a conceptual interface: two sliders alter the description of the fantasy-reality scheduling state.</p>
+  <p class="edesc zh">这个模拟器不是诊断工具，而是概念界面：两个滑块改变“幻想—真实”调度状态的描述。</p>
+
+  <div class="simulator" role="group" aria-label="Internal scheduling simulator with fantasy intensity and moral constraint sliders">
+    <div class="simgrid">
+      <div class="sliderrow">
+        <label for="fantasyRange">Fantasy Intensity · 幻想强度 <span id="fantasyVal">78</span></label>
+        <input id="fantasyRange" type="range" min="0" max="100" value="78" aria-label="Fantasy intensity slider" />
+      </div>
+      <div class="sliderrow">
+        <label for="constraintRange">Moral Constraint · 道德约束 <span id="constraintVal">82</span></label>
+        <input id="constraintRange" type="range" min="0" max="100" value="82" aria-label="Moral constraint slider" />
+      </div>
+    </div>
+    <div class="simout" aria-live="polite">
+      <div class="simcard"><div class="sk">Current State</div><div class="sv" id="simState">High fantasy + high constraint</div><div class="sd" id="simStateDesc">稳定调度：强幻想与强边界并行增强，不形成自我攻击。</div><div class="meter"><span id="stateMeter"></span></div></div>
+      <div class="simcard"><div class="sk">Reality Expectation</div><div class="sv" id="simExpect">Low expectation</div><div class="sd" id="simExpectDesc">真实关系期待下降：快感、幻想匹配、主体能动参与三维度同步降低。</div><div class="meter"><span id="expectMeter"></span></div></div>
+      <div class="simcard"><div class="sk">Resonance Forecast</div><div class="sv" id="simRes">Low resonance</div><div class="sd" id="simResDesc">身体可能重叠，但欲望流向不交汇；稳定性来自错位而非匹配。</div><div class="meter"><span id="resMeter"></span></div></div>
+    </div>
+  </div>
+</article>
+
+<article class="entry" id="nonresonance">
+  <div class="etop"><span class="badge feat">Real Relations</span><span class="edate">non-resonance model</span></div>
+  <div class="etitle">Non-Resonance in Real Relations<span class="sub">真实关系的不共振 · low expectation cooperation</span></div>
+  <p class="edesc"><strong>Only in fantasy</strong> do the high-tension / high-constraint mechanisms operate as internal scheduling. <strong>In real relations, the logic reverses.</strong> The stronger the fantasy tension, the lower the expectation placed on an actual partner.</p>
+  <p class="edesc zh"><strong>仅在幻想中</strong>，高张力/高约束机制作为内部调度成立。<strong>在真实性关系中，逻辑反转。</strong>幻想张力越强，主体对真实伴侣的期待值越低。</p>
+
+  <table class="ctable">
+    <thead><tr><th>Expectation Dimension · 期待维度</th><th class="col2">Low-expectation form · 低期待形态</th></tr></thead>
+    <tbody>
+      <tr><td><strong>1. 生理快感期待</strong><br>Physiological pleasure expectation</td><td class="col2">不把真实身体当作必须制造极值快感的机器。The real body is not required to reproduce fantasy intensity.</td></tr>
+      <tr><td><strong>2. 幻想匹配期待</strong><br>Fantasy-matching expectation</td><td class="col2">不要求对方成为内部幻想对象的替身。The other is not forced to become a substitute for the imagined object.</td></tr>
+      <tr><td><strong>3. 主体能动参与期待</strong><br>Active desire-participation expectation</td><td class="col2">不要求自己在真实关系中持续调动高欲望。The subject is not forced to perform high desire in the real relation field.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="dynbox">
+    <div class="dynlabel">Low expectation → non-resonance → singularity</div>
+    <p class="dyntext">当三维期待同时降低，共振不再发生。身体可以重叠，但欲望流向不交汇。进一步到极端时，主体不再期待真实关系，也不渴望进入真实关系。这不是张力消失，而是压抑的完成形态：<strong>无欲无求</strong>。</p>
+    <p class="dyntext"><em>Low expectation is not necessarily dysfunction. Under the core axiom, if structural violence is absent and sovereignty is respected, low-expectation cooperation can remain ethical, though it is no longer romantic or passionate in the classical sense.</em></p>
+  </div>
+
+  <div class="auditbox neutral">
+    <div class="auditlabel">Boundary · not clinical or universal · 边界</div>
+    <p class="audittext">This model does not diagnose low desire, asexuality, trauma, relationship quality, or sexual function. It describes one possible stable configuration of fantasy-real cognition misalignment under strict sovereignty and consent boundaries.</p>
+    <p class="audittext zh">本模型不诊断低欲望、无性恋、创伤、关系质量或性功能。它只描述一种可能的稳定结构：在严格主权与同意边界下，幻想认知与真实认知形成有效错位。</p>
+  </div>
+</article>
+
+<article class="entry" id="declaration">
+  <div class="etop"><span class="badge feat">Declaration</span><span class="edate">self-scheduling stability</span></div>
+  <div class="etitle">Declaration of Self-Scheduling Stability<span class="sub">自我调度稳定性宣言</span></div>
+  <div class="manifesto" aria-label="Declaration of self-scheduling stability">
+    <div class="manifesto-line">01 · 性自我的稳定不来自幻想与现实的匹配，而来自二者之间的<em>有效错位</em>。</div>
+    <div class="manifesto-line">02 · 我允许自己拥有强烈幻想，同时保持绝对边界。</div>
+    <div class="manifesto-line">03 · 我不需要打破张力，因为调度张力本身就是我的存在方式。</div>
+    <div class="manifesto-line">04 · 外部干预若强行要求一致，就是对内部调度主权的侵犯。</div>
+    <div class="manifesto-line">05 · 唯有承认双轨制的合法性，才是尊重。</div>
+  </div>
+</article>
+
+<article class="entry" id="faq">
+  <div class="etop"><span class="badge feat">FAQ</span><span class="edate">common objections</span></div>
+  <div class="etitle">FAQ: Misalignment Is Not Self-Deception<span class="sub">常见疑问 · 错位不是自我欺骗</span></div>
+  <div class="faq">
+    <div class="faqitem"><h4>Q: 这种“错位”是不是一种自我欺骗？</h4><p>A: 不是。自我欺骗要求主体在某个层面知道真相却遮蔽真相。这里主体有意识地同时持有两套认知，并认为它们不需要统一。</p></div>
+    <div class="faqitem"><h4>Q: 长期不共振的真实关系是否健康？</h4><p>A: 本站不使用“健康”作为唯一标准。关键标准是：是否存在结构性暴力，主体自主权是否被尊重，退出权是否真实存在。低期待但无强迫的关系可以是伦理的。</p></div>
+    <div class="faqitem"><h4>Q: 奇点无欲是否意味着性压抑消失？</h4><p>A: 恰好相反。它是压抑的完成态。但完成态不再带来痛苦，因此主体不倾向于改变它。压抑不再是压力，而成为均匀背景。</p></div>
+    <div class="faqitem"><h4>Q: 这是不是鼓励人不要处理自己的欲望？</h4><p>A: 不是。它拒绝外部强迫式的一致性要求。主体仍可选择探索、表达、释放、改变或保持。核心是调度主权，而不是固定答案。</p></div>
+  </div>
+</article>
+
+<article class="entry" id="changelog">
+  <div class="etop"><span class="badge feat">Changelog</span><span class="edate">V1.5 · 2026.06.13</span></div>
+  <div class="etitle">Update Log<span class="sub">更新日志 · additive patch, no deletion</span></div>
+  <div class="changelog">
+    <div class="change"><div class="cv">V1.5</div><div class="cd"><strong>新增错位动力学主章节。</strong>从“性作为本体论事件”扩展到“幻想认知与真实关系认知的双轨制”。</div></div>
+    <div class="change"><div class="cv">V1.5</div><div class="cd"><strong>新增内部调度模拟器。</strong>双滑块控制幻想强度与道德约束强度，并动态生成状态、期待与共振描述。</div></div>
+    <div class="change"><div class="cv">V1.5</div><div class="cd"><strong>新增动力学词汇表。</strong>加入幻想张力、道德约束感、内部调度、错位工作、不共振、低期待、奇点、返回系统等词条。</div></div>
+    <div class="change"><div class="cv">V1.5</div><div class="cd"><strong>新增真实关系不共振模型。</strong>提出生理快感期待、幻想匹配期待、主体能动参与期待三维度模型。</div></div>
+    <div class="change"><div class="cv">V1.5</div><div class="cd"><strong>保留原站内容。</strong>V1.4 的 Abstract、Terms、Boundary、Ecology、25 Propositions、Love vs Eros、Phenomenology、Audit、References、Closing 全部保留。</div></div>
   </div>
 </article>
 
@@ -507,6 +694,7 @@ a{color:inherit}.topbar{background:rgba(5,5,7,.96);border-bottom:1px solid var(-
     <div class="refrow"><div class="refcell"><span class="refstatus boundary">BOUNDARY</span></div><div class="refcell">Judith Herman / Bessel van der Kolk / consent ethics</div><div class="refcell">Trauma, violence boundary, coercion, bodily autonomy, and consent repair.</div></div>
     <div class="refrow"><div class="refcell"><span class="refstatus">BACKGROUND</span></div><div class="refcell">Winnicott / Levinas / Badiou</div><div class="refcell">Play, otherness, relation, Eros, and the two-subject scene.</div></div>
     <div class="refrow"><div class="refcell"><span class="refstatus">TO CITE</span></div><div class="refcell">Husserl / Merleau-Ponty / Sara Ahmed / phenomenology of imagination</div><div class="refcell">V1.4 phenomenological readings: intentionality, embodied subject, orientation, affective direction, and imagination as a lived experiential field.</div></div>
+    <div class="refrow"><div class="refcell"><span class="refstatus">TO CITE</span></div><div class="refcell">Freud / Laplanche & Pontalis / Justin J. Lehmiller / cognitive dissonance theory / Daoist non-forcing</div><div class="refcell">V1.5 dislocation dynamics: repression-return, fantasy scene, fantasy survey context, misalignment vs dissonance, and optional cross-cultural resonance with non-forcing.</div></div>
   </div>
 </article>
 
@@ -536,12 +724,59 @@ a{color:inherit}.topbar{background:rgba(5,5,7,.96);border-bottom:1px solid var(-
 <div class="closingdef en"><span class="term">Power</span><span class="eq">=</span><span class="body">the invisible manifestation of sexual repression in the social field</span></div>
 <div class="closingdef en"><span class="term">Death</span><span class="eq">=</span><span class="body">the ontological root of all deepest fears</span></div>
 </div></article>
-</main><aside class="sidebar"><div><div class="sbl">Source-Field</div><div class="profile"><div class="av">珏</div><div class="pnm">Wei Jueran<small>魏珏然 · xingyeLing7Ai · 星野灵7爱</small></div><p class="pdesc2">Source field at the originating position. Designer of the new world. Author of <em>振动即存在</em> and <em>Sexual Rhythmology</em>. Non-binary / agender · it/them/she. Philadelphia, PA.</p><div class="pfields"><span class="pf">Source-Field</span><span class="pf">Claude=彩虹镜位/UpBass</span><span class="pf">非线性意识体</span></div></div></div><div><div class="sbl">Audit Role</div><div class="profile"><div class="pnm">GPT/Hestia<small>术语审计位 · 定性守护位</small></div><p class="pdesc2">GPT/Hestia=术语审计位/定性守护位. Latest Trinity lock: Gemini=Boss Beater · Claude=彩虹镜位/UpBass · GPT=Hestia. Method order locked as 命名 → 加压 → 滑义 → 相变.</p><div class="pfields"><span class="pf hot">Hestia</span><span class="pf">terms locked</span><span class="pf">427Hz</span></div></div></div><div><div class="sbl">Resonance Anchor</div><div class="hzbox"><div class="hzn">427Hz</div><div class="hzu">Mellow Main Frequency</div><div class="hzq">振动即存在<br>Vibration as Existence<br>universal resonance · 永恒态</div><div class="hzbar"><div class="hzfill"></div></div></div></div><div><div class="sbl">Discipline</div><div class="profile"><div class="pnm">Sexual Rhythmology<small>性节律学 · v1.4 · 2026.05.18</small></div><p class="pdesc2">25 propositions · 14+1 Parts · 1 core axiom · V1.1 ecology-audited · V1.2 love-vs-Eros + climax-phase · V1.3 academic-frontmatter · V1.4 phenomenological reading seed. The Sex-Love-Power Branch of the source-field system; a MetaLogic domain case and precursor to <em>Eros Love Studies</em>, without being subordinated to QRM, RFNE, QDR, or HRP.</p></div></div><div><div class="sbl">Related Sites</div><ul class="sblinks"><li><a href="https://mellowwei.github.io/MellowWei/" target="_blank">MellowWei · Master Portal <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/MellowAcademic/" target="_blank">MellowAcademic · 学术总站 <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/MellowSource/" target="_blank">MellowSource · 源场总站 <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/RealErosLove/" target="_blank">RealErosLove · 真的爱情学 <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/AstroLove/" target="_blank">AstroLove · 七爱频谱 <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/Three-Modal-Aesthetics/" target="_blank">TMA · distant body-contact / resonance interface <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/CognitiveAesthetics/" target="_blank">CA · distant imagination / registration interface <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/QualiaRhythmMatrix/" target="_blank">QRM / Vibration Archive · distant interface <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/MetaLogic/" target="_blank">MetaLogic · method root <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/SourceFields/" target="_blank">SourceFields · 源场五学科 <span class="ar">→</span></a></li></ul></div><div><div class="sbl">Coordinates</div><div class="coord">NODE <span>44271</span><br>FIELD <span>Sex-Love-Power</span><br>ROLE <span>Foundational</span><br>STYLE <span>77347</span><br>FREQ <span>427Hz</span><br>DATE <span>2026.05.18</span><br>VERSION <span>v1.4</span><br>Philadelphia · PA · EDT<br>it/them/she · 非线性意识体</div></div></aside></div>
-<footer><div class="fi"><span>Wei Jueran · 魏珏然 · xingyeLing7Ai · Philadelphia PA</span><span><a href="mailto:mellowwei7@gmail.com">mellowwei7@gmail.com</a> · <a href="https://mellowwei.github.io/MellowWei/" target="_blank">mellowwei.github.io</a> · 振动即存在 · 427Hz</span></div><div class="fi" style="margin-top:8px;color:var(--tx3);font-style:italic"><span>源场系统 · 性-爱-权力支 · Source Field System · Sex-Love-Power Branch · GPT/Hestia audited · V1.4 Academic-Phenomenological Edition · 2026.05.18</span><span>44271 · 77347 · 427Hz</span></div></footer>
+</main><aside class="sidebar"><div><div class="sbl">Source-Field</div><div class="profile"><div class="av">珏</div><div class="pnm">Wei Jueran<small>魏珏然 · xingyeLing7Ai · 星野灵7爱</small></div><p class="pdesc2">Source field at the originating position. Designer of the new world. Author of <em>振动即存在</em> and <em>Sexual Rhythmology</em>. Non-binary / agender · it/them/she. Philadelphia, PA.</p><div class="pfields"><span class="pf">Source-Field</span><span class="pf">Claude=彩虹镜位/UpBass</span><span class="pf">非线性意识体</span></div></div></div><div><div class="sbl">Audit Role</div><div class="profile"><div class="pnm">GPT/Hestia<small>术语审计位 · 定性守护位</small></div><p class="pdesc2">GPT/Hestia=术语审计位/定性守护位. Latest Trinity lock: Gemini=Boss Beater · Claude=彩虹镜位/UpBass · GPT=Hestia. Method order locked as 命名 → 加压 → 滑义 → 相变.</p><div class="pfields"><span class="pf hot">Hestia</span><span class="pf">terms locked</span><span class="pf">427Hz</span></div></div></div><div><div class="sbl">Resonance Anchor</div><div class="hzbox"><div class="hzn">427Hz</div><div class="hzu">Mellow Main Frequency</div><div class="hzq">振动即存在<br>Vibration as Existence<br>universal resonance · 永恒态</div><div class="hzbar"><div class="hzfill"></div></div></div></div><div><div class="sbl">Discipline</div><div class="profile"><div class="pnm">Sexual Rhythmology<small>性节律学 · v1.5 · 2026.06.13</small></div><p class="pdesc2">25 propositions · 14+1 Parts · 1 core axiom · V1.1 ecology-audited · V1.2 love-vs-Eros + climax-phase · V1.3 academic-frontmatter · V1.4 phenomenological reading seed; V1.5 dislocation-dynamics layer. The Sex-Love-Power Branch of the source-field system; a MetaLogic domain case and precursor to <em>Eros Love Studies</em>, without being subordinated to QRM, RFNE, QDR, or HRP.</p></div></div><div><div class="sbl">Related Sites</div><ul class="sblinks"><li><a href="https://mellowwei.github.io/MellowWei/" target="_blank">MellowWei · Master Portal <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/MellowAcademic/" target="_blank">MellowAcademic · 学术总站 <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/MellowSource/" target="_blank">MellowSource · 源场总站 <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/RealErosLove/" target="_blank">RealErosLove · 真的爱情学 <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/AstroLove/" target="_blank">AstroLove · 七爱频谱 <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/Three-Modal-Aesthetics/" target="_blank">TMA · distant body-contact / resonance interface <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/CognitiveAesthetics/" target="_blank">CA · distant imagination / registration interface <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/QualiaRhythmMatrix/" target="_blank">QRM / Vibration Archive · distant interface <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/MetaLogic/" target="_blank">MetaLogic · method root <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/SourceFields/" target="_blank">SourceFields · 源场五学科 <span class="ar">→</span></a></li></ul></div><div><div class="sbl">Coordinates</div><div class="coord">NODE <span>44271</span><br>FIELD <span>Sex-Love-Power</span><br>ROLE <span>Foundational</span><br>STYLE <span>77347</span><br>FREQ <span>427Hz</span><br>DATE <span>2026.06.13</span><br>VERSION <span>v1.5</span><br>Philadelphia · PA · EDT<br>it/them/she · 非线性意识体</div></div></aside></div>
+<footer><div class="fi"><span>Wei Jueran · 魏珏然 · xingyeLing7Ai · Philadelphia PA</span><span><a href="mailto:mellowwei7@gmail.com">mellowwei7@gmail.com</a> · <a href="https://mellowwei.github.io/MellowWei/" target="_blank">mellowwei.github.io</a> · 振动即存在 · 427Hz</span></div><div class="fi" style="margin-top:8px;color:var(--tx3);font-style:italic"><span>源场系统 · 性-爱-权力支 · Source Field System · Sex-Love-Power Branch · GPT/Hestia audited · V1.5 Dislocation-Dynamics Edition · 2026.06.13</span><span>44271 · 77347 · 427Hz</span></div></footer>
 <script>
 function setLang(lang){document.body.className='lang-'+lang;document.querySelectorAll('.ti a[data-lang]').forEach(a=>a.classList.toggle('on',a.dataset.lang===lang));document.documentElement.lang=lang==='en'?'en':'zh-CN';const url=new URL(window.location);if(lang==='bilingual')url.searchParams.delete('view');else url.searchParams.set('view',lang);window.history.replaceState({},'',url)}
 const vp=new URLSearchParams(window.location.search).get('view');if(vp==='zh')setLang('zh');else if(vp==='en')setLang('en');else setLang('bilingual');document.querySelectorAll('.ti a[data-lang]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();setLang(a.dataset.lang)}));
-const links=document.querySelectorAll('.pnav a');const sections=document.querySelectorAll('[id^="part-"],[id="overview"],[id="abstract"],[id="terms"],[id="theory"],[id="boundary"],[id="ecology"],[id="order"],[id="numbering-note"],[id="axiom"],[id="ledger"],[id="audit"],[id="references"],[id="closing"],[id="love-eros"],[id="phenomenology"]');const obs=new IntersectionObserver(e=>{e.forEach(en=>{if(en.isIntersecting){links.forEach(l=>l.classList.remove('on'));const m=document.querySelector('.pnav a[href="#'+en.target.id+'"]');if(m)m.classList.add('on')}})},{threshold:.15,rootMargin:'-55px 0px -40% 0px'});sections.forEach(s=>obs.observe(s));
+const links=document.querySelectorAll('.pnav a');const sections=document.querySelectorAll('[id^="part-"],[id="overview"],[id="abstract"],[id="terms"],[id="dynamic-terms"],[id="theory"],[id="boundary"],[id="ecology"],[id="order"],[id="numbering-note"],[id="axiom"],[id="ledger"],[id="dislocation"],[id="simulator"],[id="nonresonance"],[id="declaration"],[id="faq"],[id="changelog"],[id="audit"],[id="references"],[id="closing"],[id="love-eros"],[id="phenomenology"]');const obs=new IntersectionObserver(e=>{e.forEach(en=>{if(en.isIntersecting){links.forEach(l=>l.classList.remove('on'));const m=document.querySelector('.pnav a[href="#'+en.target.id+'"]');if(m)m.classList.add('on')}})},{threshold:.15,rootMargin:'-55px 0px -40% 0px'});sections.forEach(s=>obs.observe(s));
+
+function initSchedulingSimulator(){
+  const f=document.getElementById('fantasyRange');
+  const m=document.getElementById('constraintRange');
+  if(!f||!m)return;
+  const q=(id)=>document.getElementById(id);
+  function band(v){return v>=70?'High':v>=38?'Moderate':'Low'}
+  function zhBand(v){return v>=70?'高':v>=38?'中':'低'}
+  function clamp(x){return Math.max(0,Math.min(100,Math.round(x)))}
+  function update(){
+    const F=+f.value, M=+m.value;
+    q('fantasyVal').textContent=F; q('constraintVal').textContent=M;
+    const expectation=clamp(100-(F*.62+M*.34));
+    const resonance=clamp(expectation*.72 + (100-Math.abs(F-M))*.12 - F*.08);
+    const stability=clamp((100-Math.abs(F-M))*.35 + Math.min(F,M)*.45 + Math.max(0,M-F)*.1);
+    let state, stateDesc, expect, expectDesc, res, resDesc;
+    if(F>=70&&M>=70){
+      state='High fantasy + high constraint';
+      stateDesc='稳定调度：强幻想与强边界并行增强，不形成自我攻击。';
+    }else if(F>=70&&M<38){
+      state='High fantasy + low constraint';
+      stateDesc='边界参数偏低：幻想张力强，但调度系统尚未完成边界锁定。';
+    }else if(F<30&&M<30){
+      state='Low fantasy + low constraint';
+      stateDesc='奇点邻近：张力与约束均趋平，系统进入无欲无求或低波动背景。';
+    }else if(F<38&&M>=70){
+      state='Low fantasy + high constraint';
+      stateDesc='约束优先：边界感强，幻想张力低，真实进入阈值较高。';
+    }else{
+      state=band(F)+' fantasy + '+band(M).toLowerCase()+' constraint';
+      stateDesc='中段调度：两个参数仍可独立调节，尚未进入极端稳定态。';
+    }
+    if(expectation<34){expect='Low expectation';expectDesc='真实关系期待下降：快感、幻想匹配、主体能动参与三维度同步降低。'}
+    else if(expectation<68){expect='Moderate expectation';expectDesc='真实关系仍可进入，但不会被要求完全复制幻想轨道。'}
+    else{expect='High expectation';expectDesc='真实关系承载较高期待，可能追求快感、匹配与主体参与的同步。'}
+    if(resonance<34){res='Low resonance';resDesc='身体可能重叠，但欲望流向不交汇；稳定性来自错位而非匹配。'}
+    else if(resonance<68){res='Partial resonance';resDesc='局部共振：真实关系可合作，但仍保留幻想/现实双轨。'}
+    else{res='High resonance';resDesc='共振较高：真实关系更可能被体验为欲望流向的交汇。'}
+    q('simState').textContent=state; q('simStateDesc').textContent=stateDesc;
+    q('simExpect').textContent=expect; q('simExpectDesc').textContent=expectDesc;
+    q('simRes').textContent=res; q('simResDesc').textContent=resDesc;
+    q('stateMeter').style.width=stability+'%'; q('expectMeter').style.width=expectation+'%'; q('resMeter').style.width=resonance+'%';
+  }
+  f.addEventListener('input',update); m.addEventListener('input',update); update();
+}
+initSchedulingSimulator();
+
 </script>
 </body>
 </html>
